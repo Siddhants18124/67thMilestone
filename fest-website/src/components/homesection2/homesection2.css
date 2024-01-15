@@ -1,21 +1,29 @@
-.container{
+
+.container {
     width: 100vw;
     height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: visible;
     margin-bottom: 5%;
-    /* background-color: red; */
+    display: inline-block;
+    font-size: 0;
+    white-space: nowrap;
 }
+
 
 .heading {
     text-align: center;
     font-weight: 300;
     margin-top: 2%;
+    margin-bottom: 5%;
     font-size : 1.8rem;
 }
-.imgcont{
+.imgcont1{
     width: 90%;
     height: 100vh;
     margin: auto;
-    /* background-color: blue; */
+    
 }
 .row1,.row2{
     display: flex;
