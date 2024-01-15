@@ -1,0 +1,25 @@
+
+.parallax-container{
+   width: 100vw;
+   height: 100vh;
+   margin: auto;
+   /* background-color: red; */
+}
+.paraimgcont{
+  width: 90%;
+  height: 83%;
+  margin: auto;
+  /* background-color: blue; */
+}
+.parallaximg{
+  width: 100%;
+  height: 90%;;
+}
+.parallax-content h1{
+  font-size: 6rem;
+  letter-spacing:1.4rem;
+  line-height: 135px;
+  text-transform: uppercase;
+  color: #D86D31;
+  text-align: center;
+}  

@@ -1,0 +1,35 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 5%;
+    /* background-color: red; */
+}
+
+.heading {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 2%;
+    font-size : 1.8rem;
+}
+.imgcont{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    /* background-color: blue; */
+}
+.row1,.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+.row1 img{
+    width: 48%;
+    height: 50%;
+    margin: 1%;
+}
+
+.row2 img{
+    width: 31.3%;
+    height: 50%;
+    margin: 1%;
+}
