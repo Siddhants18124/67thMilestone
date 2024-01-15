@@ -1,25 +1,34 @@
-
-.parallax-container{
-   width: 100vw;
-   height: 100vh;
-   margin: auto;
-   /* background-color: red; */
+body {
+  margin: auto;
+  padding: 0;
+  overflow-x: hidden;
+  display: inline-block;
 }
-.paraimgcont{
+
+.parallax-container {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  /* background-color: red; */
+}
+
+.paraimgcont {
   width: 90%;
   height: 83%;
   margin: auto;
   /* background-color: blue; */
 }
-.parallaximg{
+
+.parallaximg {
   width: 100%;
-  height: 90%;;
+  height: auto; /* Adjust the height as needed */
 }
-.parallax-content h1{
+
+.parallax-content h1 {
   font-size: 6rem;
-  letter-spacing:1.4rem;
+  letter-spacing: 1.4rem;
   line-height: 135px;
   text-transform: uppercase;
   color: #D86D31;
   text-align: center;
-}  
+}
