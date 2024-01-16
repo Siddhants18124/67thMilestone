@@ -9,6 +9,8 @@ import Event from './components/event'
 import Homesection2 from './components/homesection2/homesection2'
 import Homesection3 from './components/homesection3/homesection3'
 import Homesection4 from './components/homesection4/homesection4'
+import Aboutpage from './components/aboutpage/aboutpage'
+import About2 from './components/about2/about2'
 
 
 function App() {
@@ -17,13 +19,15 @@ function App() {
   return (
     <>
      <Navbar/>
+     <Aboutpage/>
+     <About2/>  
      {/* <Event/> */}
-     <Homepage/>
-     <Homesection2/>
-     <Homesection3/>
-     <Homesection4/>
+     {/* <Homepage/> */}
+     {/* <Homesection2/> */}
+     {/* <Homesection3/> */}
+     {/* <Homesection4/> */}
      {/* <Eventfest/> */}
-     <Footer/>
+     {/* <Footer/> */}
     </>
   )
 }
