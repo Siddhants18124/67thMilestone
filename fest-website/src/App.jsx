@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 
 import Navbar from './components/navbar'
 import Eventfest from './components/eventsfest'
@@ -11,6 +11,7 @@ import Homesection3 from './components/homesection3/homesection3'
 import Homesection4 from './components/homesection4/homesection4'
 import Aboutpage from './components/aboutpage/aboutpage'
 import About2 from './components/about2/about2'
+import About3 from './components/about3'
 
 
 function App() {
@@ -18,9 +19,10 @@ function App() {
 
   return (
     <>
-     <Navbar/>
+     {/* <Navbar/> */}
      <Aboutpage/>
-     <About2/>  
+     <About2/> 
+     <About3/> 
      {/* <Event/> */}
      {/* <Homepage/> */}
      {/* <Homesection2/> */}

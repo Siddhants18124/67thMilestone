@@ -24,7 +24,7 @@ const Navbar = () => {
             &#9776;
           </button>
         </div>
-        <div className={`lg:flex ${isMenuOpen ? 'flex' : 'hidden'}`}>
+        <div className={`lg:flex ${isMenuOpen ? 'flex' : 'hidden'} lg:items-center`}>
           <a href="#" className="text-white px-4 py-2">Home</a>
           <a href="#" className="text-white px-4 py-2">About</a>
           <a href="#" className="text-white px-4 py-2">Contact</a>
