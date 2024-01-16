@@ -2,7 +2,7 @@ import React from "react";
 
 const Aboutpage = () => {
   return (
-    <div className="container md:container md:mx-auto mx-auto my-auto ">
+    <div className="container md:container md:mx-auto mx-auto my-auto w-full ">
       <div className="grid grid-cols-2 gap-4">
         <div className="col-span-2 md:col-span-1">
           <img
