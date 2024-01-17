@@ -39,7 +39,7 @@ const Events = () => {
   }, []);
 
   return (
-    <>
+    <div className="events">
       <Navbar />
       <div className="event-type anim1">
         <div className="bg">
@@ -81,7 +81,7 @@ const Events = () => {
         <Card image="https://picsum.photos/200/200" text="Cultural" />
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 
