@@ -10,22 +10,25 @@ const Homepage = () => {
           className="w-full h-full object-cover"
         />
         <div className="tint absolute top-0 left-0 right-0 bottom-0 bg-black opacity-50"></div>
-        <div className="absolute xl:top-64  top-1/4 xl:left-20 text-white">
-          <h1 className="text-7xl text-left font-bold">
+
+        <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
+          <div class="h-auto absolute xl:top-64  md:top-2/4  top-1/4 xl:left-20 text-white">
+          <h1 className="xl:text-7xl text-3xl  text-left font-bold">
             67th Milestone
             <br />
             Hero’s Challenge
           </h1>
-        </div>
-        <div className="absolute xl:top-2/3 top-3/4  xl:left-20 sm:left-5 flex items-center text-white">
-          <div className="infobox flex flex-col items-center justify-around p-2 bg-white text-black">
-            <span className="date text-2xl font-bold">01</span>
-            <span className="underline w-full h-0.5 bg-black"></span>
-            <span className="month text-2xl font-bold">MAR</span>
           </div>
-          <p className="extrainfo ml-4 text-lg">
+          <div class="absolute xl:top-2/3 top-2/3  xl:left-20 sm:left-5 flex items-center text-white">
+          <div className="infobox flex flex-col items-center justify-around xl:p-2 p-1 bg-white text-black">
+            <span className="date xl:text-2xl text-sm font-bold">01</span>
+            <span className="underline w-full h-0.5 bg-black"></span>
+            <span className="month xl:text-2xl text-sm font-bold">MAR</span>
+          </div>
+          <p className=" ml-4 xl:text-lg  text-xs">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
+          </div>
         </div>
       </div>
     </div>

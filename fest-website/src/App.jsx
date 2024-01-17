@@ -18,7 +18,7 @@ function App() {
         <Route element={<Poc />} path="/contact" />
         <Route element={<Events />} path="/events" />
       </Routes>
-    </Router>
+    </Router> 
   );
 
 }
