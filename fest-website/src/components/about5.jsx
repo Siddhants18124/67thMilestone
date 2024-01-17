@@ -1,34 +1,47 @@
 import React from "react";
-import { Carousel } from "@material-tailwind/react";
+import Slider from "react-slick";
 
 const About5 = () => {
-  return (
-    <div className="h-64 w-full">
-      <Carousel transition={{ duration: 2 }} className="h-full space-x-8">
-        <div className="flex w-auto">
-          <img
-            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
-            alt="image 1"
-            className="h-auto w-max object-cover"
-          />
-        </div>
-        <div className="flex">
-          <img
-            src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-            alt="image 2"
-            className="h-auto w-full object-cover"
-          />
-        </div>
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+  };
 
-        <div className="flex">
+  return (
+    <div className="container flex  ">
+      <h2>Fade</h2>
+      <Slider {...settings}>
+        <div className="">
           <img
-            src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-            alt="image 3"
-            className="h-auto w-full object-cover"
+            className="w-20 h-20 "
+            src="https://blog.stucred.com/wp-content/uploads/2019/04/david-calderon-973699-unsplash.jpg"
           />
-          {/* Add more images as needed */}
         </div>
-      </Carousel>
+        <div>
+          <img
+            className="w-20 h-20 "
+            src="https://blog.stucred.com/wp-content/uploads/2019/04/david-calderon-973699-unsplash.jpg"
+          />
+        </div>
+        <div>
+          <img
+            className="w-20 h-20 "
+            src="https://blog.stucred.com/wp-content/uploads/2019/04/david-calderon-973699-unsplash.jpg"
+          />
+        </div>
+        <div>
+          <img
+            className="w-20 h-20 "
+            src="https://blog.stucred.com/wp-content/uploads/2019/04/david-calderon-973699-unsplash.jpg"
+          />
+        </div>
+      </Slider>
     </div>
   );
 };
