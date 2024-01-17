@@ -1,10 +1,12 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 
 import logo from "../../assets/67thlogo2.png";
 import culture from "../../assets/cultural events.png";
 
+import Navbar from "../../components/navbar";
+import Footer from "../../components/footer";
 import "./index.css";
 
 const Events = () => {
@@ -13,7 +15,7 @@ const Events = () => {
   useEffect(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
-        trigger: ".section1",
+        trigger: ".anim1",
         start: "top top",
         end: "bottom bottom",
         scrub: true,
@@ -38,14 +40,15 @@ const Events = () => {
 
   return (
     <>
-      <div className="section1">
+      <Navbar />
+      <div className="event-type anim1">
         <div className="bg">
           <div className="overlay"></div>
           <img src={logo} alt="" className="img1" />
           <img src={culture} alt="" className="img2" />
         </div>
       </div>
-      <div className="section2">
+      <div className="card-section section2">
         <Card image="https://picsum.photos/200" text="Cultural" />
         <Card image="https://picsum.photos/200" text="Cultural" />
         <Card image="https://picsum.photos/200" text="Cultural" />
@@ -55,6 +58,29 @@ const Events = () => {
         <Card image="https://picsum.photos/200" text="Cultural" />
         <Card image="https://picsum.photos/200" text="Cultural" />
       </div>
+      <Parallax event={"Technical Events"} />
+      <div className="card-section">
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+      </div>
+      <Parallax event={"Management Events"} />
+      <div className="card-section">
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+        <Card image="https://picsum.photos/200/200" text="Cultural" />
+      </div>
+      <Footer />
     </>
   );
 };
@@ -67,6 +93,42 @@ const Card = ({ image, text }) => {
         <p>{text}</p>
       </div>
     </>
+  );
+};
+
+const Parallax = ({ event }) => {
+  const bg = useRef();
+  const element = useRef();
+  useEffect(() => {
+    gsap.to(bg.current, {
+      scrollTrigger: {
+        trigger: element.current,
+        start: "top 50%",
+        end: "top top",
+        scrub: true,
+        immediateRender: false,
+      },
+      backgroundPositionY: "50%",
+    });
+    gsap.to(bg.current, {
+      scrollTrigger: {
+        trigger: element.current,
+        start: "bottom bottom",
+        end: "+=30%",
+        scrub: true,
+        immediateRender: false,
+      },
+      backgroundPositionY: "0%",
+    });
+  }, []);
+  return (
+    <div className="event-type anim2" ref={element}>
+      <div className="bg" ref={bg}>
+        <div className="overlay">
+          <p className="type">{event}</p>
+        </div>
+      </div>
+    </div>
   );
 };
 
