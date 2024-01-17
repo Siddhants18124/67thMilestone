@@ -40,6 +40,7 @@ const Events = () => {
     <>
       <div className="section1">
         <div className="bg">
+          <div className="overlay"></div>
           <img src={logo} alt="" className="img1" />
           <img src={culture} alt="" className="img2" />
         </div>
