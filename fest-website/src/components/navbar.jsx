@@ -1,8 +1,9 @@
 // Navbar.js
-import React, { useState } from 'react';
-import logoImage from '../assets/navbarimg.png'; // Import the image
+import React, { useState } from "react";
+import logoImage from "../assets/navbarimg.png"; // Import the image
+import blackLogo from "../assets/footer.png";
 
-const Navbar = () => {
+const Navbar = ({ black }) => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -13,24 +14,69 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent p-4">
       <div className="flex items-center justify-between">
         <div>
-          {/* Use the imported image as the logo */}
-          <img src={logoImage} alt="Logo" className="h-12" />
+          {black ? (
+            <img src={blackLogo} alt="Logo" className="h-12" />
+          ) : (
+            <img src={logoImage} alt="Logo" className="h-12" />
+          )}
         </div>
         <div className="lg:hidden">
           <button
             onClick={toggleMenu}
-            className="text-white focus:outline-none"
+            className={
+              black
+                ? "text-black focus:outline-none"
+                : "text-white focus:outline-none"
+            }
           >
             &#9776;
           </button>
         </div>
-        <div className={`lg:flex ${isMenuOpen ? 'flex' : 'hidden'} lg:items-center`}>
-          <a href="#" className="text-white px-4 py-2">Home</a>
-          <a href="#" className="text-white px-4 py-2">About</a>
-          <a href="#" className="text-white px-4 py-2">Contact</a>
-          <a href="#" className="text-white px-4 py-2">Events</a>
-          <a href="#" className="text-white px-4 py-2">Sponsors</a>
-          <a href="#" className="text-white px-4 py-2 font-bold">Register</a>
+        <div
+          className={`lg:flex ${
+            isMenuOpen ? "flex" : "hidden"
+          } lg:items-center`}
+        >
+          <a
+            href="/"
+            className={black ? "text-black px-4 py-2" : "text-white px-4 py-2"}
+          >
+            Home
+          </a>
+          <a
+            href="/about"
+            className={black ? "text-black px-4 py-2" : "text-white px-4 py-2"}
+          >
+            About
+          </a>
+          <a
+            href="/contact"
+            className={black ? "text-black px-4 py-2" : "text-white px-4 py-2"}
+          >
+            Contact
+          </a>
+          <a
+            href="/events"
+            className={black ? "text-black px-4 py-2" : "text-white px-4 py-2"}
+          >
+            Events
+          </a>
+          <a
+            href="/sponsors"
+            className={black ? "text-black px-4 py-2" : "text-white px-4 py-2"}
+          >
+            Sponsors
+          </a>
+          <a
+            href="#"
+            className={
+              black
+                ? "text-black px-4 py-2 font-bold"
+                : "text-white px-4 py-2 font-bold"
+            }
+          >
+            Register
+          </a>
         </div>
       </div>
     </nav>
