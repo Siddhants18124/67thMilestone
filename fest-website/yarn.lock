@@ -617,6 +617,11 @@
     "@react-spring/shared" "~9.7.3"
     "@react-spring/types" "~9.7.3"
 
+"@remix-run/router@1.14.2":
+  version "1.14.2"
+  resolved "https://registry.npmjs.org/@remix-run/router/-/router-1.14.2.tgz"
+  integrity sha512-ACXpdMM9hmKZww21yEqWwiLws/UPLhNKvimN8RrYSqPSvB3ov7sLvAcfvaxePeLvccTQKGdkDIhLYApZVDFuKg==
+
 "@rollup/rollup-android-arm-eabi@4.9.5":
   version "4.9.5"
   resolved "https://registry.yarnpkg.com/@rollup/rollup-android-arm-eabi/-/rollup-android-arm-eabi-4.9.5.tgz#b752b6c88a14ccfcbdf3f48c577ccc3a7f0e66b9"
@@ -714,6 +719,13 @@
   integrity sha512-WXCyOcRtH37HAUkpXhUduaxdm82b4GSlyTqajXviN4EfiuPgNYR109xMCKvpl6zPIpua0DGlMEDCq+g8EdoheQ==
   dependencies:
     "@babel/types" "^7.20.7"
+
+"@types/bezier-easing@^2.1.2":
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/@types/bezier-easing/-/bezier-easing-2.1.2.tgz"
+  integrity sha512-1f9PSSooB7VBfwNQm5nKE8i7XXWWtjKPmm1apg52pxq/mmuyJNZpvEzR2n+c0+XPs0ldLoVWWp54tqkXsKxFsA==
+  dependencies:
+    bezier-easing "*"
 
 "@types/estree@1.0.5":
   version "1.0.5"
@@ -933,7 +945,7 @@ balanced-match@^1.0.0:
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
   integrity sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==
 
-bezier-easing@^2.1.0:
+bezier-easing@*, bezier-easing@^2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/bezier-easing/-/bezier-easing-2.1.0.tgz"
   integrity sha512-gbIqZ/eslnUFC1tjEvtz0sgx+xTK20wDnYMIA27VA04R7w6xxXQPZDbibjA9DTWZRA2CXtwHykkVzlCaAJAZig==
@@ -1667,7 +1679,7 @@ graphemer@^1.4.0:
 
 gsap@^3.12.4:
   version "3.12.4"
-  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.12.4.tgz#b9383fe16bb14968e2c7db2a7c0e308edf551e7b"
+  resolved "https://registry.npmjs.org/gsap/-/gsap-3.12.4.tgz"
   integrity sha512-1ByAq8dD0W4aBZ/JArgaQvc0gyUfkGkP8mgAQa0qZGdpOKlSOhOf+WNXjoLimKaKG3Z4Iu6DKZtnyszqQeyqWQ==
 
 has-bigints@^1.0.1, has-bigints@^1.0.2:
@@ -2433,10 +2445,39 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-parallax@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/react-parallax/-/react-parallax-3.5.1.tgz#73071679371b7738e21ffac8daa0bc3cb7e5174d"
+  integrity sha512-p5zPsPsqELlIOGaPS01O0IRx8R2bxcBAtrdF/RHf9nIxxk5hijbM2y89tk4rJQBcNH6ESSLe7J2NV4/ms7FLFw==
+
+react-plx@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.npmjs.org/react-plx/-/react-plx-2.1.2.tgz"
+  integrity sha512-KvHKChmOhDv2th5L4t+55Au1E9IdhyPSWEJCxBki3joAnp5sbkzQ3pOryrsynZCahLR1kGx02VlKNVxG9Sk4Lw==
+  dependencies:
+    "@types/bezier-easing" "^2.1.2"
+    bezier-easing "^2.1.0"
+    window-scroll-manager "^1.1.4"
+
 react-refresh@^0.14.0:
   version "0.14.0"
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.0.tgz"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
+
+react-router-dom@^6.21.2:
+  version "6.21.2"
+  resolved "https://registry.npmjs.org/react-router-dom/-/react-router-dom-6.21.2.tgz"
+  integrity sha512-tE13UukgUOh2/sqYr6jPzZTzmzc70aGRP4pAjG2if0IP3aUT+sBtAKUJh0qMh0zylJHGLmzS+XWVaON4UklHeg==
+  dependencies:
+    "@remix-run/router" "1.14.2"
+    react-router "6.21.2"
+
+react-router@6.21.2:
+  version "6.21.2"
+  resolved "https://registry.npmjs.org/react-router/-/react-router-6.21.2.tgz"
+  integrity sha512-jJcgiwDsnaHIeC+IN7atO0XiSRCrOsQAHHbChtJxmgqG2IaYQXSnhqGb5vk2CU/wBQA12Zt+TkbuJjIn65gzbA==
+  dependencies:
+    "@remix-run/router" "1.14.2"
 
 react-scroll-parallax@^3.4.5:
   version "3.4.5"
@@ -3004,6 +3045,11 @@ which@^2.0.1:
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
+
+window-scroll-manager@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.npmjs.org/window-scroll-manager/-/window-scroll-manager-1.1.4.tgz"
+  integrity sha512-Oj916sD6Daigs128qtksCcBGvwXcuTuMn65m1FEp/QINBwbkval43p0qfZna2GFExXZFdoMTT3/s1of0szsG7A==
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
   version "7.0.0"

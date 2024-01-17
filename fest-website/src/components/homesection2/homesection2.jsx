@@ -4,8 +4,8 @@ import logo2 from "../../assets/67thlogo2.png";
 const Homesection2 = () => {
   return (
     <div >
-        <div className="text-center mt-16">
-        <h1 className="text-2xl mt-5">LET US TAKE A DEEP DIVE IN THE</h1>
+        <div className="text-center xl:mt-16 mb-5 xl:mb-6 mt-10">
+        <h1 className="xl:text-4xl text-xl mt-5">LET US TAKE A DEEP DIVE IN THE</h1>
         </div>
       
 

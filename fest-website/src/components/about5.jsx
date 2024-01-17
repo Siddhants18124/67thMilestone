@@ -14,7 +14,7 @@ const About5 = () => {
   };
 
   return (
-    <div className="container flex  ">
+    <div className="container flex">
       <h2>Fade</h2>
       <Slider {...settings}>
         <div className="">
