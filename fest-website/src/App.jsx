@@ -1,8 +1,10 @@
+
 import Home from "./pages/home";
 import About from "./pages/about/about";
 import Sponsors from "./pages/sponsors";
 import Poc from "./pages/poc";
 import Events from "./pages/events";
+
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -18,6 +20,7 @@ function App() {
       </Routes>
     </Router>
   );
+
 }
 
 export default App;

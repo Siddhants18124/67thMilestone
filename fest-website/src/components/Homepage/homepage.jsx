@@ -10,14 +10,14 @@ const Homepage = () => {
           className="w-full h-full object-cover"
         />
         <div className="tint absolute top-0 left-0 right-0 bottom-0 bg-black opacity-50"></div>
-        <div className="absolute top-64 xl:left-20 text-white">
+        <div className="absolute xl:top-64  top-1/4 xl:left-20 text-white">
           <h1 className="text-7xl text-left font-bold">
             67th Milestone
             <br />
             Hero’s Challenge
           </h1>
         </div>
-        <div className="absolute top-2/3 xl:left-20 sm:left-5 flex items-center text-white">
+        <div className="absolute xl:top-2/3 top-3/4  xl:left-20 sm:left-5 flex items-center text-white">
           <div className="infobox flex flex-col items-center justify-around p-2 bg-white text-black">
             <span className="date text-2xl font-bold">01</span>
             <span className="underline w-full h-0.5 bg-black"></span>
