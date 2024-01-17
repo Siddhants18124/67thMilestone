@@ -4,7 +4,7 @@ import Footer from "../../components/footer";
 const Sponsors = () => {
   return (
     <>
-      <Navbar />
+      <Navbar black={true} />
       <div>
         <section>
           <div class="container px-6 py-10 mx-auto">

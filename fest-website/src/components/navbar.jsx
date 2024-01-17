@@ -12,29 +12,31 @@ const Navbar = ({ black }) => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-transparent p-4">
-      <div className="flex items-center justify-between">
-        <div>
-          {black ? (
-            <img src={blackLogo} alt="Logo" className="h-12" />
-          ) : (
-            <img src={logoImage} alt="Logo" className="h-12" />
-          )}
-        </div>
-        <div className="lg:hidden">
-          <button
-            onClick={toggleMenu}
-            className={
-              black
-                ? "text-black focus:outline-none"
-                : "text-white focus:outline-none"
-            }
-          >
-            &#9776;
-          </button>
+      <div className="flex  flex-col lg:flex-row lg:items-center lg:justify-between">
+        <div className="flex items-center justify-between">
+          <div>
+            {black ? (
+              <img src={blackLogo} alt="Logo" className="h-12" />
+            ) : (
+              <img src={logoImage} alt="Logo" className="h-12" />
+            )}
+          </div>
+          <div className="lg:hidden">
+            <button
+              onClick={toggleMenu}
+              className={
+                black
+                  ? "text-black focus:outline-none"
+                  : "text-white focus:outline-none"
+              }
+            >
+              &#9776;
+            </button>
+          </div>
         </div>
         <div
           className={`lg:flex ${
-            isMenuOpen ? "flex" : "hidden"
+            isMenuOpen ? "flex flex-col items-end" : "hidden"
           } lg:items-center`}
         >
           <a

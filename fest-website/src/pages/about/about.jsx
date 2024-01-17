@@ -9,7 +9,7 @@ import About5 from "../../components/about5";
 const About = () => {
   return (
     <>
-      <Navbar />
+      <Navbar black={true} />
       <Aboutpage />
       <About2 />
       <About3 />

@@ -8,7 +8,7 @@ import Footer from "../../components/footer";
 function Poc() {
   return (
     <>
-      <Navbar />
+      <Navbar black={true} />
       <div className="poccont">
         <div className="eventcont">
           <h1>Event</h1>
