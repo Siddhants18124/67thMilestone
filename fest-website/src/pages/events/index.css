@@ -23,7 +23,7 @@ body {
 
 .event-type .bg img {
   position: absolute;
-  height: 10rem;
+  width: min(80vw, 700px);
   z-index: 2;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -34,7 +34,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 5.5rem;
+  font-size: max(2rem, 6vw);
   font-weight: bold;
   color: white;
   width: 80vw;
@@ -54,7 +54,6 @@ body {
 }
 
 .event-type .bg .img2 {
-  height: 5rem;
   opacity: 0;
   top: 110%;
 }
