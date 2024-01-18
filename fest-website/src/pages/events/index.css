@@ -8,7 +8,7 @@ body {
   position: relative;
 }
 .anim1 {
-  height: 200vh;
+  height: 700vh;
 }
 .event-type > .bg {
   position: sticky;
@@ -29,15 +29,16 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.event-type .bg .overlay .type {
+.event-type .bg .type {
   position: absolute;
-  top: 50%;
+  top: 110%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: max(2rem, 6vw);
   font-weight: bold;
   color: white;
   width: 80vw;
+  z-index: 5;
   text-align: center;
   text-transform: uppercase;
 }
@@ -69,10 +70,17 @@ body {
 }
 
 .card-section {
+  z-index: 5;
   padding: max(4vw, 2rem);
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  top: 110%;
+  position: absolute;
+  transform: translateY(-50%);
 }
 
 .card-section .card {
@@ -81,6 +89,7 @@ body {
   position: relative;
   aspect-ratio: 1;
   flex-grow: 1;
+  transform: translateY(50%);
 }
 
 .card-section .card img {
@@ -97,11 +106,10 @@ body {
 .card-section .card p {
   position: absolute;
   z-index: 2;
-  top: 50%;
+
   text-transform: uppercase;
-  left: 50%;
+  transform: translateX(33%);
   font-size: 2rem;
   color: white;
   font-weight: 700;
-  transform: translate(-50%, -50%);
 }
