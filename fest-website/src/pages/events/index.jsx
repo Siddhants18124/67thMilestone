@@ -23,13 +23,15 @@ const Events = () => {
           start: `${(100 / items.length) * i}% top`,
           end: "+=100%",
           scrub: true,
-          markers: true,
           immediateRender: false,
         },
       });
       if (i !== items.length - 1) {
-        tl.to(item, { top: "0%", opacity: 0 }).to(items[i + 1], {
-          top: "50%",
+        tl.to(item, {
+          top: item.className.includes("card-section") ? "-100%" : "0%",
+          opacity: 0,
+        }).to(items[i + 1], {
+          top: items[i + 1].className.includes("card-section") ? "0%" : "50%",
           opacity: 1,
         });
       }
@@ -60,6 +62,7 @@ const Card = ({ image, text }) => {
   return (
     <>
       <div className="card">
+        <div className="card-overlay"></div>
         <img src={image} alt={text} />
         <p>{text}</p>
       </div>
