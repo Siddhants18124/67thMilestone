@@ -1,87 +1,18 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
-import footer from "../assets/footer.png";
+import footer from "../assets/navbarimg.png";
 
 const Footer = () => {
   return (
-    // <div className="footer-container bottom-0">
-    //   <div className="bg-white self-stretch flex left-0 right-0 flex-col grit-row-2 sm:flex-row items-stretch w-full pt-2.5 pb-5 px-5 max-md:max-w-full">
-    //     <div className="w-full sm:w-1/2 xl:ml-7">
-    // <h1 className="text-4xl font-bold mb-4">
-    //   67th Milestone Hero's Challenge
-    // </h1>
-    // <div className="border border-black p-4 max-w-sm mx-auto">
-    //   <p>
-    //     This is some random text inside a box. You can replace it with
-    //     your own content.
-    //   </p>
-    // </div>
-    //     </div>
-
-    //     <div className="w-full sm:w-1/2 right-0 flex flex-col grid-cols-2 sm:grid-rows-2 sm:flex-row  mt-4 sm:mt-0">
-    //       <div className="flex flex-col sm:flex-row items-stretch w-full sm:w-[56%] max-md:w-full max-md:ml-0">
-    //         <div className="flex-grow flex-col max-md:mt-10 ml-0 sm:ml-20">
-    //           <div className="text-black text-left text-3xl font-bold">
-    //             Support
-    //           </div>
-    //           <div className="text-black text-sm text-left nt-bold leading-[180%] mt-2.5">
-    //             <a href="#">FAQ's</a>
-    //             <br />
-    //             <a href="#">Contact Us</a>
-    //             <br />
-    //             <a href="#">Accommodation</a>
-    //             <br />
-    //           </div>
-    //         </div>
-    //       </div>
-    //       <div className="flex xl:flex-col flex-row mt-4 sm:mt-0 xl:ml-28">
-    //         <div>
-    //         <h2 className="text-2xl font-bold mb-2">Social Media</h2>
-    //         <ul className="flex">
-    //           <li>
-    //             <a href="#" className="flex flex-col xl:items-center items-start">
-    //               <FaFacebook className="ml-5 text-xl mb-1" />
-    //             </a>
-    //           </li>
-    //           <li>
-    //             <a
-    //               href="https://www.instagram.com/67thmilestone_heroschallenge?igsh=cWlxZmJiMXlndHht"
-    //               className="flex flex-col xl:items-center"
-    //             >
-    //               <FaInstagram className="ml-4 text-xl mb-1" />
-    //             </a>
-    //           </li>
-    //           <li>
-    //             <a
-    //               href="https://www.youtube.com/@67thmilestone35"
-    //               className="flex flex-col xl:items-center"
-    //             >
-    //               <FaYoutube className=" ml-4 text-xl mb-1" />
-    //             </a>
-    //           </li>
-    //         </ul>
-    //         </div>
-    //         <div>
-    // <img
-    //   srcSet={footer}
-    //   alt="Small Image"
-    //   className=" mb-1 w-36 h-18 xl:mt-12 ml-20"
-    // />
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
-    <footer className="bg-white">
+    <footer className="bg-transparent">
       <div className="mx-auto max-w-screen-3xl px-4 pb-6 pt-16 xl:ml-7 sm:px-6  lg:pt-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           <div className="xl:mr-16">
-            <h1 className="text-4xl font-bold mb-4">
+            <h1 className="text-4xl text-white font-bold mb-4">
               67th Milestone Hero's Challenge
             </h1>
-            <div className="border border-black p-4 mx-auto col-span-full  ">
-              <p className="flex-grow">
+            <div className="border  p-4 mx-auto col-span-full  ">
+              <p className="flex-grow text-white">
                 This is some random text inside a box. You can replace it with
                 your own content.
               </p>
@@ -90,12 +21,12 @@ const Footer = () => {
 
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 xl:ml-38 md:ml-32">
             <div className="text-center sm:text-left">
-              <p className="text-4xl font-bold  text-black ">Support</p>
+              <p className="text-4xl font-bold  text-white ">Support</p>
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
                   <a
-                    className="text-black text-xl transition hover:text-gray-700/75"
+                    className="text-white text-xl transition hover:text-gray-300/75"
                     href="/"
                   >
                     FAQ's
@@ -104,7 +35,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-black text-xl transition hover:text-gray-700/75"
+                    className="text-white text-xl transition hover:text-gray-300/75"
                     href="/"
                   >
                     Contact Us
@@ -113,7 +44,7 @@ const Footer = () => {
 
                 <li>
                   <a
-                    className="text-black text-xl transition hover:text-gray-700/75"
+                    className="text-white text-xl transition hover:text-gray-300/75"
                     href="/"
                   >
                     Accomodation
@@ -122,7 +53,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="text-center sm:text-left xl:ml-18">
-              <p className="text-4xl font-bold text-black">Social Media</p>
+              <p className="text-4xl font-bold text-white">Social Media</p>
 
               <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
                 <li>
@@ -130,7 +61,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-black transition hover:text-gray-400"
+                    className="text-white transition hover:text-gray-400"
                   >
                     <span className="sr-only">Facebook</span>
                     <svg
@@ -153,7 +84,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-black transition hover:text-gray-400"
+                    className="text-white transition hover:text-gray-400"
                   >
                     <span className="sr-only">Instagram</span>
                     <svg
@@ -176,7 +107,7 @@ const Footer = () => {
                     href="/"
                     rel="noreferrer"
                     target="_blank"
-                    className="text-black transition hover:text-gray-400"
+                    className="text-white transition hover:text-gray-400"
                   >
                     <span className="sr-only">Twitter</span>
                     <svg
@@ -221,7 +152,7 @@ const Footer = () => {
               className="mb-1 w-36 h-18 xl:mr-10 m-auto  "
             />
 
-            <p className="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0 ">
+            <p className="mt-4 text-sm text-gray-300 sm:order-first sm:mt-0 ">
               &copy; 2024 BML Munjal University
             </p>
           </div>

@@ -1,4 +1,9 @@
 .sp > .bg {
-  background-image: url(../../assets/sports.jpeg);
+  background-image: url(../../assets/sports.png);
   overflow: hidden;
+}
+
+.main-bg {
+  background-size: cover;
+  background-repeat: repeat;
 }
