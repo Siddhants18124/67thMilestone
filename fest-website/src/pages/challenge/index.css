@@ -1,0 +1,4 @@
+.sp > .bg {
+  background-image: url(../../assets/sports.jpeg);
+  overflow: hidden;
+}
