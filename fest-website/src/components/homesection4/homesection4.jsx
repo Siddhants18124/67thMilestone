@@ -20,7 +20,11 @@ const Homesection4 = () => {
     //   </div>
     // </div>
     <div>
-      <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 mt-28 xl:mx-28 md:mx-24 mx-10">
+      <div
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 mt-28 xl:mx-28 md:mx-24 mx-10"
+      >
         <div class="h-auto rounded-lg ">
           <img src={educatelogo} alt="" className="xl:w-10/12 w-full" />
         </div>

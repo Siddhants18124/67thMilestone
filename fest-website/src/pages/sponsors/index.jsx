@@ -1,7 +1,13 @@
 import Navbar from "../../components/navbar";
 import Footer from "../../components/footer";
 
+import AOS from "aos";
+import { useEffect } from "react";
+
 const Sponsors = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbar black={true} />

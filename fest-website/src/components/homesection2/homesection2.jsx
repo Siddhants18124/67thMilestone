@@ -3,11 +3,12 @@ import logo2 from "../../assets/67thlogo2.png";
 
 const Homesection2 = () => {
   return (
-    <div >
-        <div className="text-center xl:mt-16 mb-5 xl:mb-6 mt-10">
-        <h1 className="xl:text-4xl text-xl mt-5">LET US TAKE A DEEP DIVE IN THE</h1>
-        </div>
-      
+    <div data-aos="fade-right" data-aos-duration="1000">
+      <div className="text-center xl:mt-16 mb-5 xl:mb-6 mt-10">
+        <h1 className="xl:text-4xl text-xl mt-5">
+          LET US TAKE A DEEP DIVE IN THE
+        </h1>
+      </div>
 
       <div className="xl:mx-48 xl:my-5 mx-6">
         <div className="grid grid-cols-1 gap-4 lg:grid-cols-2  lg:gap-3">

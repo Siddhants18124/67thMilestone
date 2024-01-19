@@ -5,7 +5,13 @@ import Homesection4 from "../../components/homesection4/homesection4";
 import ParallaxComponent from "../../components/homesection3/homesection3";
 import Footer from "../../components/footer";
 
+import { useEffect } from "react";
+import AOS from "aos";
+
 const Home = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbar />

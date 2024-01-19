@@ -6,7 +6,14 @@ import About3 from "../../components/about3";
 import About4 from "../../components/about4";
 import About5 from "../../components/about5";
 
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Navbar black={true} />
