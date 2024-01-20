@@ -23,12 +23,12 @@ const Homesection4 = () => {
       <div
         data-aos="fade-left"
         data-aos-duration="1000"
-        class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 mt-28 xl:mx-28 md:mx-24 mx-10"
+        className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8 mt-28 xl:mx-28 md:mx-24 mx-10"
       >
-        <div class="h-auto rounded-lg ">
+        <div className="h-auto rounded-lg ">
           <img src={educatelogo} alt="" className="xl:w-10/12 w-full" />
         </div>
-        <div class="h-auto rounded-lg xl:mx-16 ">
+        <div className="h-auto rounded-lg xl:mx-16 ">
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
             asperiores molestiae nobis nesciunt rerum soluta? Fugiat deserunt

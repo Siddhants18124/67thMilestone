@@ -4,11 +4,17 @@ body {
   margin: 0;
 }
 
+.events {
+  background-image: url(../../assets/bg.png);
+  background-size: 100vw 200vh;
+  background-repeat: repeat;
+}
+
 .event-type {
   position: relative;
 }
 .anim1 {
-  height: 700vh;
+  height: 100vh;
 }
 .event-type > .bg {
   position: sticky;
@@ -17,12 +23,12 @@ body {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-image: url("../../assets/eventbg.png");
+  background-image: url("../../assets/events.jpeg");
   background-size: cover;
   background-position: center;
 }
 
-.event-type .bg img {
+.event-type .bg .img1 {
   position: absolute;
   width: min(80vw, 700px);
   z-index: 2;
@@ -32,7 +38,7 @@ body {
 
 .event-type .bg .type {
   position: absolute;
-  top: 110%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: max(2rem, 6vw);
@@ -68,69 +74,4 @@ body {
   height: 100vh;
   background-color: #0000008f;
   z-index: 1;
-}
-
-.card-section {
-  z-index: 5;
-  padding: 0 max(4vw, 2rem);
-  display: flex;
-  gap: 0.5rem 1rem;
-  flex-wrap: wrap;
-  left: 0;
-  top: 0;
-  opacity: 0;
-  top: 110%;
-  position: absolute;
-  /* height: 100vh; */
-  align-content: center;
-}
-
-.card-section .card {
-  cursor: pointer;
-  width: max(calc(((100vw - 8rem) / 4) - 1rem), 12rem);
-  height: max(calc(((100vw - 8rem) / 4) - 1rem), 12rem);
-  position: relative;
-  aspect-ratio: 1;
-  flex-grow: 1;
-  transition: scale 0.5s;
-}
-
-.card-section .card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: translateX(-50%);
-  z-index: 3;
-}
-
-.card-overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 4;
-  /* transform: translateY(-50%); */
-  background-color: #00000064;
-  transition: all 0.5s;
-}
-
-.card-section .card:hover {
-  scale: 1.1;
-}
-
-.card-section .card:hover .card-overlay {
-  background-color: #0000008f;
-}
-
-.card-section .card p {
-  position: absolute;
-  z-index: 5;
-  top: 50%;
-  left: 50%;
-  text-transform: uppercase;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  color: white;
-  font-weight: 700;
 }
