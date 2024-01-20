@@ -1,38 +1,33 @@
 .card-section {
-  padding: max(4vw, 2rem);
+  z-index: 5;
+  padding: 0 max(4vw, 2rem);
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem 1rem;
   flex-wrap: wrap;
-  cursor: pointer;
-  max-width: 100vw;
-  overflow-x: hidden;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  top: 110%;
+  position: absolute;
+  height: 100vh;
+  align-content: center;
 }
 
 .card-section .card {
+  cursor: pointer;
   width: max(calc(((100vw - 8rem) / 4) - 1rem), 12rem);
   height: max(calc(((100vw - 8rem) / 4) - 1rem), 12rem);
   position: relative;
   aspect-ratio: 1;
   flex-grow: 1;
-  transition: all 0.75s;
+  transition: scale 0.5s;
 }
 
 .card-section .card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.card-section .card p {
-  position: absolute;
-  z-index: 5;
-  top: 50%;
-  text-transform: uppercase;
-  left: 50%;
-  font-size: 2rem;
-  color: white;
-  font-weight: 700;
-  transform: translate(-50%, -50%);
+  z-index: 3;
 }
 
 .card-overlay {
@@ -52,4 +47,16 @@
 
 .card-section .card:hover .card-overlay {
   background-color: #0000008f;
+}
+
+.card-section .card p {
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+  font-weight: 700;
 }

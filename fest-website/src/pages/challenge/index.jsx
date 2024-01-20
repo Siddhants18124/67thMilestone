@@ -5,9 +5,11 @@ import { useRef } from "react";
 
 import CardSection from "../../components/Card";
 import Navbar from "../../components/navbar";
+import Scroller from "../../components/Scroller";
 import Footer from "../../components/footer";
 
 import bgImg from "../../assets/bg.png";
+import sports from "../../assets/sports.png";
 
 const Challenge = () => {
   const parent = useRef();
@@ -16,12 +18,18 @@ const Challenge = () => {
     <div className="main-bg" style={{ backgroundImage: `url(${bgImg})` }}>
       <Navbar />
       <div className="event-type sp" ref={parent}>
-        <div className="bg">
-          <div className="overlay"></div>
-          <img src={logo} alt="" className="img img1" />
-        </div>
+        <Scroller
+          parent={parent}
+          bgImg={sports}
+          children={
+            <>
+              <img src={logo} alt="" className="img img1" />
+              <CardSection />
+            </>
+          }
+        />
       </div>
-      <CardSection />
+
       <Footer />
     </div>
   );

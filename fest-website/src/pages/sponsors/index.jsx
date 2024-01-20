@@ -4,12 +4,14 @@ import Footer from "../../components/footer";
 import AOS from "aos";
 import { useEffect } from "react";
 
+import "./index.css";
+
 const Sponsors = () => {
   useEffect(() => {
     AOS.init();
   }, []);
   return (
-    <>
+    <div className="main-bg">
       <Navbar black={true} />
       <div>
         <section>
@@ -289,7 +291,7 @@ const Sponsors = () => {
         </section>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

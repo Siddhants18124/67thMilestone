@@ -37,7 +37,7 @@ const Navbar = ({ black }) => {
           <Link to="/about" className="text-white px-4 py-2">
             About
           </Link>
-          <Link to="/contact" className="text-white px-4 py-2">
+          <Link to="/register" className="text-white px-4 py-2">
             Contact
           </Link>
           <Link to="/events" className="text-white px-4 py-2">

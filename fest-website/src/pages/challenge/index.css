@@ -4,6 +4,7 @@
 }
 
 .main-bg {
-  background-size: cover;
+  background-size: 100vw 200vh;
   background-repeat: repeat;
+  background-image: url(../../assets/bg.png);
 }

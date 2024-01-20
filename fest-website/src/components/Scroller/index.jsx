@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-const Scroller = ({ children, parent }) => {
+const Scroller = ({ children, parent, bgImg }) => {
   gsap.registerPlugin(ScrollTrigger);
   const bg = useRef();
   useEffect(() => {
@@ -26,7 +26,9 @@ const Scroller = ({ children, parent }) => {
       });
       tl.to(item, {
         top: item.className.includes("card-section")
-          ? `${-itemHeight}px`
+          ? itemHeight > window.innerHeight
+            ? `${-itemHeight - 20}px`
+            : "0%"
           : "0%",
         opacity: item.className.includes("card-section") ? 1 : 0,
       });
@@ -41,7 +43,7 @@ const Scroller = ({ children, parent }) => {
     parent.current.style.height = `${h}px`;
   }, []);
   return (
-    <div className="bg" ref={bg}>
+    <div className="bg" ref={bg} style={{ backgroundImage: `url(${bgImg})` }}>
       <div className="overlay"></div>
       {children}
     </div>

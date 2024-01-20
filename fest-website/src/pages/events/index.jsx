@@ -9,40 +9,62 @@ import Navbar from "../../components/navbar";
 import CardSection from "../../components/Card";
 import Footer from "../../components/footer";
 import "./index.css";
-
-import technical from "../../assets/technical.jpeg";
-import cultural from "../../assets/cultural.jpeg";
-import management from "../../assets/management.png";
+import Scroller from "../../components/Scroller";
+import technicalImg from "../../assets/technical.jpeg";
+import culturalImg from "../../assets/cultural.jpeg";
+import managementImg from "../../assets/management.png";
 const Events = () => {
-  const parent = useRef();
+  const cultural = useRef();
+  const management = useRef();
+  const technical = useRef();
   gsap.registerPlugin(ScrollTrigger);
-
-  useEffect(() => {
-    let domOffsetWidth = document.documentElement.offsetWidth;
-    let items = document.querySelectorAll("*");
-    items.forEach((item) => {
-      if (item.offsetWidth > domOffsetWidth) {
-        console.log(item);
-      }
-    });
-  }, []);
 
   return (
     <div className="events">
       <Navbar />
-      <div className="event-type anim1" ref={parent}>
+      <div className="event-type anim1">
         <div className="bg">
           <div className="overlay">
             <img className="img img1" src={logo} alt="" />
           </div>
         </div>
       </div>
-      <Parallax event={"Cultural Events"} bgImg={cultural} />
-      <CardSection />
-      <Parallax event={"Technical Events"} bgImg={technical} />
-      <CardSection />
-      <Parallax event={"Management Events"} bgImg={management} />
-      <CardSection />
+      <div className="event-type" ref={cultural}>
+        <Scroller
+          bgImg={culturalImg}
+          parent={cultural}
+          children={
+            <>
+              <p className="type">Cultural Events</p>
+              <CardSection />
+            </>
+          }
+        />
+      </div>
+      <div className="event-type" ref={technical}>
+        <Scroller
+          bgImg={technicalImg}
+          parent={technical}
+          children={
+            <>
+              <p className="type">Technical Events</p>
+              <CardSection />
+            </>
+          }
+        />
+      </div>
+      <div className="event-type" ref={management}>
+        <Scroller
+          bgImg={managementImg}
+          parent={management}
+          children={
+            <>
+              <p className="type">Management Events</p>
+              <CardSection />
+            </>
+          }
+        />
+      </div>
       <Footer />
     </div>
   );

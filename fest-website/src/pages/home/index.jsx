@@ -5,6 +5,8 @@ import Homesection4 from "../../components/homesection4/homesection4";
 import ParallaxComponent from "../../components/homesection3/homesection3";
 import Footer from "../../components/footer";
 
+import "./index.css";
+
 import { useEffect } from "react";
 import AOS from "aos";
 
@@ -13,14 +15,14 @@ const Home = () => {
     AOS.init();
   }, []);
   return (
-    <>
+    <div className="main-bg">
       <Navbar />
       <Homepage />
       <Homesection2 />
       <ParallaxComponent />
       <Homesection4 />
       <Footer />
-    </>
+    </div>
   );
 };
 

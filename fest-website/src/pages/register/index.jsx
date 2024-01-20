@@ -9,7 +9,7 @@ function Register() {
   return (
     <div className="main-bg register">
       <Navbar black={true} />
-      <div className="flex justify-center py-24">
+      <div className="flex justify-center pt-24">
         <div className="p-8 w-fit bg-[#ffffff19] text-white rounded-xl">
           <div className="flex flex-wrap justify-center gap-8 w-[80vw]">
             <img
@@ -48,27 +48,29 @@ function Register() {
               </button>
             </div>
           </div>
-        </div>
-      </div>
-
-      {/* <div className="poccont">
-        <div className="eventcont">
-          <h1>Event</h1>
-          <p>Lorem, ipsum.</p>
-          <p>Lorem, ipsum.</p>
-          <p>Lorem, ipsum.</p>
-          <p>Lorem, ipsum.</p>
-          <p>Lorem, ipsum.</p>
-          <p>Lorem, ipsum.</p>
-        </div>
-        <div className="poc">
-          <h1>Person of Contact</h1>
-          <div className="pocimgcont">
-            <img srcSet={poc1} alt="" className="pocimg1" />
-            <img srcSet={poc2} alt="" className="pocimg1" />
+          <p className="text-[2rem] my-16 text-center">Person Of Contact</p>
+          <div className="flex flex-wrap gap-16 justify-center">
+            <div className="flex gap-8">
+              <img src={poc1} className="w-[15rem] rounded-xl" alt="" />
+              <div className="flex flex-col gap-3 text-[1.15rem] w-[10rem]">
+                <p>Contact Name 1</p>
+                <p>Position</p>
+                <p>Contact</p>
+                <p>Mail ID</p>
+              </div>
+            </div>
+            <div className="flex gap-8">
+              <img src={poc2} className="w-[15rem] rounded-xl" alt="" />
+              <div className="flex flex-col gap-3 text-[1.15rem] w-[10rem]">
+                <p>Contact Name 2</p>
+                <p>Position</p>
+                <p>Contact</p>
+                <p>Mail ID</p>
+              </div>
+            </div>
           </div>
         </div>
-      </div> */}
+      </div>
       <Footer />
     </div>
   );
