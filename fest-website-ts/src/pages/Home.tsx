@@ -1,13 +1,13 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import { HeroBg } from "../assets";
+import { HomeHeroBg } from "../assets";
 
 function HomePage() {
   return (
     <section className="h-screen relative">
       <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
       <img
-        src={HeroBg}
+        src={HomeHeroBg}
         alt=""
         className="absolute h-full w-full object-cover -z-20"
       />
