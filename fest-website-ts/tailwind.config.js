@@ -10,6 +10,7 @@ export default {
       },
       backgroundImage: {
         bgGrad: "url('/assets/extended_bg.png')",
+        culturalPx: "url('/assets/cultural.jpg')",
       },
     },
   },
