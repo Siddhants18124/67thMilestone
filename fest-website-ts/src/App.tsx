@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/Home";
 import NotFoundPage from "./pages/NotFound";
-import Footer from "./components/Footer";
 
 function App() {
   return (
