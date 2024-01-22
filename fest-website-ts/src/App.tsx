@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import HomePage from "./pages/Home";
 import NotFoundPage from "./pages/NotFound";
 import EventsPage from "./pages/Events";
+import SmoothScroll from "./components/SmoothScroll";
 
 function App() {
   return (
@@ -18,8 +19,6 @@ function App() {
         <Footer />
       </main>
     </>
-    // <SmoothScroll>
-    // </SmoothScroll>
   );
 }
 

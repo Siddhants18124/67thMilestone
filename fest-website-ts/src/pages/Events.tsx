@@ -50,14 +50,14 @@ function EventsPage() {
         <div className="h-screen flex flex-col justify-center items-center z-10">
           <h1 className="text-6xl text-white font-bold">Cultural Events</h1>
         </div>
-        <div className="py-12 grid grid-cols-2 w-full px-4 bg-gray-500 gap-2">
+        <div className="py-12 grid grid-cols-2 w-full px-4 gap-2">
           {[...new Array(12)].map((_item, idx) => {
             return (
               <Fragment key={idx}>
                 <EventCard
                   name="Cultural"
                   id={`${idx + 1}`}
-                  details="Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+                  details=""
                   image={images[idx]}
                 />
               </Fragment>
