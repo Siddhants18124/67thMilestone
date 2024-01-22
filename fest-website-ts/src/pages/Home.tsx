@@ -4,7 +4,7 @@ import { HomeHeroBg } from "../assets";
 
 function HomePage() {
   return (
-    <section className="h-screen relative">
+    <section className="h-screen relative z-20">
       <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
       <img
         src={HomeHeroBg}
