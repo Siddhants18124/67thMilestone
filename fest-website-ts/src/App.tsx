@@ -3,17 +3,20 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import HomePage from "./pages/Home";
 import NotFoundPage from "./pages/NotFound";
+import SmoothScroll from "./components/SmoothScroll";
 
 function App() {
   return (
-    <main className="relative bg-top bg-bgGrad">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="*" element={<NotFoundPage />} />
-      </Routes>
-      <Footer />
-    </main>
+    <SmoothScroll>
+      <main className="relative bg-top bg-bgGrad scroll-smooth">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="*" element={<NotFoundPage />} />
+        </Routes>
+        <Footer />
+      </main>
+    </SmoothScroll>
   );
 }
 
