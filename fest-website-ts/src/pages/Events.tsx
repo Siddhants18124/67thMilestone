@@ -1,6 +1,37 @@
-import { HomeHeroBg, MileStone } from "../assets";
+import { Fragment } from "react";
+import {
+  CulturalEvent1,
+  CulturalEvent10,
+  CulturalEvent11,
+  CulturalEvent12,
+  CulturalEvent2,
+  CulturalEvent3,
+  CulturalEvent4,
+  CulturalEvent5,
+  CulturalEvent6,
+  CulturalEvent7,
+  CulturalEvent8,
+  CulturalEvent9,
+  HomeHeroBg,
+  MileStone,
+} from "../assets";
+import EventCard from "../components/EventCard";
 
 function EventsPage() {
+  const images = [
+    CulturalEvent1,
+    CulturalEvent2,
+    CulturalEvent3,
+    CulturalEvent4,
+    CulturalEvent5,
+    CulturalEvent6,
+    CulturalEvent7,
+    CulturalEvent8,
+    CulturalEvent9,
+    CulturalEvent10,
+    CulturalEvent11,
+    CulturalEvent12,
+  ];
   return (
     <>
       <section className="h-screen relative z-20">
@@ -14,10 +45,24 @@ function EventsPage() {
           <img src={MileStone} alt="" className="" />
         </section>
       </section>
-      <section className="bg-culturalPx bg-fixed bg-cover relative -z-20">
+      <section className="bg-culturalPx bg-fixed bg-cover relative z-20">
         <div className="absolute w-full h-full bg-black -z-10 opacity-10" />
         <div className="h-screen flex flex-col justify-center items-center z-10">
           <h1 className="text-6xl text-white font-bold">Cultural Events</h1>
+        </div>
+        <div className="py-12 grid grid-cols-2 w-full px-4 bg-gray-500 gap-2">
+          {[...new Array(12)].map((_item, idx) => {
+            return (
+              <Fragment key={idx}>
+                <EventCard
+                  name="Cultural"
+                  id={`${idx + 1}`}
+                  details="Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+                  image={images[idx]}
+                />
+              </Fragment>
+            );
+          })}
         </div>
       </section>
     </>
