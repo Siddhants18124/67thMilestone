@@ -1,5 +1,9 @@
 function NotFoundPage() {
-  return <div>The page that you're looking for, was not found.</div>;
+  return (
+    <>
+      <section className="h-screen relative"></section>
+    </>
+  );
 }
 
 export default NotFoundPage;

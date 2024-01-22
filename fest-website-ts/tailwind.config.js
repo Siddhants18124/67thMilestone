@@ -8,6 +8,9 @@ export default {
         mobile_m: "375px",
         mobile_l: "425px",
       },
+      backgroundImage: {
+        bgGrad: "url('/assets/extended_bg.png')",
+      },
     },
   },
   plugins: [],
