@@ -48,9 +48,11 @@ function EventsPage() {
       <section className="bg-culturalPx bg-fixed bg-cover relative z-20">
         <div className="absolute w-full h-full bg-black -z-10 opacity-10" />
         <div className="h-screen flex flex-col justify-center items-center z-10">
-          <h1 className="text-6xl text-white font-bold">Cultural Events</h1>
+          <h1 className="w-full text-center text-4xl mobile_m:text-5xl mobile_m:w-11/12 mobile_l:text-6xl sm:text-7xl lg:text-8xl text-white font-bold">
+            Cultural Events
+          </h1>
         </div>
-        <div className="py-12 grid grid-cols-2 w-full px-4 gap-2">
+        <div className="md:grid-cols-3 lg:grid-cols-4 py-12 grid grid-cols-1 w-full xl:w-11/12 xl:mx-auto px-4 gap-2 gap-y-6 mobile_l:grid-cols-2 mobile_l:gap-x-4">
           {[...new Array(12)].map((_item, idx) => {
             return (
               <Fragment key={idx}>
