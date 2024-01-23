@@ -4,10 +4,8 @@ import Navbar from "./components/Navbar";
 import EventsPage from "./pages/Events";
 import HomePage from "./pages/Home";
 import NotFoundPage from "./pages/NotFound";
-import LoadingPage from "./pages/Loading";
 
 function App() {
-  return <LoadingPage />;
   return (
     <>
       <main className="relative bg-fixed bg-center bg-cover bg-bgGrad scroll-smooth">
