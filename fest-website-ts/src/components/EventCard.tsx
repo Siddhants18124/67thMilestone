@@ -1,6 +1,5 @@
 type Props = {
   name: string;
-  details: string;
   image: string;
   id: string;
 };
