@@ -1,11 +1,13 @@
 import { CulturalBg, HomeHeroBg, MgmtBg, MileStone, TechBg } from "../assets";
 import EventCategory from "../components/EventCategory";
+import NextText from "../components/NextText";
 import { generateFakeData } from "../constants/generate_data";
 
 function EventsPage() {
   return (
     <>
       <section className="h-screen relative z-20">
+        <NextText />
         <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
         <img
           src={HomeHeroBg}

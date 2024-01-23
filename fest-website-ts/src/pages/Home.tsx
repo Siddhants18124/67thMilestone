@@ -1,17 +1,19 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
 import { HomeHeroBg } from "../assets";
+import NextText from "../components/NextText";
 
 function HomePage() {
   return (
     <section className="h-screen relative z-20">
       <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
+      <NextText />
       <img
         src={HomeHeroBg}
         alt=""
         className="absolute h-full w-full object-cover -z-20"
       />
-      <section className="h-full w-full p-4 pt-32 text-white flex flex-col justify-between lg:w-11/12 lg:mx-auto">
+      <section className="relative h-full w-full p-4 pt-32 text-white flex flex-col justify-between lg:w-11/12 lg:mx-auto">
         <div />
         <div>
           <h1 className="text-3xl mobile_m:text-5xl mobile_s:text-4xl mobile_l:text-6xl sm:text-7xl font-bold tracking-wider">

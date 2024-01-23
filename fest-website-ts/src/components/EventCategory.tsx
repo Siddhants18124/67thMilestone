@@ -1,5 +1,6 @@
 import { IEvent } from "../types";
 import EventCard from "./EventCard";
+import NextText from "./NextText";
 
 type Props = {
   heading: string;
@@ -18,7 +19,7 @@ function EventCategory(props: Props) {
       }}
     >
       <div className="absolute w-full h-full bg-black -z-10 opacity-10" />
-      <div className="h-screen flex flex-col justify-center items-center z-10">
+      <div className="relative h-screen flex flex-col justify-center items-center z-10">
         <h1 className="w-full text-center text-4xl mobile_m:text-5xl mobile_m:w-11/12 mobile_l:text-6xl sm:text-7xl lg:text-8xl text-white font-bold">
           {props.heading}
         </h1>
