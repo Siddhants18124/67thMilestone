@@ -7,7 +7,12 @@ type Props = {
 
 function NavbarLink({ name, link }: Props) {
   const url = useLocation();
-  const isActive = link === url.pathname;
+  const isActive =
+    url.pathname === "/" && link === "/"
+      ? true
+      : url.pathname.startsWith(link) && link !== "/";
+  console.log(link);
+  console.log(url.pathname);
   return (
     <li className={`${isActive ? "font-bold tracking-wider" : ""} `}>
       <Link to={link}>{name}</Link>
