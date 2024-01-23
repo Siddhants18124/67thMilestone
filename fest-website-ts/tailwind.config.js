@@ -9,7 +9,7 @@ export default {
         mobile_l: "425px",
       },
       backgroundImage: {
-        bgGrad: "url('/assets/bg_gradient.png')",
+        bgGrad: "url('/assets/bg_grad_1.jpg')",
         culturalPx: "url('/assets/cultural.jpg')",
         technicalPx: "url('/assets/technical.jpeg')",
         mgmtPx: "url('/assets/management.png')",
