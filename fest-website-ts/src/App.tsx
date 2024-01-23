@@ -12,7 +12,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/events" element={<EventsPage />} />
+          <Route path="/events">
+            <Route path="" element={<EventsPage />} />
+            <Route path="67milestone" element={"67th Milestone"} />
+            <Route path="heros-challenge" element={"Hero's challenge"} />
+          </Route>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
