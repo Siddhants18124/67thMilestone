@@ -11,6 +11,8 @@ export default {
       backgroundImage: {
         bgGrad: "url('/assets/extended_bg.png')",
         culturalPx: "url('/assets/cultural.jpg')",
+        technicalPx: "url('/assets/technical.jpeg')",
+        mgmtPx: "url('/assets/management.png')",
       },
     },
   },

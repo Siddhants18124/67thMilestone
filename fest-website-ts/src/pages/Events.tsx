@@ -1,4 +1,4 @@
-import { HomeHeroBg, MileStone } from "../assets";
+import { CulturalBg, HomeHeroBg, MgmtBg, MileStone, TechBg } from "../assets";
 import EventCategory from "../components/EventCategory";
 import { generateFakeData } from "../constants/generate_data";
 
@@ -18,15 +18,18 @@ function EventsPage() {
       </section>
       <EventCategory
         heading="Cultural Events"
+        bgImg={CulturalBg}
         events={generateFakeData("cultural")}
       />
       <EventCategory
         heading="Technical Events"
-        events={generateFakeData("cultural")}
+        bgImg={TechBg}
+        events={generateFakeData("technical")}
       />
       <EventCategory
         heading="Management Events"
-        events={generateFakeData("cultural")}
+        bgImg={MgmtBg}
+        events={generateFakeData("management")}
       />
     </>
   );
