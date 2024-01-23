@@ -5,6 +5,7 @@ import MilestonePage from "./pages/67Milestone";
 import HomePage from "./pages/Home";
 import NotFoundPage from "./pages/NotFound";
 import EventsPage from "./pages/Events";
+import HerosChallenge from "./pages/HerosChallenge";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
           <Route path="/events">
             <Route path="" element={<EventsPage />} />
             <Route path="67milestone" element={<MilestonePage />} />
-            <Route path="heros-challenge" element={"Hero's challenge"} />
+            <Route path="heros-challenge" element={<HerosChallenge />} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
