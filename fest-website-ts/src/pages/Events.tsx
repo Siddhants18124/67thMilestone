@@ -1,39 +1,26 @@
-import { CulturalBg, HomeHeroBg, MgmtBg, MileStone, TechBg } from "../assets";
-import EventCategory from "../components/EventCategory";
-import NextText from "../components/NextText";
-import { generateFakeData } from "../constants/generate_data";
+import { HeroChlng, HerosCardBg, MileStone, MilestoneCardBg } from "../assets";
+import EventsPageGrid from "../constants/EventsPageGrid";
 
 function EventsPage() {
   return (
-    <>
-      <section className="h-screen relative z-20">
-        <NextText />
-        <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
-        <img
-          src={HomeHeroBg}
-          alt=""
-          className="absolute h-full w-full object-cover -z-20"
+    <section className="min-h-[500px] pt-32">
+      <div className="my-4 grid gap-5 w-full place-content-center grid-cols-1 px-4 sm:w-11/12 sm:mx-auto sm:grid-cols-2">
+        <EventsPageGrid
+          url="/events/67milestone"
+          logo={MileStone}
+          bg={MilestoneCardBg}
         />
-        <section className="h-full w-full p-4 pt-32 text-white flex flex-col justify-center items-center">
-          <img src={MileStone} alt="" className="" />
-        </section>
-      </section>
-      <EventCategory
-        heading="Cultural Events"
-        bgImg={CulturalBg}
-        events={generateFakeData("cultural")}
-      />
-      <EventCategory
-        heading="Technical Events"
-        bgImg={TechBg}
-        events={generateFakeData("technical")}
-      />
-      <EventCategory
-        heading="Management Events"
-        bgImg={MgmtBg}
-        events={generateFakeData("management")}
-      />
-    </>
+        <EventsPageGrid
+          url="/events/heros-challenge"
+          logo={HeroChlng}
+          bg={HerosCardBg}
+        />
+      </div>
+      <p className="text-xl text-white text-center w-11/12 mx-auto">
+        Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
+        cillum sint consectetur cupidatat.
+      </p>
+    </section>
   );
 }
 

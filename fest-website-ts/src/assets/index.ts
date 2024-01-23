@@ -18,3 +18,6 @@ export { default as CulturalEvent12 } from "./cultural/event_12.png";
 export { default as TechBg } from "./technical.jpeg";
 export { default as MgmtBg } from "./management.png";
 export { default as CulturalBg } from "./cultural.jpg";
+export { default as HeroChlng } from "./heros challenge white.png";
+export { default as MilestoneCardBg } from "./milestone_card_bg.png";
+export { default as HerosCardBg } from "./heros_card_bg.png";

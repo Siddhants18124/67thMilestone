@@ -1,9 +1,10 @@
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import EventsPage from "./pages/Events";
+import MilestonePage from "./pages/67Milestone";
 import HomePage from "./pages/Home";
 import NotFoundPage from "./pages/NotFound";
+import EventsPage from "./pages/Events";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/events">
             <Route path="" element={<EventsPage />} />
-            <Route path="67milestone" element={"67th Milestone"} />
+            <Route path="67milestone" element={<MilestonePage />} />
             <Route path="heros-challenge" element={"Hero's challenge"} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />
