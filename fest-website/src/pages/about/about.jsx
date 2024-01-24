@@ -23,7 +23,6 @@ const About = () => {
       <About2 />
       <About3 />
       <About4 />
-      <About5 />
       <About5 duration={5000} />
     </div>
   );

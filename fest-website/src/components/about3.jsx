@@ -3,7 +3,7 @@ import React from "react";
 const About3 = () => {
   return (
     <div
-      className="w-[74vw] mx-auto text-white"
+      className="w-[74vw] my-16 mx-auto text-white"
       data-aos="fade-up"
       data-aos-duration="1000"
     >

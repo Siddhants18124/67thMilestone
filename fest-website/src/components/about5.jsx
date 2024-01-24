@@ -12,12 +12,19 @@ const About5 = ({ duration }) => {
     cssEase: "ease-in",
     autoplay: true,
     autoplaySpeed: 3000,
+    arrows: false,
     speed: 2000,
   };
 
   return (
     <div className="w-100vw overflow-hidden px-8 box-border">
       <Slider {...settings}>
+        <Testimonial />
+        <Testimonial />
+        <Testimonial />
+        <Testimonial />
+      </Slider>
+      <Slider {...settings} autoplaySpeed={duration}>
         <Testimonial />
         <Testimonial />
         <Testimonial />

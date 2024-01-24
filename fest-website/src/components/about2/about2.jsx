@@ -3,7 +3,7 @@ import React from "react";
 const About2 = () => {
   return (
     <div
-      className="flex justify-center mx-6 sm:my-12 text-white"
+      className="flex justify-center my-16 mx-6 sm:my-12 text-white"
       data-aos="fade-left"
       data-aos-duration="1000"
     >

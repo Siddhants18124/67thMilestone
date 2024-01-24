@@ -2,7 +2,7 @@ import React from "react";
 
 const Aboutpage = () => {
   return (
-    <div className="xl:mx-48 xl:my-40 mx-6">
+    <div className="xl:mx-48 mt-24 mb-16 xl:my-40 mx-6">
       <div className="grid grid-cols-1 gap-4 lg:grid-cols-2  lg:gap-8">
         <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-gray-200">
           <img
