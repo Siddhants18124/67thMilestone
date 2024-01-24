@@ -17,7 +17,7 @@ export function About4() {
   };
   return (
     <div
-      className=" w-[80vw] text-white mx-auto my-8"
+      className=" w-[76vw] text-white mx-auto my-2"
       data-aos="fade-right"
       data-aos-duration="1000"
     >
