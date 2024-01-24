@@ -2,68 +2,34 @@ import React from "react";
 
 const About2 = () => {
   return (
-    // <div className="xl:mx-48 xl:mt-5  ">
-    //   <div className="container mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
-    //     {/* Left Column */}
-    //     <div className="sm:col-span-1">
-    //       {/* Nested Grid with 2 Rows */}
-    //       <div className="grid grid-rows-2 gap-4">
-    //         {/* First Row with Image */}
-    //         <div>
-    //   <img
-    //     src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
-    //     alt="Image 1"
-    //     className="w-full object-cover"
-    //   />
-    //         </div>
-    //         {/* Second Row with Image */}
-    //         <div>
-    //           <img
-    //             src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
-    //             alt="Image 2"
-    //             className="w-full object-cover"
-    //           />
-    //         </div>
-    //       </div>
-    //     </div>
-
-    //     {/* Right Column */}
-    // <div className="col-span-1 border border-black p-4">
-    //   <h1 className="text-black">gi</h1>
-    //   <p className="text-black">
-    //     This is a box with a black border and text inside. It's designed to be responsive.
-    //   </p>
-    // </div>
-    //   </div>
-    // </div>
     <div
-      className="xl:mx-72 xl:my-36 mx-6 mt-4"
+      className="flex justify-center my-16 mx-6 sm:my-12 text-white"
       data-aos="fade-left"
       data-aos-duration="1000"
     >
-      <div class="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
-        <div class="grid grid-cols-1 gap-4 lg:grid-row-2 lg:gap-8">
-          <div class="h-auto rounded-lg bg-gray-200">
+      <div className="grid w-[73vw] grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
+        <div className="grid grid-cols-1 gap-4 lg:grid-row-2 lg:gap-8">
+          <div className="h-auto rounded-lg ">
             <img
               src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
               alt="alt image"
-              className="w-full object-cover"
+              className="h-full max-h-[20rem] w-full object-cover"
             />
           </div>
-          <div class="h-auto rounded-lg bg-gray-200">
+          <div className="h-auto rounded-lg ">
             <img
               src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
               alt="Image 1"
-              className="w-full object-cover"
+              className="h-full max-h-[20rem] w-full object-cover"
             />
           </div>
         </div>
         <div className="flex ">
-          <div className="row-span-full border border-black p-4 flex flex-col items-center">
-            <h1 className="text-black font-extrabold text-5xl mb-5">
+          <div className="row-span-full border border-white py-4 px-8 flex flex-col items-center">
+            <h1 className="text-white font-extrabold text-5xl mt-8 mb-16">
               About Fest
             </h1>
-            <p className="text-black flex-grow">
+            <p className="text-white flex-grow font-[20px] text-justify leading-[36px] font-['Poppins']">
               Tristique quis arcu egestas donec risus platea adipiscing. Turpis
               arcu commodo orci lectus odio lorem. Enim, commodo, volutpat
               facilisi odio nulla eu senectus dolor. Commodo, amet ultricies

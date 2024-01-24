@@ -3,3 +3,22 @@
   background-repeat: repeat;
   background-image: url(../../assets/bg.png);
 }
+
+body {
+  margin: auto;
+  padding: 0;
+  overflow-x: hidden;
+  display: inline-block;
+}
+
+.social {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  font-family: "Poppins";
+  font-size: max(5.625vw, 2.25rem);
+  font-style: normal;
+  line-height: normal;
+  color: transparent;
+  letter-spacing: max(1.40625vw, 0.5rem);
+  text-transform: uppercase;
+}

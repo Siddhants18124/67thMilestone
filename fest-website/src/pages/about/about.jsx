@@ -17,13 +17,13 @@ const About = () => {
     AOS.init();
   }, []);
   return (
-    <div className="main-bg">
+    <div className="main-bg overflow-hidden box-border">
       <Navbar black={true} />
       <Aboutpage />
       <About2 />
       <About3 />
       <About4 />
-      <About5 />
+      <About5 duration={5000} />
     </div>
   );
 };
