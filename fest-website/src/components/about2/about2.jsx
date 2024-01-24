@@ -3,11 +3,11 @@ import React from "react";
 const About2 = () => {
   return (
     <div
-      className="flex justify-center mx-6 my-4 sm:my-12 text-white"
+      className="flex justify-center mx-6 sm:my-12 text-white"
       data-aos="fade-left"
       data-aos-duration="1000"
     >
-      <div className="grid w-[80vw] grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
+      <div className="grid w-[73vw] grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
         <div className="grid grid-cols-1 gap-4 lg:grid-row-2 lg:gap-8">
           <div className="h-auto rounded-lg ">
             <img
