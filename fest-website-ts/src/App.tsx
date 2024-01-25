@@ -7,6 +7,7 @@ import NotFoundPage from "./pages/NotFound";
 import EventsPage from "./pages/Events";
 import HerosChallenge from "./pages/HerosChallenge";
 import EventDetails from "./pages/EventDetails";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
               element={<EventDetails />}
             />
           </Route>
+          <Route path="/about" element={<About />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />
