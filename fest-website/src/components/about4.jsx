@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { FaArrowRight } from "react-icons/fa";
 
 const CustomArrow = ({ onClick }) => (
   <div
@@ -9,7 +10,7 @@ const CustomArrow = ({ onClick }) => (
     onClick={onClick}
   >
     <div className="absolute justify-center items-center flex bg-[#00000064] w-full h-full">
-      <i className="fa-solid fa-2x fa-arrow-right"></i>
+      <FaArrowRight />
     </div>
   </div>
 );
