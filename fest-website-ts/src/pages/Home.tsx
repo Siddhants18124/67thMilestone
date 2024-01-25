@@ -47,7 +47,7 @@ function HomePage() {
     <>
       <section className="h-screen relative z-20">
         <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
-        <NextText />
+        <NextText/>
         <img
           src={HomeHeroBg}
           alt=""
@@ -61,7 +61,7 @@ function HomePage() {
               <div>Hero’s Challenge</div>
             </h1>
             <div className="mt-8 bg-white h-20 w-20 sm:h-32 sm:w-32 flex flex-col uppercase font-bold text-xl sm:text-3xl justify-center items-center px-2 gap-2">
-              <h2 className="mix-blend-difference text-center">01</h2>
+              <h2 className="mix-blend-difference text-center">01-03</h2>
               <div className="h-[2px] w-full bg-black"></div>
               <h2 className="mix-blend-difference text-center">MAR</h2>
             </div>
@@ -71,7 +71,7 @@ function HomePage() {
             className="text-lg flex flex-row items-center gap-1 sm:text-2xl"
           >
             <IoLocationOutline className="" />
-            67th Milestone, NH 48
+            <span className="text-lg font-light">BML Munjal University, NH 48</span>
             <span className="hidden">, Kapriwas, Haryana 122413</span>
           </Link>
         </section>
@@ -125,13 +125,13 @@ function HomePage() {
             <img
               src={ParllaxImg}
               alt="Parallax Image"
-              className="object-cover w-[40vw] min-w-[17rem] flex-grow"
+              className="object-cover w-[28vw] min-w-[17rem] flex-grow"
             />
             <div className="flex flex-col sm:flex-grow gap-4 w-[25vw] h-full justify-center items-center min-w-[17rem] ">
               <img
                 src={EducateImg}
                 alt="educate Logo"
-                className="object-cover w-full  max-w-[20rem] my-8"
+                className="object-cover w-full max-w-[40rem] h-28 my-8"
               />
               <p className="font-['Poppins']  text-justify text-white leading-relaxed font-[1.15rem]">
                 Etiam nulla nulla bibendum et egestas. Tellus luctus duis
