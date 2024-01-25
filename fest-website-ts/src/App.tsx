@@ -19,7 +19,10 @@ function App() {
             <Route path="" element={<EventsPage />} />
             <Route path="67milestone" element={<MilestonePage />} />
             <Route path="heros-challenge" element={<HerosChallenge />} />
-            <Route path="details/:eventId" element={<EventDetails />} />
+            <Route
+              path="details/:eventType/:eventId"
+              element={<EventDetails />}
+            />
           </Route>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

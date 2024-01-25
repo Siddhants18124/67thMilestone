@@ -31,6 +31,7 @@ function EventCategory(props: Props) {
         {props.events.map((event) => {
           return (
             <EventCard
+              eventType={event.eventType}
               key={event.eventId}
               name={event.name}
               id={event.eventId}
