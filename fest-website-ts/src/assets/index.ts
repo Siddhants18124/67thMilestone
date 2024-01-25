@@ -22,3 +22,5 @@ export { default as HeroChlng } from "./heros challenge white.png";
 export { default as MilestoneCardBg } from "./milestone_card_bg.png";
 export { default as HerosCardBg } from "./heros_card_bg.png";
 export { default as HerosChallengeBg } from "./heros_challenge_bg.png";
+export { default as Poc1 } from "./poc1.png";
+export { default as Poc2 } from "./poc2.png";

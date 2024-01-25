@@ -3,6 +3,7 @@ export type PersonOfContact = {
   position: string;
   contact: string;
   mailId: string;
+  image: string;
 };
 
 export type EventType = "cultural" | "technical" | "management" | "hero";
@@ -21,4 +22,5 @@ export type IEvent = {
   registerLink: string;
   pocs: PersonOfContact[];
   image: string;
+  desc: string;
 };
