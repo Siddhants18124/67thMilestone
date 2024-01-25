@@ -89,13 +89,13 @@ function HomePage() {
                 image={MilestoneCardBg}
                 text={Logo}
                 containsImage={true}
-                link="/"
+                link="/events/67milestone"
               />
               <ExploreCard
                 image={HerosCardBg}
                 text={HeroChlng}
                 containsImage={true}
-                link="/"
+                link="/events/heros-challenge"
               />
             </div>
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 mt-3 lg:gap-3">
@@ -118,7 +118,7 @@ function HomePage() {
           </div>
         </div>
         <div className="text-['Poppins'] mt-16">
-          <p className="text-center text-[4rem]  uppercase text-transparent social text-bold">
+          <p className="text-center text-7xl uppercase text-transparent social font-bold">
             Social Cause
           </p>
           <div className="flex flex-row flex-wrap-reverse w-[80vw] gap-8 justify-center items-start mx-auto my-8 text-white">
