@@ -8,6 +8,7 @@ import EventsPage from "./pages/Events";
 import HerosChallenge from "./pages/HerosChallenge";
 import EventDetails from "./pages/EventDetails";
 import About from "./pages/About";
+import Sponsors from "./pages/Sponsor";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             />
           </Route>
           <Route path="/about" element={<About />} />
+          <Route path="/sponsors" element={<Sponsors />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />

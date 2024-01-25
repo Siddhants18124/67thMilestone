@@ -8,9 +8,8 @@ function Navbar() {
       <ul className="flex flex-row gap-2 sm:gap-4 justify-center items-center text-sm mobile_m:text-lg mobile_l:text-xl">
         <NavbarLink name="Home" link="/" />
         <NavbarLink name="About" link="/about" />
-        <NavbarLink name="Contact" link="/contact" />
         <NavbarLink name="Events" link="/events" />
-        <NavbarLink name="Register" link="/register" />
+        <NavbarLink name="Sponsors" link="/sponsors" />
       </ul>
     </nav>
   );
