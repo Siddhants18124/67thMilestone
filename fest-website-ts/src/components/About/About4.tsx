@@ -2,9 +2,13 @@ import { FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import { MouseEventHandler } from "react";
 
-const CustomArrow = () => (
-  <div className="w-[30%] max-w-[10rem] cursor-pointer h-full before:opacity-0 absolute right-0 top-[50%] translate-y-[-50%] text-white">
+const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
+  <div
+    onClick={onClick}
+    className="w-[30%] max-w-[10rem] cursor-pointer h-full before:opacity-0 absolute right-0 top-[50%] translate-y-[-50%] text-white"
+  >
     <div className="absolute justify-center items-center flex bg-[#00000064] w-full h-full">
       <FaArrowRight />
     </div>
@@ -19,11 +23,11 @@ export function About4() {
     cssEase: "ease-in",
     autoplay: false,
     prevArrow: <></>,
-    nextArrow: <CustomArrow />,
+    nextArrow: <CustomArrow onClick={() => {}} />,
   };
   return (
     <div
-      className=" w-[74vw] text-white mx-auto my-16"
+      className=" w-[84vw] text-white mx-auto my-16"
       data-aos="fade-right"
       data-aos-duration="1000"
     >

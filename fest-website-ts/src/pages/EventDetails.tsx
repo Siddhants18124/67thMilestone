@@ -14,12 +14,12 @@ function EventDetails() {
 
   return (
     <div className="main-bg register">
-      <div className="flex justify-center pt-24">
+      <div className="flex justify-center pt-[8rem] lg:pt-24">
         <div className="p-8 w-fit bg-[#ffffff19] text-white rounded-xl">
           <div className="flex flex-wrap justify-center gap-8 w-[80vw]">
             <img
               src={currEvent.image}
-              className="lg:w-[25rem] min-w-[15rem] max-w-[25rem] w-10vw rounded-xl flex-grow-0"
+              className="lg:w-[25rem] object-cover min-w-[15rem] max-w-[25rem] w-10vw rounded-xl flex-grow-0"
             />
             <div className="flex flex-col gap-4 w-[30rem] flex-grow">
               <p className="text-[2rem] br">{currEvent.name}</p>

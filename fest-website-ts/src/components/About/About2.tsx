@@ -8,7 +8,7 @@ const About2 = () => {
       data-aos-duration="1000"
     >
       <div className="grid w-[73vw] grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
-        <div className="grid grid-cols-1 gap-4 lg:grid-row-2 lg:gap-8">
+        <div className="grid grid-cols-1 gap-3 lg:grid-row-2">
           <div className="h-auto rounded-lg ">
             <img
               src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
@@ -25,7 +25,7 @@ const About2 = () => {
           </div>
         </div>
         <div className="flex ">
-          <div className="row-span-full border border-white py-4 px-8 flex flex-col items-center">
+          <div className="row-span-full py-4 px-8 flex flex-col items-center">
             <h1 className="text-white font-extrabold text-5xl mt-8 mb-16">
               About Fest
             </h1>
