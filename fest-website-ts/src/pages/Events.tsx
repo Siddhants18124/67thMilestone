@@ -1,5 +1,5 @@
 import { HeroChlng, HerosCardBg, MileStone, MilestoneCardBg } from "../assets";
-import EventsPageGrid from "../constants/EventsPageGrid";
+import EventsPageGrid from "../components/EventsPageGrid";
 
 function EventsPage() {
   return (
