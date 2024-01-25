@@ -6,6 +6,7 @@ import HomePage from "./pages/Home";
 import NotFoundPage from "./pages/NotFound";
 import EventsPage from "./pages/Events";
 import HerosChallenge from "./pages/HerosChallenge";
+import EventDetails from "./pages/EventDetails";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="" element={<EventsPage />} />
             <Route path="67milestone" element={<MilestonePage />} />
             <Route path="heros-challenge" element={<HerosChallenge />} />
+            <Route path="details/:eventId" element={<EventDetails />} />
           </Route>
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
