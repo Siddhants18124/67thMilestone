@@ -1,6 +1,6 @@
 import AOS from "aos";
 import { useEffect } from "react";
-import { HeroChlng, Logo, MileStone } from "../assets";
+import { HeroChlng, MileStone } from "../assets";
 
 const Sponsors = () => {
   useEffect(() => {

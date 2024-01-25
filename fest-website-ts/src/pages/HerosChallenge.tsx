@@ -1,12 +1,4 @@
-import {
-  CulturalBg,
-  HeroChlng,
-  HerosChallengeBg,
-  HomeHeroBg,
-  MgmtBg,
-  MileStone,
-  TechBg,
-} from "../assets";
+import { HeroChlng, HerosChallengeBg } from "../assets";
 import EventCategory from "../components/EventCategory";
 import NextText from "../components/NextText";
 import { generateFakeData } from "../constants/generate_data";
