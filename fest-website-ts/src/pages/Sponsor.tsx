@@ -11,8 +11,8 @@ const Sponsors = () => {
     <div className="main-bg">
       <div>
         <section>
-          <div className="container pt-20 pb-10 mx-auto ">
-            <div className="m-auto w-[80vw] py-12">
+          <div className="pt-20 pb-10 mx-auto ">
+            <div className="m-auto w-[80vw] pt-12 pb-24">
               <p className=" mx-auto mt-4 text-white-500 text-[20px] leading-relaxed max-w-[1000px] font-['Poppins'] text-white">
                 Over the past years 67th Milestone And Hero’s challenge has had
                 the privilege to have hosted a number of sponsors which provided
@@ -22,18 +22,25 @@ const Sponsors = () => {
                 challenge are unparalleled.
               </p>
             </div>
-
-            <div className="grid grid-cols-1 gap-8 mt-8 place-items-center  lg:grid-cols-2">
-              <div>
+            <div className="flex flex-wrap w-[80vw] mx-auto justify-between gap-4 items-center max-w-[100%] overflow-hidden">
+              <div className="min-w-[15rem] relative flex-grow flex flex-col items-center gap-3 h-[17rem]">
+                <div className="flex flex-row justify-between gap-8 text-white">
+                  <p>Presents</p>
+                  <p>In association with</p>
+                </div>
                 <img
-                  className="relative object-cover z-10 w-[40vw] min-w-[15rem]"
+                  className="absolute lg:top-[7rem] md:top-[6rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[100%]"
                   src={MileStone}
                   alt=""
                 />
               </div>
-              <div>
+              <div className="min-w-[15rem] relative flex-grow flex flex-col items-center gap-3 h-[17rem]">
+                <div className="flex flex-row gap-8 justify-between text-white">
+                  <p>Sponsored by</p>
+                  <p>In association with</p>
+                </div>
                 <img
-                  className="relative z-10 object-cover w-[30vw] min-w-[15rem]"
+                  className="absolute lg:top-[7rem] md:top-[6rem] sm:top-[5rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[100%]"
                   src={HeroChlng}
                   alt=""
                 />
