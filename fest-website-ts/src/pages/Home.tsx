@@ -47,7 +47,7 @@ function HomePage() {
     <>
       <section className="h-screen relative z-20">
         <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
-        <NextText/>
+        <NextText />
         <img
           src={HomeHeroBg}
           alt=""
@@ -68,10 +68,12 @@ function HomePage() {
           </div>
           <Link
             to={"https://maps.app.goo.gl/k8dmbFxLpQkFm11F8"}
-            className="text-lg flex flex-row items-center gap-1 sm:text-2xl"
+            className="text-lg flex flex-row items-center gap-1 sm:text-2xl mb-4"
           >
             <IoLocationOutline className="" />
-            <span className="text-lg font-light">BML Munjal University, NH 48</span>
+            <span className="text-lg font-light">
+              BML Munjal University, NH 48
+            </span>
             <span className="hidden">, Kapriwas, Haryana 122413</span>
           </Link>
         </section>
