@@ -30,7 +30,7 @@ const ExploreCard = ({
         {containsImage ? (
           <img
             src={text}
-            className="w-[50%] object-cover max-h-[75%] absolute z-20 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+            className="w-[50%] min-w-[10rem] object-cover max-h-[75%] absolute z-20 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
           />
         ) : (
           <p className="absolute z-20 text-[1.15rem] uppercase text-white w-fit h-fit top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
@@ -84,7 +84,7 @@ function HomePage() {
           data-aos-duration="1000"
           className="my-8 min-h-screen"
         >
-          <div className="text-center text-white xl:mt-16 mb-5 xl:mb-6 mt-10">
+          <div className="text-center mx-4 text-white xl:mt-16 mb-5 xl:mb-6 mt-10">
             <h1 className="xl:text-4xl text-2xl my-16">
               LET US TAKE A DEEP DIVE IN THE
             </h1>
