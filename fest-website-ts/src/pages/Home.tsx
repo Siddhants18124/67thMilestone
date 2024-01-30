@@ -79,7 +79,11 @@ function HomePage() {
         </section>
       </section>
       <section className="min-h-screen">
-        <div data-aos="fade-up" data-aos-duration="1000" className="my-8">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="my-8 min-h-screen"
+        >
           <div className="text-center text-white xl:mt-16 mb-5 xl:mb-6 mt-10">
             <h1 className="xl:text-4xl text-2xl my-16">
               LET US TAKE A DEEP DIVE IN THE
