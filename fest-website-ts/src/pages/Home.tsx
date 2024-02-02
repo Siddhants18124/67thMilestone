@@ -147,7 +147,7 @@ function HomePage() {
             </div>
           </div>
           <div className="flex w-fit mt-16 cursor-pointer transition-all duration-700 hover:bg-white hover:text-black mx-auto justify-center items-center border-white border-2 px-16 py-4 text-white font-[1.1rem]">
-            <p className="m-0">Contribute</p>
+            <p className="m-0">Sponsor Us</p>
           </div>
         </div>
       </section>
