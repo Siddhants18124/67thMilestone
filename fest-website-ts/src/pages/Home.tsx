@@ -57,7 +57,7 @@ function HomePage() {
           <div />
           <div>
             <h1 className="text-3xl mobile_m:text-5xl mobile_s:text-4xl mobile_l:text-6xl sm:text-7xl font-bold tracking-wider">
-              <div>67th Milestone</div>
+              <div className="mb-4">67th Milestone</div>
               <div>Hero’s Challenge</div>
             </h1>
             <div className="mt-8 bg-white h-20 w-20 sm:h-32 sm:w-32 flex flex-col uppercase font-bold text-xl sm:text-3xl justify-center items-center px-2 gap-2">
