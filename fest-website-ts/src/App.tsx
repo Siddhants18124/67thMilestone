@@ -13,7 +13,9 @@ import Sponsors from "./pages/Sponsor";
 function App() {
   return (
     <>
-      <main className="relative bg-fixed bg-center bg-cover bg-bgGrad scroll-smooth">
+      <main className="relative">
+        <div className="absolute top-0 left-0 w-full h-full z-[-2] bg-fixed bg-center bg-cover bg-bgGrad scroll-smooth"></div>
+        <div className="absolute z-[-1] bg-[#00000032] top-0 left-0 w-full h-full"></div>
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
