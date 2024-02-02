@@ -13,7 +13,7 @@ const Sponsors = () => {
         <section>
           <div className="pt-20 pb-10 mx-auto ">
             <div className="m-auto w-[80vw] pt-12 pb-24">
-              <p className=" mx-auto mt-4 text-white-500 text-[20px] leading-relaxed max-w-[1000px] font-['Poppins'] text-white">
+              <p className="mx-auto mt-4 leading-relaxed max-w-[1000px] font-['Poppins'] text-white text-justify text-lg lg:text-xl xl:text-2xl">
                 Over the past years 67th Milestone And Hero’s challenge has had
                 the privilege to have hosted a number of sponsors which provided
                 a very entertaining experience to our visitors as well as the
