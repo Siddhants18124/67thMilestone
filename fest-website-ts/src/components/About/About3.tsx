@@ -1,7 +1,7 @@
 const About3 = () => {
   return (
     <div
-      className="w-[84vw] my-16 mx-auto text-white"
+      className="w-[84vw]  mt-24 mx-auto h-lvh text-white"
       data-aos="fade-up"
       data-aos-duration="1000"
     >

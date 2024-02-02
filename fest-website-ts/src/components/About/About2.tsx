@@ -1,9 +1,9 @@
-import "./about2.css";
+// import "./about2.css";
 
 const About2 = () => {
   return (
     <div
-      className="flex justify-center my-16 mx-6 sm:my-12 text-white"
+      className="flex justify-center my-16 mx-6 sm:my-12 h-lvh text-white"
       data-aos="fade-left"
       data-aos-duration="1000"
     >
