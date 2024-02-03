@@ -3,7 +3,7 @@ import "./about2.css";
 const About2 = () => {
   return (
     <div
-      className="flex justify-center pt-[8rem] mx-2 md:mx-6 md:py-4 box-border min-h-[100vh] text-white"
+      className="flex justify-center pt-[8rem] mx-2 md:mx-6 md:py-4 box-border min-h-[100vh]  text-white"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
