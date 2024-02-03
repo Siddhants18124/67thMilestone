@@ -21,7 +21,7 @@ function Navbar() {
         <div className="flex  flex-col lg:flex-row lg:items-center lg:justify-between">
           <div className="flex items-center justify-between">
             <Link to={"/"}>
-              <div className="px-4">
+              <div className="pr-4 px-11">
                 <img src={Logo} alt="Logo" className="h-[4rem]" />
               </div>
             </Link>

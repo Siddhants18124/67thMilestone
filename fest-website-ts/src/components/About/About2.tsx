@@ -4,7 +4,7 @@ const About2 = () => {
   return (
     <div
       className="flex justify-center pt-[8rem] mx-2 md:mx-6 md:py-4 box-border min-h-[100vh] text-white"
-      data-aos="fade-left"
+      data-aos="fade-up"
       data-aos-duration="1000"
     >
       <div className="grid md:w-[73vw] w-[80vw] grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">

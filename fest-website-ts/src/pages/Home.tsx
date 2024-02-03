@@ -10,6 +10,9 @@ import {
   ParllaxImg,
 } from "../assets";
 import NextText from "../components/NextText";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ExploreCard = ({
   link,
@@ -22,6 +25,10 @@ const ExploreCard = ({
   image: string;
   containsImage?: boolean;
 }) => {
+  useEffect(() => {
+    AOS.init()
+  }, []);
+  
   return (
     <Link to={link}>
       <div className="h-[20rem] font-['Poppins'] relative rounded-lg bg-gray-200">
@@ -123,7 +130,7 @@ function HomePage() {
             </div>
           </div>
         </div>
-        <div className="text-['Poppins'] mt-16">
+        <div className="text-['Poppins'] mt-16" data-aos="fade-up">
           <p className="text-center text-7xl uppercase text-transparent social font-bold">
             Social Cause
           </p>
