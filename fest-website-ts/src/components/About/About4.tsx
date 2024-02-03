@@ -29,7 +29,7 @@ export function About4() {
   };
   return (
     <div
-      className=" w-[84vw] text-white mx-auto my-16"
+      className=" w-[84vw] text-white mx-auto mb-16"
       data-aos="fade-right"
       data-aos-duration="1000"
     >

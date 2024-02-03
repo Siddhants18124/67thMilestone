@@ -7,7 +7,7 @@ function MilestonePage() {
   return (
     <>
       <section className="h-screen relative z-20">
-        <NextText />
+      <a href="#category" className="scroll-smooth"><NextText /></a>
         <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
         <img
           src={HomeHeroBg}
@@ -18,6 +18,7 @@ function MilestonePage() {
           <img src={MileStone} alt="" className="" />
         </section>
       </section>
+      <div id="category"></div>
       <EventCategory
         heading="Cultural Events"
         bgImg={CulturalBg}

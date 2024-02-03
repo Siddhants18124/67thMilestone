@@ -62,7 +62,7 @@ const About3 = () => {
       className={
         sm
           ? "w-[84vw] my-16 mx-auto text-white"
-          : "lg:w-[95vw] xl:w-[84vw] my-16 mx-auto text-white"
+          : "lg:w-[95vw] xl:w-[84vw] mt-16 mx-auto text-white"
       }
       data-aos="fade-up"
       data-aos-duration="1000"

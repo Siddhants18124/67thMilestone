@@ -1,5 +1,5 @@
 import { IoLocationOutline } from "react-icons/io5";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import {
   EducateImg,
   HeroChlng,
@@ -54,7 +54,7 @@ function HomePage() {
     <>
       <section className="h-screen relative z-20">
         <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
-        <NextText />
+        <a href="#deepdive" className="scroll-smooth"><NextText /></a>
         <img
           src={HomeHeroBg}
           alt=""
@@ -87,6 +87,7 @@ function HomePage() {
       </section>
       <section className="min-h-screen">
         <div
+          id="deepdive"
           data-aos="fade-up"
           data-aos-duration="1000"
           className="my-8 min-h-screen"
