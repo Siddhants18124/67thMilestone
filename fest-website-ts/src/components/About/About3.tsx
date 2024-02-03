@@ -67,7 +67,7 @@ const About3 = () => {
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <div className="lg:grid grid-cols-5 place-content-center gap-4 gap-y-6  mx-auto w-fit hidden justify-start flex-wrap ">
+      <div className="lg:grid grid-cols-5 place-content-center gap-4 gap-y-6  mx-auto w-fit h-lvh hidden justify-start flex-wrap ">
         <div className="h-auto col-span-1 w-full rounded-lg">
           <div className="mr-4 mt-1 text-wrap  ">
             <h1 className="font-extrabold mb-8 text-[2rem] font-['Poppins'] ">
