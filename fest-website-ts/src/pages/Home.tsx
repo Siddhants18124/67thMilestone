@@ -57,7 +57,7 @@ function HomePage() {
           <div />
           <div>
             <h1 className="text-3xl mobile_m:text-5xl mobile_s:text-4xl mobile_l:text-6xl sm:text-7xl font-bold tracking-wider">
-              <div>67th Milestone</div>
+              <div className="mb-4">67th Milestone</div>
               <div>Hero’s Challenge</div>
             </h1>
             <div className="mt-8 bg-white h-20 w-20 sm:h-32 sm:w-32 flex flex-col uppercase font-bold text-xl sm:text-3xl justify-center items-center px-2 gap-2">
@@ -147,7 +147,7 @@ function HomePage() {
             </div>
           </div>
           <div className="flex w-fit mt-16 cursor-pointer transition-all duration-700 hover:bg-white hover:text-black mx-auto justify-center items-center border-white border-2 px-16 py-4 text-white font-[1.1rem]">
-            <p className="m-0">Contribute</p>
+            <p className="m-0">Sponsor Us</p>
           </div>
         </div>
       </section>

@@ -6,7 +6,7 @@ function Footer() {
       <div className="mx-auto max-w-screen-3xl px-4 pb-6 pt-16 xl:ml-7 sm:px-6  lg:pt-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           <div className="xl:mr-16">
-            <h1 className="text-4xl text-white font-bold mb-4">
+            <h1 className="text-2xl text-white font-bold mb-4">
               67th Milestone Hero's Challenge
             </h1>
             <div className="border  p-4 mx-auto col-span-full  ">
@@ -19,12 +19,12 @@ function Footer() {
 
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 xl:ml-38 md:ml-32">
             <div className="text-center sm:text-left">
-              <p className="text-4xl font-bold  text-white ">Support</p>
+              <p className="text-3xl font-bold  text-white ">Support</p>
 
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
                   <a
-                    className="text-white text-xl transition hover:text-gray-300/75"
+                    className="text-white transition hover:text-gray-300/75"
                     href="/"
                   >
                     FAQ's
@@ -33,7 +33,7 @@ function Footer() {
 
                 <li>
                   <a
-                    className="text-white text-xl transition hover:text-gray-300/75"
+                    className="text-white  transition hover:text-gray-300/75"
                     href="/"
                   >
                     Contact Us
@@ -42,7 +42,7 @@ function Footer() {
 
                 <li>
                   <a
-                    className="text-white text-xl transition hover:text-gray-300/75"
+                    className="text-white  transition hover:text-gray-300/75"
                     href="/"
                   >
                     Accomodation
@@ -51,7 +51,7 @@ function Footer() {
               </ul>
             </div>
             <div className="text-center sm:text-left xl:ml-18">
-              <p className="text-4xl font-bold text-white">Social Media</p>
+              <p className="text-3xl font-bold text-white">Social Media</p>
 
               <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
                 <li>
