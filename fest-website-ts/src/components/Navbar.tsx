@@ -17,11 +17,11 @@ function Navbar() {
 
   return (
     <>
-      <nav className="fixed bg-transparent top-0 left-0 right-0 z-50 p-8">
+      <nav className="absolute bg-transparent top-0 left-0 right-0 z-50 md:p-8 py-8 pr-8 pl-3">
         <div className="flex  flex-col lg:flex-row lg:items-center lg:justify-between">
           <div className="flex items-center justify-between">
             <Link to={"/"}>
-              <div className="pr-4 px-11">
+              <div className="pr-4  xl:px-11">
                 <img src={Logo} alt="Logo" className="h-[4rem]" />
               </div>
             </Link>
