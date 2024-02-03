@@ -26,3 +26,4 @@ export { default as Poc1 } from "./poc1.png";
 export { default as Poc2 } from "./poc2.png";
 export { default as EducateImg } from "./edu.png";
 export { default as ParllaxImg } from "./parllaxImg.png";
+export { default as Social } from "./social.jpeg";

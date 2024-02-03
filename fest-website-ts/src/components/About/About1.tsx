@@ -2,7 +2,7 @@ import "./about1.css";
 
 function About1() {
   return (
-    <div className="xl:mx-47 mb-16 mx-auto pt-32 w-[80vw] max-w-[1200px] box-border">
+    <div className="xl:mx-47 mb-16 mx-auto pt-32 w-[80vw] max-w-[1200px] box-border hidden md:block">
       <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 ">
         <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-gray-200">
           <img

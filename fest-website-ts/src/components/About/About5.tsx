@@ -1,12 +1,8 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css";
-
 import "./About5.css";
 
 const About5 = () => {
   return (
-    <div className="pt-6">
+    <div className="pt-6 hidden lg:inline">
       <div className="slider">
         <div className="slide-track">
           <Testimonial />

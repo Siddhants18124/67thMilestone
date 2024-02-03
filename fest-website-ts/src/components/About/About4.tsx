@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { MouseEventHandler } from "react";
+import { Social } from "../../assets";
+import "./About4.css";
 
 const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
   <div
@@ -31,33 +33,33 @@ export function About4() {
       data-aos="fade-right"
       data-aos-duration="1000"
     >
-      <div className="flex justify-between items-center flex-wrap-reverse gap-x-16">
+      <div className="flex  justify-between items-center flex-wrap-reverse gap-x-16">
         <Slider
           {...settings}
-          className="rounded-xl space-x-4 w-[30rem] max-w-[100%]  flex-grow"
+          className="rounded-xl space-x-4 translate-x-[-1rem] w-[30rem] max-w-[100%]  flex-grow"
         >
           <img
-            src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+            src={Social}
             alt="image 1"
-            className="h-[15rem] w-full object-cover"
+            className="h-[15rem] w-full object-cover  object-top"
           />
           <img
-            src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+            src={Social}
             alt="image 2"
-            className="h-[15rem] w-full object-cover"
+            className="h-[15rem] w-full object-cover object-top"
           />
           <img
-            src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+            src={Social}
             alt="image 3"
-            className="h-[15rem] w-full object-cover"
+            className="h-[15rem] w-full object-cover object-top"
           />
           <img
-            src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+            src={Social}
             alt="image 3"
-            className="h-[15rem] w-full object-cover"
+            className="h-[15rem] w-full object-cover object-top"
           />
         </Slider>
-        <div className="flex h-auto rounded-lg items-center my-8 mx-4 w-[20rem]">
+        <div className="lg:flex hidden h-auto rounded-lg items-center my-8 mx-4 w-[20rem]">
           <div className="mr-12 mt-1 text-wrap">
             <h1 className="font-bold text-[2rem] mb-8 font-['Poppins']">
               Meet The Heads
