@@ -16,7 +16,7 @@ function EventsPage() {
           bg={HerosCardBg}
         />
       </div>
-      <p className="text-xl text-white text-center w-11/12 mx-auto">
+      <p className="text-xl mt-12 text-white text-center w-11/12 mx-auto">
         Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint
         cillum sint consectetur cupidatat.
       </p>

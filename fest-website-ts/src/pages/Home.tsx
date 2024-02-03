@@ -137,9 +137,9 @@ function HomePage() {
               <img
                 src={EducateImg}
                 alt="educate Logo"
-                className="object-cover w-full max-w-[40rem] h-28 my-8"
+                className="object-cover w-full max-w-[30rem] h-28 my-8"
               />
-              <p className="font-['Poppins']  text-justify text-white leading-relaxed font-[1.15rem]">
+              <p className="font-['Poppins'] max-w-[30rem] w-full text-justify text-white leading-relaxed font-[1.15rem]">
                 Etiam nulla nulla bibendum et egestas. Tellus luctus duis
                 pellentesque cursus consectetur luctus. Et sed semper ornare et
                 luctus volutpat ipsum in faucibus.

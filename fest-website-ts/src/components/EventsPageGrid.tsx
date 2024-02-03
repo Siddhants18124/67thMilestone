@@ -9,7 +9,7 @@ type Props = {
 function EventsPageGrid(props: Props) {
   return (
     <Link to={props.url}>
-      <div className="h-80 relative w-full rounded-[30px] group overflow-hidden bg-black lg:h-80 xl:h-96 transition-all duration-300 ease-in-out hover:rounded-none">
+      <div className="h-80 relative w-full rounded-[10px] group overflow-hidden bg-black lg:h-80 xl:h-96 transition-all duration-300 ease-in-out ">
         <img
           src={props.bg}
           className="absolute w-full h-full object-cover z-0 transition-all duration-500 ease-in-out scale-125 group-hover:scale-100"
