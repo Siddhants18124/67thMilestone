@@ -10,6 +10,29 @@ import "./About4.css";
 const About3 = () => {
   const [sm, setSm] = useState(false);
 
+  const [images, setImages] = useState<string[]>([]);
+
+  useEffect(() => {
+    const importImages = async () => {
+      // Dynamically import all image files from the 'images' folder
+      const imagePaths = import.meta.glob(
+        "../../assets/core/*.{png,jpg,jpeg,svg}"
+      );
+
+      const importedImages = Object.values(imagePaths).map(
+        async (imageModule) => {
+          const module = (await imageModule()) as { default: string };
+          return module.default;
+        }
+      );
+
+      const resolvedImages = await Promise.all(importedImages);
+      setImages(resolvedImages);
+    };
+
+    importImages();
+  }, []);
+
   const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
     <div
       onClick={onClick}
@@ -40,9 +63,11 @@ const About3 = () => {
       return 2;
     } else if (window.innerWidth < 750 && window.innerWidth > 725) {
       return 1;
-    } else if (window.innerWidth < 725 && window.innerWidth > 400) {
+    } else if (window.innerWidth < 725 && window.innerWidth > 500) {
       return 2;
-    } else if (window.innerWidth < 400) {
+    } else if (window.innerWidth < 500) {
+      return 1;
+    } else {
       return 1;
     }
   };
@@ -79,51 +104,16 @@ const About3 = () => {
             </p>
           </div>
         </div>
-        <img
-          src={Social}
-          alt="Image 1"
-          className=" col-span-1 h-[15rem] w-full object-cover object-top "
-        />
-        <img
-          src={Social}
-          alt="Image 1"
-          className=" col-span-1 h-[15rem] w-full object-cover object-top "
-        />
-        <img
-          src={Social}
-          alt="Image 1"
-          className=" col-span-1 h-[15rem] w-full object-cover object-top "
-        />
-        <img
-          src={Social}
-          alt="Image 1"
-          className=" col-span-1 h-[15rem] w-full object-cover object-top "
-        />
-        <img
-          src={Social}
-          alt="Image 1"
-          className=" col-span-1 h-[15rem] w-full object-cover object-top "
-        />
-        <img
-          src={Social}
-          alt="Image 1"
-          className=" col-span-1 h-[15rem] w-full object-cover object-top "
-        />
-        <img
-          src={Social}
-          alt="Image 1"
-          className=" col-span-1 h-[15rem] w-full object-cover object-top "
-        />
-        <img
-          src={Social}
-          alt="Image 1"
-          className=" col-span-1 h-[15rem] w-full object-cover object-top "
-        />
-        <img
-          src={Social}
-          alt="Image 1"
-          className=" col-span-1 h-[15rem] w-full object-cover object-top "
-        />
+        {images.map((image, i) => {
+          return (
+            <img
+              src={image}
+              key={i}
+              alt=""
+              className=" col-span-1 h-[15rem] w-full object-cover object-top "
+            />
+          );
+        })}
       </div>
       {sm ? (
         <div className="flex flex-wrap items-start justify-start gap-8">
@@ -143,11 +133,9 @@ const About3 = () => {
             {...settings}
             className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[20rem] flex-grow"
           >
-            <img src={Social} alt="" />
-            <img src={Social} alt="" />
-            <img src={Social} alt="" />
-            <img src={Social} alt="" />
-            <img src={Social} alt="" />
+            {images.map((image, i) => {
+              return <img src={image} key={i} alt="" />;
+            })}
           </Slider>
         </div>
       ) : (

@@ -1,18 +1,19 @@
 import { IoLocationOutline } from "react-icons/io5";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   EducateImg,
   HeroChlng,
-  HerosCardBg,
   HomeHeroBg,
-  Logo,
-  MilestoneCardBg,
   ParllaxImg,
+  MileStone,
 } from "../assets";
+
+import EventsPageGrid from "../components/EventsPageGrid";
+
 import NextText from "../components/NextText";
 import { useEffect } from "react";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ExploreCard = ({
   link,
@@ -26,9 +27,9 @@ const ExploreCard = ({
   containsImage?: boolean;
 }) => {
   useEffect(() => {
-    AOS.init()
+    AOS.init();
   }, []);
-  
+
   return (
     <Link to={link}>
       <div className="h-[20rem] font-['Poppins'] relative rounded-lg bg-gray-200">
@@ -54,7 +55,9 @@ function HomePage() {
     <>
       <section className="h-screen relative z-20">
         <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
-        <a href="#deepdive" className="scroll-smooth"><NextText /></a>
+        <a href="#deepdive" className="scroll-smooth">
+          <NextText />
+        </a>
         <img
           src={HomeHeroBg}
           alt=""
@@ -99,17 +102,19 @@ function HomePage() {
           </div>
           <div className="w-[80vw] mx-auto">
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-2  lg:gap-3">
-              <ExploreCard
-                image={MilestoneCardBg}
-                text={Logo}
-                containsImage={true}
-                link="/events/67milestone"
+              <EventsPageGrid
+                url="/events/67milestone"
+                logo={MileStone}
+                bg={
+                  "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
               />
-              <ExploreCard
-                image={HerosCardBg}
-                text={HeroChlng}
-                containsImage={true}
-                link="/events/heros-challenge"
+              <EventsPageGrid
+                url="/events/heros-challenge"
+                logo={HeroChlng}
+                bg={
+                  "https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                }
               />
             </div>
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 mt-3 lg:gap-3">
@@ -145,7 +150,7 @@ function HomePage() {
               <img
                 src={EducateImg}
                 alt="educate Logo"
-                className="object-cover w-full max-w-[30rem] h-28 my-8"
+                className="object-cover w-full max-w-[30rem] my-8"
               />
               <p className="font-['Poppins'] max-w-[30rem] w-full text-justify text-white leading-relaxed font-[1.15rem]">
                 Etiam nulla nulla bibendum et egestas. Tellus luctus duis

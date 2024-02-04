@@ -5,7 +5,6 @@ import About4 from "../components/About/About4";
 import About5 from "../components/About/About5";
 
 function About() {
-
   return (
     <>
       <About1 />

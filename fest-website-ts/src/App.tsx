@@ -10,7 +10,13 @@ import EventDetails from "./pages/EventDetails";
 import About from "./pages/About";
 import Sponsors from "./pages/Sponsor";
 
+import AOS from "aos";
+import { useEffect } from "react";
+
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <main className="relative">
