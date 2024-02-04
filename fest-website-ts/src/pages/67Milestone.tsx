@@ -1,4 +1,4 @@
-import { CulturalBg, HomeHeroBg, MgmtBg, MileStone, TechBg } from "../assets";
+import { CulturalBg, HomeHeroBg, MileStone, TechBg } from "../assets";
 import EventCategory from "../components/EventCategory";
 import NextText from "../components/NextText";
 import { generateFakeData } from "../constants/generate_data";
@@ -7,7 +7,9 @@ function MilestonePage() {
   return (
     <>
       <section className="h-screen relative z-20">
-      <a href="#category" className="scroll-smooth"><NextText /></a>
+        <a href="#category" className="scroll-smooth">
+          <NextText />
+        </a>
         <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
         <img
           src={HomeHeroBg}
@@ -31,7 +33,9 @@ function MilestonePage() {
       />
       <EventCategory
         heading="Management Events"
-        bgImg={MgmtBg}
+        bgImg={
+          "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
         events={generateFakeData("management")}
       />
     </>

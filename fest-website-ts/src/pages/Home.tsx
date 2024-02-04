@@ -1,12 +1,6 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import {
-  EducateImg,
-  HeroChlng,
-  HomeHeroBg,
-  ParllaxImg,
-  MileStone,
-} from "../assets";
+import { EducateImg, HeroChlng, ParllaxImg, MileStone, video } from "../assets";
 
 import EventsPageGrid from "../components/EventsPageGrid";
 
@@ -58,11 +52,14 @@ function HomePage() {
         <a href="#deepdive" className="scroll-smooth">
           <NextText />
         </a>
-        <img
-          src={HomeHeroBg}
-          alt=""
+        <video
+          src={video}
+          autoPlay
+          muted
+          loop
+          controls={false}
           className="absolute h-full w-full object-cover -z-20"
-        />
+        ></video>
         <section className="relative h-full w-full p-4 pt-32 text-white flex flex-col justify-between lg:w-11/12 lg:mx-auto">
           <div />
           <div>
