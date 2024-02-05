@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { MouseEventHandler } from "react";
 import { FaArrowRight } from "react-icons/fa";
-import { Social } from "../../assets";
+// import { Social } from "../../assets";
 import "./About4.css";
 
 const About3 = () => {
