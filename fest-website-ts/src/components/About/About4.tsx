@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { MouseEventHandler, useState, useEffect } from "react";
-import { Social } from "../../assets";
+// import { Social } from "../../assets";
 import "./About4.css";
 
 const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
