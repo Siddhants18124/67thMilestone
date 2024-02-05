@@ -1,42 +1,47 @@
 import "./about1.css";
+import img1 from "../../assets/about1.png"
+import img2 from "../../assets/about2.png"
+import img3 from "../../assets/about3.jpg"
+import img4 from "../../assets/about4.png"
+import img5 from "../../assets/about5.png"
 
 function About1() {
   return (
     <div className="xl:mx-47 mb-16 mx-auto pt-32 w-[80vw] max-w-[1200px] box-border  hidden md:block">
       <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 ">
-        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-gray-200">
+        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-black">
           <img
-            src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
+            src={img1}
             alt="Image 1"
             className="w-full object-cover "
           />
         </div>
-        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-gray-200">
+        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-black">
           <img
-            src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
+            src={img2}
             alt="Image 1"
-            className="w-full object-cover "
+            className="w-full h-fit object-cover bg-black "
           />
         </div>
       </div>
       <div className="grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-3 mt-3 ">
-        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-gray-200">
+        <div className="h-auto rounded-lg max-w-[80vw] mx-auto ">
           <img
-            src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
+            src={img3}
             alt="Image 1"
             className="w-full object-cover "
           />
         </div>
-        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-gray-200">
+        <div className="h-auto rounded-lg max-w-[80vw] mx-auto ">
           <img
-            src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
+            src={img4}
             alt="Image 1"
             className="w-full object-cover "
           />
         </div>
-        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-gray-200">
+        <div className="h-auto rounded-lg max-w-[80vw] mx-auto ">
           <img
-            src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
+            src={img5}
             alt="Image 1"
             className="w-full object-cover "
           />
