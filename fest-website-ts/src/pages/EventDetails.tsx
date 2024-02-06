@@ -14,8 +14,8 @@ function EventDetails() {
 
   return (
     <div className="main-bg register">
-      <div className="flex justify-center pt-[8rem] lg:pt-24">
-        <div className="p-8 w-fit bg-[#ffffff19] text-white rounded-xl">
+      <div className="flex justify-center  pt-[8rem] lg:pt-24">
+        <div className="p-8 w-fit bg-[#ffffff19] text-white rounded-xl mt-12">
           <div className="flex flex-wrap justify-center gap-8 w-[80vw]">
             <img
               src={currEvent.image}
