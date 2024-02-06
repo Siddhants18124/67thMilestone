@@ -10,7 +10,7 @@ const About2 = () => {
     >
       <div className="grid md:w-[73vw] w-[80vw] grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
         <div className="grid grid-cols-1 gap-3 lg:grid-row-2">
-          <div className="h-full relative max-h-[20rem] rounded-lg flex justify-end">
+          <div className="h-full min-h-[15rem] md:min-h-[20rem] relative max-h-[20rem] rounded-lg flex justify-end">
             <img
               src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="alt image"
@@ -21,7 +21,7 @@ const About2 = () => {
               className="absolute object-contain scale-75 z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:scale-100"
             />
           </div>
-          <div className="h-full relative max-h-[20rem] rounded-lg flex justify-end">
+          <div className="h-full min-h-[15rem] md:min-h-[20rem] relative max-h-[20rem] rounded-lg flex justify-end">
             <img
               src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt="alt image"

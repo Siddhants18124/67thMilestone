@@ -38,7 +38,7 @@ function Navbar() {
           <div
             className={`lg:flex ${
               toggle
-                ? "absolute top-0 left-0 flex-row flex justify-center items-center w-[100vw] bg-[#000000ff] h-[100vh]  py-4"
+                ? "fixed top-0 left-0 flex-row flex justify-center items-center w-[100vw] bg-[#000000ff] h-[100vh]  py-4"
                 : "hidden"
             } lg:items-center`}
           >
