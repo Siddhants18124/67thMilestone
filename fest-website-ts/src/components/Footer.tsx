@@ -11,8 +11,9 @@ function Footer() {
             </h1>
             <div className="border  p-4 mx-auto col-span-full  ">
               <p className="flex-grow text-white">
-                This is some random text inside a box. You can replace it with
-                your own content.
+                BMU’s prestigious fest, full of fun-filled activities and many
+                competitions, alongside shows and performances that elevate the
+                experience of anyone who is fortunate enough to experience it.
               </p>
             </div>
           </div>

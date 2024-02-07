@@ -9,41 +9,41 @@ function About1() {
   return (
     <div className="xl:mx-47 mb-16 mx-auto pt-32 w-[80vw] max-w-[1200px] box-border  hidden md:block">
       <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2 ">
-        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-black">
+        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-black ">
           <img
             src={img1}
             alt="Image 1"
-            className="w-full object-cover "
+            className="w-full object-cover opacity-50 "
           />
         </div>
-        <div className="h-auto rounded-lg max-w-[80vw] mx-auto bg-black">
+        <div className="h-auto rounded-lg max-w-[80vw] mx-auto ">
           <img
             src={img2}
             alt="Image 1"
-            className="w-full h-fit object-cover bg-black "
+            className="w-full h-fit object-cover  opacity-70  "
           />
         </div>
       </div>
       <div className="grid grid-cols-1 gap-3 md:grid-cols-3 lg:grid-cols-3 mt-3 ">
-        <div className="h-auto rounded-lg max-w-[80vw] mx-auto ">
+        <div className="h-auto rounded-lg max-w-[80vw] mx-auto">
           <img
             src={img3}
             alt="Image 1"
-            className="w-full object-cover "
+            className="w-full object-cover opacity-60 "
           />
         </div>
-        <div className="h-auto rounded-lg max-w-[80vw] mx-auto ">
+        <div className="h-auto rounded-lg max-w-[80vw] mx-auto  ">
           <img
             src={img4}
             alt="Image 1"
-            className="w-full object-cover "
+            className="w-full object-cover bg-black opacity-60 "
           />
         </div>
         <div className="h-auto rounded-lg max-w-[80vw] mx-auto ">
           <img
             src={img5}
             alt="Image 1"
-            className="w-full object-cover "
+            className="w-full object-cover bg-black opacity-70 "
           />
         </div>
       </div>
