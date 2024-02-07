@@ -8,7 +8,7 @@ import EventsPage from "./pages/Events";
 import HerosChallenge from "./pages/HerosChallenge";
 import EventDetails from "./pages/EventDetails";
 import About from "./pages/About";
-import Sponsors from "./pages/Sponsor";
+// import Sponsors from "./pages/Sponsor";
 
 import AOS from "aos";
 import { useEffect } from "react";
@@ -35,7 +35,7 @@ function App() {
             />
           </Route>
           <Route path="/about" element={<About />} />
-          <Route path="/sponsors" element={<Sponsors />} />
+          {/* <Route path="/sponsors" element={<Sponsors />} /> */}
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />

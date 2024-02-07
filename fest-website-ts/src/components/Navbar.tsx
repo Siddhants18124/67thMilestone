@@ -47,12 +47,12 @@ function Navbar() {
                 toggle
                   ? "flex-col justify-center text-center gap-8 md:gap-8"
                   : "flex-row"
-              } flex gap-4 md:gap-16 text-white text-left text-sm mobile_m:text-lg mobile_l:text-xl1`}
+              } flex gap-4 md:gap-16 text-white text-left text-[1.25rem] lg:text-[1.15rem]`}
             >
               <NavbarLink link="/" name="Home"></NavbarLink>
               <NavbarLink link="/about" name="About"></NavbarLink>
               <NavbarLink link="/events" name="Events"></NavbarLink>
-              <NavbarLink link="/sponsors" name="Sponsors"></NavbarLink>
+              {/* <NavbarLink link="/sponsors" name="Sponsors"></NavbarLink> */}
             </ul>
             <div
               className={

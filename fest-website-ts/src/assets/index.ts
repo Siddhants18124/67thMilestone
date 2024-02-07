@@ -28,3 +28,6 @@ export { default as EducateImg } from "./edu.png";
 export { default as ParllaxImg } from "./parllaxImg.png";
 export { default as Social } from "./core/social.jpeg";
 export { default as video } from "./bla_bg.mp4";
+export { default as day1 } from "./day1.png";
+export { default as day2 } from "./day2.png";
+export { default as day3 } from "./day3.png";

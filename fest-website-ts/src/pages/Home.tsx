@@ -1,6 +1,15 @@
 import { IoLocationOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
-import { EducateImg, HeroChlng, ParllaxImg, MileStone, video } from "../assets";
+import {
+  EducateImg,
+  HeroChlng,
+  ParllaxImg,
+  MileStone,
+  video,
+  day1,
+  day2,
+  day3,
+} from "../assets";
 
 import EventsPageGrid from "../components/EventsPageGrid";
 
@@ -10,12 +19,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const ExploreCard = ({
-  link,
   text,
   image,
   containsImage,
 }: {
-  link: string;
   text: string;
   image: string;
   containsImage?: boolean;
@@ -25,22 +32,24 @@ const ExploreCard = ({
   }, []);
 
   return (
-    <Link to={link}>
-      <div className="h-[20rem] font-['Poppins'] relative rounded-lg bg-gray-200">
-        <div className="overlay transition-all duration-500 bg-[#00000064] hover:bg-[#0000008f] absolute w-full h-full z-10 left-0 top-0"></div>
-        <img src={image} alt="Image 1" className="w-full h-full object-cover" />
-        {containsImage ? (
-          <img
-            src={text}
-            className="w-[50%] min-w-[10rem] object-cover max-h-[75%] absolute z-20 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
-          />
-        ) : (
-          <p className="absolute z-20 text-[1.15rem] uppercase text-white w-fit h-fit top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-            {text}
-          </p>
-        )}
-      </div>
-    </Link>
+    <div className="h-[20rem] font-['Poppins'] group overflow-hidden transition-all duration-300 ease-in-out relative rounded-lg bg-gray-200">
+      <div className="overlay transition-all  duration-500 bg-[#00000064] absolute w-full h-full z-10 left-0 top-0"></div>
+      <img
+        src={image}
+        alt="Image 1"
+        className="w-full transition-all duration-300 ease-in-out scale-125 group-hover:scale-100 h-full object-cover"
+      />
+      {containsImage ? (
+        <img
+          src={text}
+          className="w-[50%] min-w-[10rem] object-cover max-h-[75%] absolute z-20 top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
+        />
+      ) : (
+        <p className="absolute transition-all duration-300 ease-in-out z-20 text-[1.25rem] group-hover:scale-125 scale-100 uppercase text-white w-fit h-fit top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+          {text}
+        </p>
+      )}
+    </div>
   );
 };
 
@@ -116,21 +125,9 @@ function HomePage() {
               />
             </div>
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 mt-3 lg:gap-3">
-              <ExploreCard
-                image="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
-                text="Challenge"
-                link="/"
-              />
-              <ExploreCard
-                image="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
-                text="Challenge"
-                link="/"
-              />
-              <ExploreCard
-                image="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendy-wei-1190298.jpg&fm=jpg"
-                text="Challenge"
-                link="/"
-              />
+              <ExploreCard image={day1} text="Star Night" />
+              <ExploreCard image={day2} text="Star Night" />
+              <ExploreCard image={day3} text="Star Night" />
             </div>
           </div>
         </div>
