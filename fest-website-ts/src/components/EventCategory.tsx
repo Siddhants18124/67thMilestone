@@ -20,7 +20,7 @@ function EventCategory(props: Props) {
     >
       {props.heading && (
         <>
-          <div className="absolute w-full h-full bg-black -z-10 opacity-10" />
+          <div className="absolute w-full h-full bg-black -z-10 opacity-45" />
           <div className="relative h-screen flex flex-col justify-center items-center z-10">
             {props.img ? (
               <img src={props.img} className="w-[90%]" />
