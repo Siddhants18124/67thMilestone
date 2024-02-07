@@ -89,7 +89,7 @@ const Testimonial2 = () => {
 const Testimonial3 = () => {
   return (
     <div className="slide">
-      <img src={c3} />
+      <img src={c3}  />
     </div>
   );
 };
