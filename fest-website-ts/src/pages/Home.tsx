@@ -58,6 +58,7 @@ function HomePage() {
           muted
           loop
           controls={false}
+          playsInline
           className="absolute h-full w-full object-cover -z-20"
         ></video>
         <section className="relative h-full w-full p-4 pt-32 text-white flex flex-col justify-between lg:w-11/12 lg:mx-auto">
