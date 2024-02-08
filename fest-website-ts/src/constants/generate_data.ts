@@ -47,7 +47,13 @@ import {
   football,
   volley,
   cricket,
-  kabadi
+  kabadi,
+  gm1,
+  gm2,
+  gm3,
+  gm4,
+  gm5,
+  dlft,
 } from "../assets";
 
 const dummyImages = [
@@ -85,7 +91,16 @@ const dummyImages = [
   lnfol,
   robwar,
   robsoc,
+  gm1,
+  gm2,
+  gm3,
+  gm4,
+  dlft,
+  gm5,
+  
 ];
+
+
 const heroes = [
   cricket,
   basketball,
@@ -789,7 +804,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[0],
+    image: dummyImages[34],
     registerLink: "/",
     desc: `Get pumped for Buzz 4.0 if you're into team fun and competition! This event will get you hyped with games like Tug of War and Squid Game-inspired challenges. It's all about excitement, strategy, and a bit of friendly competition. Don't miss it's going to be a blast!
       This electrifying event is tailor-made for those who thrive on team camaraderie, pulse-pounding challenges, and the sweet taste of victory.`,
@@ -818,7 +833,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[6],
+    image: dummyImages[35],
     registerLink: "/",
     desc: "Teams of 5 will be going head to head in a fierce game. A captivating soundtrack, introduced a mysterious storyline that leaves players on the edge of their seats.The game will be streamed live on youtube. The map pool will be decided on the basis of a coin flip.",
   },
@@ -846,7 +861,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[7],
+    image: dummyImages[36],
     registerLink: "/",
     desc: "Prepare for the ultimate thrill as BattleGrounds Mobile India (BGMI) hosts an enormous event - a gaming spectacle unlike any other! We're excited to encourage you to participate in the forthcoming BGMI event, which offers nonstop action and the opportunity to exhibit your abilities on the battlefield.",
   },
@@ -874,7 +889,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[8],
+    image: dummyImages[37],
     registerLink: "/",
     desc: "As you play the nostalgic game of Tag (Pakdum Pakdai) and let go of your childhood memories, dust off your shoes. Put on your sneakers and get ready to run, regardless of whether you're an experienced tag player or just seeking some thrill!",
   },
@@ -902,7 +917,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[8],
+    image: dummyImages[38],
     registerLink: "/",
     desc: `The allure of surrendering or taking it easy on yourself during training can be strong. The journey may be lengthy and demanding, tiring and protracted. The term "deadlift" evokes intense sensations of lifting heavy weights and feeling the lightness afterward: The more you stack the more you gain!`,
   },
@@ -930,7 +945,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[4],
+    image: dummyImages[39],
     registerLink: "/",
     desc: "An event of will, power and determination. An inter college boxing competition where students go against each other to crown a final champion of the ring.",
   },
