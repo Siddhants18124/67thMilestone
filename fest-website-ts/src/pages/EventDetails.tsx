@@ -27,6 +27,17 @@ function EventDetails() {
               <p className="text-[2rem]">Rules</p>
               <ol className="list-decimal list-inside flex flex-col gap-2">
                 {currEvent.rules.map((rule) => {
+                  if (rule.startsWith("https")) {
+                    return (
+                      <li>
+                        Check more rules
+                        <a href={rule} target="_blank" className="text-red-500">
+                          {" "}
+                          here.
+                        </a>
+                      </li>
+                    );
+                  }
                   return <li>{rule}</li>;
                 })}
               </ol>
