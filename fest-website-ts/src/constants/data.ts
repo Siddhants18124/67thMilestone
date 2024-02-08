@@ -1,7 +1,8 @@
 import { EventType, IEvent } from "../types";
 import { generateFakeData } from "./generate_data";
+import { technicalEvents } from "./generate_data";
 
-const techEvents = generateFakeData("technical");
+const techEvents = technicalEvents;
 const mgmtEvents = generateFakeData("management");
 const culturalEvents = generateFakeData("cultural");
 const heroEvents = generateFakeData("hero");

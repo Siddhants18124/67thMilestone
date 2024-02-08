@@ -2,6 +2,7 @@ import { CulturalBg, HomeHeroBg, MileStone, TechBg } from "../assets";
 import EventCategory from "../components/EventCategory";
 import NextText from "../components/NextText";
 import { generateFakeData } from "../constants/generate_data";
+import { technicalEvents } from "../constants/generate_data";
 
 function MilestonePage() {
   return (
@@ -29,7 +30,7 @@ function MilestonePage() {
       <EventCategory
         heading="Technical Events"
         bgImg={TechBg}
-        events={generateFakeData("technical")}
+        events={technicalEvents}
       />
       <EventCategory
         heading="Management Events"
