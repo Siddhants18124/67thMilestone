@@ -63,6 +63,7 @@ export function About4() {
     autoplay: false,
     prevArrow: <></>,
     nextArrow: <CustomArrow onClick={() => {}} />,
+    
   };
   return (
     <div
@@ -70,13 +71,13 @@ export function About4() {
       data-aos="fade-right"
       data-aos-duration="1000"
     >
-      <div className="flex  justify-between items-center flex-wrap-reverse gap-x-4">
+      <div className="flex  justify-between items-center flex-wrap-reverse  gap-x-4">
         <Slider
           {...settings}
           className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[20rem] flex-grow"
         >
           {images.map((img, i) => {
-            return <img src={img} key={i} alt="" />;
+            return < img src={img} key={i} alt="" />;
           })}
         </Slider>
         <div className="flex h-auto rounded-lg items-center my-8 w-[17rem]">
