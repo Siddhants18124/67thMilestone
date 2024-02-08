@@ -1,10 +1,8 @@
 import { CulturalBg, HomeHeroBg, MileStone, TechBg } from "../assets";
 import EventCategory from "../components/EventCategory";
 import NextText from "../components/NextText";
-import { generateFakeData } from "../constants/generate_data";
 import {
   technicalEvents,
-  heroevent,
   mgmtEvents,
   culturalEvents,
 } from "../constants/generate_data";

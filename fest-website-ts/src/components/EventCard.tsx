@@ -19,7 +19,7 @@ function EventCard(props: Props) {
           className="z-0 absolute w-full h-full object-cover group-hover:scale-125 transition-all duration-300 ease-in-out"
         />
         <div className="z-10 absolute w-full h-full flex flex-col justify-center items-center p-2 text-white group-hover:top-0 duration-300 transition-all ease-in-out">
-          <h2 className="text-4xl mobile_l:text-3xl sm:text-4xl font-bold uppercase">
+          <h2 className="text-4xl mobile_l:text-3xl text-center sm:text-4xl font-bold uppercase">
             {props.name}
           </h2>
         </div>
