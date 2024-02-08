@@ -81,7 +81,7 @@ const mgmtEvents: IEvent[] = [
   {
     eventId: "Management-2",
     eventType: "management",
-    name: "TALK SHOW",
+    name: `BIZZYBASH`,
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
@@ -110,7 +110,7 @@ const mgmtEvents: IEvent[] = [
   {
     eventId: "Management-3",
     eventType: "management",
-    name: "Quiz Game",
+    name: "Whitty Whirlwind Quiz",
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
@@ -139,7 +139,7 @@ const mgmtEvents: IEvent[] = [
   {
     eventId: "Management-4",
     eventType: "management",
-    name: "Turn coat (Debate)",
+    name: "Flipside Showdown (Debate)",
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
@@ -196,90 +196,6 @@ const mgmtEvents: IEvent[] = [
 
 const culturalEvents: IEvent[] = [
   {
-    eventId: "Cultural-1",
-    eventType: "cultural",
-    name: "PLANTATION DRIVE",
-    rules: [
-      "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
-      "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-    ],
-    pocs: [
-      {
-        name: "Kumkum Mittal",
-        contact: "8005504150",
-        mailId: "kumkum.mittal.21cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-      {
-        name: "Riya Jain",
-        contact: "8279023209",
-        mailId: "riya.jain.21cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-    ],
-    image: dummyImages[0],
-    registerLink: "/",
-    desc: "Start the event with a quick walk to get everyone excited! Then, we'll plant trees on campus. We want to teach people about protecting nature and using eco-friendly ways. By planting together, we'll make the world greener and stronger. Let's grow a better future!",
-  },
-  {
-    eventId: "Cultural-2",
-    eventType: "cultural",
-    name: "TRASH TO TREASURE",
-    rules: [
-      "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
-      "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-    ],
-    pocs: [
-      {
-        name: "Kumkum Mittal",
-        contact: "8005504150",
-        mailId: "kumkum.mittal.21cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-      {
-        name: "Riya Jain",
-        contact: "8279023209",
-        mailId: "riya.jain.21cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-    ],
-    image: dummyImages[0],
-    registerLink: "/",
-    desc: "Come join our fun contest where you can turn old stuff into awesome art! If you're a SAVERA Kid, we'll give you materials to create something amazing with your imagination. Try to finish your masterpiece before time runs out. The best ideas that turn trash into treasure win cool prizes.",
-  },
-  {
-    eventId: "Cultural-3",
-    eventType: "cultural",
-    name: "LET IT GROW 2.0",
-    rules: [
-      "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
-      "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-    ],
-    pocs: [
-      {
-        name: "Kumkum Mittal",
-        contact: "8005504150",
-        mailId: "kumkum.mittal.21cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-      {
-        name: "Siri Sujala Gontu",
-        contact: "8790808292",
-        mailId: "sirigontu.sujala.21cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-    ],
-    image: dummyImages[0],
-    registerLink: "/",
-    desc: `“Let It Grow" is a special event where we mix caring for the environment with being together. Students get balloons filled with seeds and helium. Together, we release them, making a magical moment and helping plants grow. It's a fun way to learn about nature and feel closer as a community.`,
-  },
-  {
     eventId: "Cultural-4",
     eventType: "cultural",
     name: "FASHION CRAVE",
@@ -307,35 +223,7 @@ const culturalEvents: IEvent[] = [
     registerLink: "/",
     desc: `Attend the "Fashion Crave," the hippest collegiate fashion event, and join in on the fun! The event this year is expected to surpass the previous one in awesomeness. Prepare for spectacular attires, incredible dances, and a theme that will set your team apart. Embrace your imagination, as uniqueness is crucial! `,
   },
-  {
-    eventId: "Cultural-5",
-    eventType: "cultural",
-    name: "BUZZ 4.0",
-    rules: [
-      "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
-      "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-    ],
-    pocs: [
-      {
-        name: "Khushi Satsangi",
-        contact: "9319788533",
-        mailId: "khushi.satsangi.22bb@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-      {
-        name: "Pranav Raj",
-        contact: "8303841168",
-        mailId: "pranav.raj.22cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-    ],
-    image: dummyImages[0],
-    registerLink: "/",
-    desc: `Get pumped for Buzz 4.0 if you're into team fun and competition! This event will get you hyped with games like Tug of War and Squid Game-inspired challenges. It's all about excitement, strategy, and a bit of friendly competition. Don't miss it's going to be a blast!
-    This electrifying event is tailor-made for those who thrive on team camaraderie, pulse-pounding challenges, and the sweet taste of victory.`,
-  },
+
   {
     eventId: "Cultural-6",
     eventType: "cultural",
@@ -530,7 +418,7 @@ const culturalEvents: IEvent[] = [
   {
     eventId: "Cultural-12",
     eventType: "cultural",
-    name: "STAGE PLAY",
+    name: "UDGHOSH",
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
@@ -583,6 +471,63 @@ const culturalEvents: IEvent[] = [
     image: dummyImages[0],
     registerLink: "/",
     desc: `Get ready to ignite your passion for storytelling and spread ‘Enthusiasmo’ because it's time for the Monologue Competition on Happiness! Dive into the world of laughter, tears, and everything in between as we celebrate the quest for joy through the power of monologues. Join us for an exhilarating journey. Let's make memories and spread positivity together!`,
+  },
+  {
+    eventId: "Cultural-14",
+    eventType: "cultural",
+    name: "CINEMATIC CHRONICLES",
+    rules: [
+      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
+      "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+    ],
+    pocs: [
+      {
+        name: "Sanskar Gupta",
+        contact: "9111676592",
+        mailId: "sanskar.gupta.22cse@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+      {
+        name: "Akshay Sathyapal",
+        contact: "9037078896",
+        mailId: "akshay.sathyapal.22bll@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+    ],
+    image: dummyImages[4],
+    registerLink: "/",
+    desc: `"Capture the Fest: Cinematic Chronicles" is a video contest capturing our college's vibe. Show off the fun, unforgettable moments, and unique experiences. Don't miss this chance to join an exciting competition celebrating creativity and seizing the moment at 67th Milestone and Hero’s Challenge!`,
+  },
+  {
+    eventId: "Cultural-15",
+    eventType: "cultural",
+    name: "SnapQuest",
+    rules: [
+      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
+      "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+    ],
+    pocs: [
+      {
+        name: "Sanskar Gupta",
+        contact: "9111676592",
+        mailId: "sanskar.gupta.22cse@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+      {
+        name: "Katreddi Rohith",
+        contact: "7396430918",
+        mailId: "katreddi.rohith.21cse@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+    ],
+    image: dummyImages[5],
+    registerLink: "/",
+    desc: `Join 'SnapQuest: Frame Frenzy' at 67th Milestone and Hero’s Challenge! Show your quick thinking and creativity. Capture the essence of topics and tell visual stories. Don't miss the chance to shine and capture the magic!But it's not just about snapping pictures—it's about immersing yourself in the moment, uncovering hidden gems, and breathing life into your photographs with your creative flair.
+    `,
   },
 ];
 
@@ -754,6 +699,178 @@ const heroevent: IEvent[] = [
   },
 ];
 
+const gamingEvent: IEvent[] = [
+  {
+    eventId: "Cultural-1",
+    eventType: "cultural",
+    name: "BUZZ 4.0",
+    rules: [
+      "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
+      "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+    ],
+    pocs: [
+      {
+        name: "Khushi Satsangi",
+        contact: "9319788533",
+        mailId: "khushi.satsangi.22bb@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+      {
+        name: "Pranav Raj",
+        contact: "8303841168",
+        mailId: "pranav.raj.22cse@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+    ],
+    image: dummyImages[0],
+    registerLink: "/",
+    desc: `Get pumped for Buzz 4.0 if you're into team fun and competition! This event will get you hyped with games like Tug of War and Squid Game-inspired challenges. It's all about excitement, strategy, and a bit of friendly competition. Don't miss it's going to be a blast!
+      This electrifying event is tailor-made for those who thrive on team camaraderie, pulse-pounding challenges, and the sweet taste of victory.`,
+  },
+  {
+    eventId: "Gaming-2",
+    eventType: "gaming",
+    name: "Valorant",
+    rules: [
+      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
+      "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
+    ],
+    pocs: [
+      {
+        name: "Anushka Pandey",
+        contact: "7219257203",
+        mailId: "anushka.pandey.21cse@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+      {
+        name: "G V Manasa",
+        contact: "7674048645",
+        mailId: "manasag.v.22bbl@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+    ],
+    image: dummyImages[6],
+    registerLink: "/",
+    desc: "Teams of 5 will be going head to head in a fierce game. A captivating soundtrack, introduced a mysterious storyline that leaves players on the edge of their seats.The game will be streamed live on youtube. The map pool will be decided on the basis of a coin flip.",
+  },
+  {
+    eventId: "Gaming-3",
+    eventType: "gaming",
+    name: "BGMI",
+    rules: [
+      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
+      "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
+    ],
+    pocs: [
+      {
+        name: "Anushka Pandey",
+        contact: "7219257203",
+        mailId: "anushka.pandey.21cse@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+      {
+        name: "G V Manasa",
+        contact: "7674048645",
+        mailId: "manasag.v.22bbl@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+    ],
+    image: dummyImages[7],
+    registerLink: "/",
+    desc: "Prepare for the ultimate thrill as BattleGrounds Mobile India (BGMI) hosts an enormous event - a gaming spectacle unlike any other! We're excited to encourage you to participate in the forthcoming BGMI event, which offers nonstop action and the opportunity to exhibit your abilities on the battlefield.",
+  },
+  {
+    eventId: "Gaming-4",
+    eventType: "gaming",
+    name: "Catch Me If You Can",
+    rules: [
+      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
+      "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
+    ],
+    pocs: [
+      {
+        name: "Anushka Pandey",
+        contact: "7219257203",
+        mailId: "anushka.pandey.21cse@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+      {
+        name: "G V Manasa",
+        contact: "7674048645",
+        mailId: "manasag.v.22bbl@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+    ],
+    image: dummyImages[8],
+    registerLink: "/",
+    desc: "As you play the nostalgic game of Tag (Pakdum Pakdai) and let go of your childhood memories, dust off your shoes. Put on your sneakers and get ready to run, regardless of whether you're an experienced tag player or just seeking some thrill!",
+  },
+  {
+    eventId: "Gaming-5",
+    eventType: "gaming",
+    name: "Deadlift Competition",
+    rules: [
+      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
+      "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
+    ],
+    pocs: [
+      {
+        name: "Harddit Bedi",
+        contact: "9892475169",
+        mailId: "harddit.bedi.21bbl@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+      {
+        name: "Muskaan Tayal",
+        contact: "9650209094 ",
+        mailId: "muskaan.tayal.22mb@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+    ],
+    image: dummyImages[8],
+    registerLink: "/",
+    desc: `The allure of surrendering or taking it easy on yourself during training can be strong. The journey may be lengthy and demanding, tiring and protracted. The term "deadlift" evokes intense sensations of lifting heavy weights and feeling the lightness afterward: The more you stack the more you gain!`,
+  },
+  {
+    eventId: "Gaming-6",
+    eventType: "gaming",
+    name: "Boxing Competition",
+    rules: [
+      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
+      "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
+    ],
+    pocs: [
+      {
+        name: "Harddit Bedi",
+        contact: "9892475169",
+        mailId: "harddit.bedi.21bbl@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+      {
+        name: "Muskaan Tayal",
+        contact: "9650209094 ",
+        mailId: "muskaan.tayal.22mb@bmu.edu.in",
+        position: "",
+        image: Poc1,
+      },
+    ],
+    image: dummyImages[4],
+    registerLink: "/",
+    desc: "An event of will, power and determination. An inter college boxing competition where students go against each other to crown a final champion of the ring.",
+  },
+];
+
 const technicalEvents: IEvent[] = [
   {
     eventId: "Technical-1",
@@ -909,93 +1026,9 @@ const technicalEvents: IEvent[] = [
     registerLink: "/",
     desc: "One bot, two passions: Football gets futuristic with teams battling for 5 goals. It's offense AND defense, with every move crucial. Robotics and Automobile Club expertise collide, showcasing tech harmony in action. This event showcases the seamless harmony between cutting-edge technology and athletic competition.",
   },
-  {
-    eventId: "Technical-7",
-    eventType: "technical",
-    name: "Valorant",
-    rules: [
-      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
-      "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
-    ],
-    pocs: [
-      {
-        name: "Anushka Pandey",
-        contact: "7219257203",
-        mailId: "anushka.pandey.21cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-      {
-        name: "G V Manasa",
-        contact: "7674048645",
-        mailId: "manasag.v.22bbl@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-    ],
-    image: dummyImages[6],
-    registerLink: "/",
-    desc: "Teams of 5 will be going head to head in a fierce game. A captivating soundtrack, introduced a mysterious storyline that leaves players on the edge of their seats.The game will be streamed live on youtube. The map pool will be decided on the basis of a coin flip.",
-  },
-  {
-    eventId: "Technical-8",
-    eventType: "technical",
-    name: "BGMI",
-    rules: [
-      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
-      "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
-    ],
-    pocs: [
-      {
-        name: "Anushka Pandey",
-        contact: "7219257203",
-        mailId: "anushka.pandey.21cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-      {
-        name: "G V Manasa",
-        contact: "7674048645",
-        mailId: "manasag.v.22bbl@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-    ],
-    image: dummyImages[7],
-    registerLink: "/",
-    desc: "Prepare for the ultimate thrill as BattleGrounds Mobile India (BGMI) hosts an enormous event - a gaming spectacle unlike any other! We're excited to encourage you to participate in the forthcoming BGMI event, which offers nonstop action and the opportunity to exhibit your abilities on the battlefield.",
-  },
-  {
-    eventId: "Technical-9",
-    eventType: "technical",
-    name: "Game Of Tag",
-    rules: [
-      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
-      "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
-    ],
-    pocs: [
-      {
-        name: "Anushka Pandey",
-        contact: "7219257203",
-        mailId: "anushka.pandey.21cse@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-      {
-        name: "G V Manasa",
-        contact: "7674048645",
-        mailId: "manasag.v.22bbl@bmu.edu.in",
-        position: "",
-        image: Poc1,
-      },
-    ],
-    image: dummyImages[8],
-    registerLink: "/",
-    desc: "As you play the nostalgic game of Tag (Pakdum Pakdai) and let go of your childhood memories, dust off your shoes. Put on your sneakers and get ready to run, regardless of whether you're an experienced tag player or just seeking some thrill!",
-  },
 ];
 
-export { technicalEvents, heroevent, mgmtEvents, culturalEvents };
+export { technicalEvents, heroevent, mgmtEvents, culturalEvents, gamingEvent };
 
 export const generateFakeData = (eventType: EventType) => {
   return [...new Array<IEvent>(12)].map((_, idx) => {

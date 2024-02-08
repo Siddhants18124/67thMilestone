@@ -6,7 +6,12 @@ export type PersonOfContact = {
   image: string;
 };
 
-export type EventType = "cultural" | "technical" | "management" | "hero";
+export type EventType =
+  | "cultural"
+  | "technical"
+  | "management"
+  | "hero"
+  | "gaming";
 
 export type IEventCard = {
   eventType: EventType;
@@ -16,7 +21,7 @@ export type IEventCard = {
 
 export type IEvent = {
   eventId: string;
-  eventType: "cultural" | "technical" | "management" | "hero";
+  eventType: "cultural" | "technical" | "management" | "hero" | "gaming";
   name: string;
   rules: string[];
   registerLink: string;

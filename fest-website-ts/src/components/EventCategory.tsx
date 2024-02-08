@@ -32,18 +32,20 @@ function EventCategory(props: Props) {
           </div>
         </>
       )}
-      <div className="md:grid-cols-3 lg:grid-cols-4 py-12 grid grid-cols-1 w-full xl:w-11/12 xl:mx-auto px-4 gap-2 gap-y-6 mobile_l:grid-cols-2 mobile_l:gap-x-4">
-        {props.events.map((event) => {
-          return (
-            <EventCard
-              eventType={event.eventType}
-              key={event.eventId}
-              name={event.name}
-              id={event.eventId}
-              image={event.image}
-            />
-          );
-        })}
+      <div className="min-h-[100vh]">
+        <div className="md:grid-cols-3 lg:grid-cols-4 py-12 grid grid-cols-1 w-full xl:w-11/12 xl:mx-auto px-4 gap-2 gap-y-6 mobile_l:grid-cols-2 mobile_l:gap-x-4">
+          {props.events.map((event) => {
+            return (
+              <EventCard
+                eventType={event.eventType}
+                key={event.eventId}
+                name={event.name}
+                id={event.eventId}
+                image={event.image}
+              />
+            );
+          })}
+        </div>
       </div>
     </section>
   );
