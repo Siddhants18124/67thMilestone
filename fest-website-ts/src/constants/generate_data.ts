@@ -15,6 +15,11 @@ import {
   CulturalEvent9,
   Poc1,
   Poc2,
+  thinktank,
+  talkshow,
+  quiz,
+  debate,
+  storytelling,
 } from "../assets";
 
 const dummyImages = [
@@ -30,6 +35,11 @@ const dummyImages = [
   CulturalEvent10,
   CulturalEvent11,
   CulturalEvent12,
+  thinktank,
+  talkshow,
+  quiz,
+  debate,
+  storytelling,
 ];
 
 const dummyPocs: PersonOfContact[] = [
@@ -74,7 +84,7 @@ const mgmtEvents: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[0],
+    image: dummyImages[12],
     registerLink: "/",
     desc: "Get ready for a fun team challenge! Teams of three will have just an hour to create something cool from everyday items. But here's the catch: they also need to pitch their invention with financial plans and marketing strategies.",
   },
@@ -103,7 +113,7 @@ const mgmtEvents: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[0],
+    image: dummyImages[13],
     registerLink: "/",
     desc: "Get hyped for a talk show featuring top social entrepreneurs and a case study competition on Unstop. Hear inspiring stories and brainstorm solutions for real issues. Let's unleash our creativity and drive positive change!",
   },
@@ -132,14 +142,14 @@ const mgmtEvents: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[0],
+    image: dummyImages[14],
     registerLink: "/",
     desc: "Join the quiz adventure with five challenging levels for teams of three! Easy trivia kicks off the journey, followed by tougher questions, a Wheel of Fortune twist, and an auction showdown. ",
   },
   {
     eventId: "Management-4",
     eventType: "management",
-    name: "Flipside Showdown (Debate)",
+    name: "Flipside Showdown",
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
@@ -160,14 +170,14 @@ const mgmtEvents: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[0],
+    image: dummyImages[15],
     registerLink: "/",
     desc: "Join the quiz adventure with five challenging levels for teams of three! Easy trivia kicks off the journey, followed by tougher questions, a Wheel of Fortune twist, and an auction showdown. ",
   },
   {
     eventId: "Management-5",
     eventType: "management",
-    name: "flash fiction (story writing)",
+    name: "flash fiction",
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
@@ -188,7 +198,7 @@ const mgmtEvents: IEvent[] = [
         image: Poc1,
       },
     ],
-    image: dummyImages[0],
+    image: dummyImages[16],
     registerLink: "/",
     desc: "Get set for the story challenge! Topics arrive 5 mins before the event, giving you 4 mins to craft your tale and 1 min to dazzle us. Emails fly as the prior speaker starts. Judging? Authenticity, Fluency, and Oratory Skills!",
   },
