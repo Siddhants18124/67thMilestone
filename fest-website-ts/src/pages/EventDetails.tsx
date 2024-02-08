@@ -26,10 +26,10 @@ function EventDetails() {
               <p className="text-[1.15rem] leading-relaxed">{currEvent.desc}</p>
               <p className="text-[2rem]">Rules</p>
               <ol className="list-decimal list-inside flex flex-col gap-2">
-                {currEvent.rules.map((rule) => {
+                {currEvent.rules.map((rule, i) => {
                   if (rule.startsWith("https")) {
                     return (
-                      <li>
+                      <li key={i}>
                         Check more rules
                         <a href={rule} target="_blank" className="text-red-500">
                           {" "}
@@ -38,18 +38,19 @@ function EventDetails() {
                       </li>
                     );
                   }
-                  return <li>{rule}</li>;
+                  return <li key={i}>{rule}</li>;
                 })}
               </ol>
               <div className="flex flex-wrap gap-8 md:gap-16 my-8">
                 {currEvent.pocs.map((poc, i) => {
                   return (
                     <div
-                      className="flex flex-col gap-1 text-[1.15rem] w-[10rem]"
+                      className="flex flex-col gap-1 text-[1rem] md:text-[1.15rem] "
                       key={i}
                     >
                       <p>{poc.name}</p>
                       <p>{poc.contact}</p>
+                      <p>{poc.mailId}</p>
                     </div>
                   );
                 })}

@@ -54,11 +54,21 @@ const ExploreCard = ({
 };
 
 function HomePage() {
+  const sto = () => {
+    let deepDive = document.getElementById("deepdive");
+    var topOffset = deepDive?.offsetTop || 0;
+    window.scrollTo(0, topOffset - 50);
+  };
   return (
     <>
       <section className="h-screen relative z-20">
         <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
-        <a href="#deepdive" className="scroll-smooth">
+        <a
+          onClick={() => {
+            sto();
+          }}
+          className="scroll-smooth cursor-pointer"
+        >
           <NextText />
         </a>
         <video
