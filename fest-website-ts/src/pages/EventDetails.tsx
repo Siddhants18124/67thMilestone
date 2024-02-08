@@ -30,6 +30,19 @@ function EventDetails() {
                   return <li>{rule}</li>;
                 })}
               </ol>
+              <div className="flex flex-wrap gap-8 md:gap-16 my-8">
+                {currEvent.pocs.map((poc, i) => {
+                  return (
+                    <div
+                      className="flex flex-col gap-1 text-[1.15rem] w-[10rem]"
+                      key={i}
+                    >
+                      <p>{poc.name}</p>
+                      <p>{poc.contact}</p>
+                    </div>
+                  );
+                })}
+              </div>
               <Link
                 to={currEvent.registerLink}
                 className="bg-transparent border-4 border-white w-fit px-16 my-4 py-4"
@@ -37,26 +50,6 @@ function EventDetails() {
                 Register
               </Link>
             </div>
-          </div>
-          <p className="text-[2rem] my-16 text-center">Person Of Contact</p>
-          <div className="flex flex-wrap gap-16 justify-center">
-            {currEvent.pocs.map((poc) => {
-              return (
-                <div className="flex gap-8">
-                  <img
-                    src={poc.image}
-                    className="w-[15rem] rounded-xl"
-                    alt=""
-                  />
-                  <div className="flex flex-col gap-3 text-[1.15rem] w-[10rem]">
-                    <p>{poc.name}</p>
-                    <p>{poc.position}</p>
-                    <p>{poc.contact}</p>
-                    <p>{poc.mailId}</p>
-                  </div>
-                </div>
-              );
-            })}
           </div>
         </div>
       </div>
