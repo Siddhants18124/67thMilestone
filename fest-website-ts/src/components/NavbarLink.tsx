@@ -11,6 +11,7 @@ function NavbarLink({ name, link }: Props) {
     url.pathname === "/" && link === "/"
       ? true
       : url.pathname.startsWith(link) && link !== "/";
+      
   return (
     <li className={`${isActive ? "font-bold tracking-wider" : ""} `}>
       <Link to={link}>{name}</Link>

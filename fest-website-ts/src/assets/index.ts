@@ -31,3 +31,8 @@ export { default as video } from "./bla_bg.mp4";
 export { default as day1 } from "./day1.png";
 export { default as day2 } from "./day2.png";
 export { default as day3 } from "./day3.png";
+export { default as thinktank } from "./thinktank.jpg";
+export { default as talkshow } from "./talkshow.jpg";
+export { default as quiz } from "./quiz.jpg";
+export { default as debate } from "./debate.jpg";
+export { default as storytelling } from "./storytelling.jpg";

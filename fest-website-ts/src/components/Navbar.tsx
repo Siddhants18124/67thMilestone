@@ -52,6 +52,7 @@ function Navbar() {
               <NavbarLink link="/" name="Home"></NavbarLink>
               <NavbarLink link="/about" name="About"></NavbarLink>
               <NavbarLink link="/events" name="Events"></NavbarLink>
+              <Link to={{ pathname: "https://herewecode.io/" }} target="_blank">Register</Link>
               {/* <NavbarLink link="/sponsors" name="Sponsors"></NavbarLink> */}
             </ul>
             <div
