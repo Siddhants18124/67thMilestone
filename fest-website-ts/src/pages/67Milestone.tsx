@@ -2,7 +2,12 @@ import { CulturalBg, HomeHeroBg, MileStone, TechBg } from "../assets";
 import EventCategory from "../components/EventCategory";
 import NextText from "../components/NextText";
 import { generateFakeData } from "../constants/generate_data";
-import { technicalEvents } from "../constants/generate_data";
+import {
+  technicalEvents,
+  heroevent,
+  mgmtEvents,
+  culturalEvents,
+} from "../constants/generate_data";
 
 function MilestonePage() {
   return (
@@ -25,7 +30,7 @@ function MilestonePage() {
       <EventCategory
         heading="Cultural Events"
         bgImg={CulturalBg}
-        events={generateFakeData("cultural")}
+        events={culturalEvents}
       />
       <EventCategory
         heading="Technical Events"
@@ -37,7 +42,7 @@ function MilestonePage() {
         bgImg={
           "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         }
-        events={generateFakeData("management")}
+        events={mgmtEvents}
       />
     </>
   );

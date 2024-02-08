@@ -1,6 +1,6 @@
 import { HeroChlng, HerosChallengeBg } from "../assets";
 import EventCategory from "../components/EventCategory";
-import { generateFakeData } from "../constants/generate_data";
+import { heroevent } from "../constants/generate_data";
 
 function HerosChallenge() {
   return (
@@ -21,7 +21,7 @@ function HerosChallenge() {
         bgImg={HerosChallengeBg}
         heading="Heroe's Challenge"
         img={HeroChlng}
-        events={generateFakeData("hero")}
+        events={heroevent}
       />
     </>
   );

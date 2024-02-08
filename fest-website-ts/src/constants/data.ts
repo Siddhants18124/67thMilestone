@@ -1,11 +1,13 @@
 import { EventType, IEvent } from "../types";
-import { generateFakeData } from "./generate_data";
-import { technicalEvents } from "./generate_data";
+import {
+  technicalEvents,
+  heroevent,
+  culturalEvents,
+  mgmtEvents,
+} from "./generate_data";
 
 const techEvents = technicalEvents;
-const mgmtEvents = generateFakeData("management");
-const culturalEvents = generateFakeData("cultural");
-const heroEvents = generateFakeData("hero");
+const heroEvents = heroevent;
 
 export const Events: Record<EventType, Record<string, IEvent>> = {
   technical: {},
