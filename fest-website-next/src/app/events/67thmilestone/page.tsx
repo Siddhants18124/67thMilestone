@@ -4,6 +4,7 @@ import {
   MileStone,
   MilestoneCardBg,
   MilestoneGamingBg,
+  MilestoneMgmtBg,
   TechBg,
 } from "../../../assets";
 import EventCategory from "../EventCategory";
@@ -48,7 +49,7 @@ function MilestonePage() {
       />
       <EventCategory
         heading="Management Events"
-        bgImg={MilestoneCardBg}
+        bgImg={MilestoneMgmtBg}
         events={mgmtEvents}
       />
       <EventCategory
