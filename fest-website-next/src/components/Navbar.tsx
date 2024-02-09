@@ -27,7 +27,13 @@ function Navbar() {
           <div className="flex items-center justify-between">
             <Link href={"/"}>
               <div className="pr-4  xl:px-11">
-                <Image src={Logo} alt="Logo" className="h-[4rem]" />
+                <Image
+                  src={Logo}
+                  alt="Logo"
+                  className="h-[4rem]"
+                  width={132}
+                  height={64}
+                />
               </div>
             </Link>
 
