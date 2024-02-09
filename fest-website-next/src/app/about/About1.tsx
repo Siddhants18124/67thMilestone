@@ -5,6 +5,7 @@ import img3 from "../../assets/about3.png";
 import img4 from "../../assets/about4.png";
 import img5 from "../../assets/about5.png";
 import Image from "next/image";
+import Link from "next/link";
 
 function About1() {
   return (

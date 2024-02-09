@@ -1,9 +1,9 @@
 import "./about1.css";
-import img1 from "../../assets/about1.png"
-import img2 from "../../assets/about2.png"
-import img3 from "../../assets/about3.png"
-import img4 from "../../assets/about4.png"
-import img5 from "../../assets/about5.png"
+import img1 from "../../assets/about1.png";
+import img2 from "../../assets/about2.png";
+import img3 from "../../assets/about3.png";
+import img4 from "../../assets/about4.png";
+import img5 from "../../assets/about5.png";
 
 function About1() {
   return (

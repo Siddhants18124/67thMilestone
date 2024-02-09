@@ -1,6 +1,7 @@
 import "./about2.css";
 import { HeroChlng, HomeCard1, HomeCard2, MileStone } from "../../assets";
 import Image from "next/image";
+import Link from "next/link";
 
 const About2 = () => {
   return (
@@ -11,38 +12,42 @@ const About2 = () => {
     >
       <div className="grid md:w-[73vw] w-[80vw] grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
         <div className="grid grid-cols-1 gap-3 lg:grid-row-2">
-          <div className="h-full min-h-[15rem] md:min-h-[20rem] relative max-h-[20rem] rounded-lg flex justify-end">
-            <Image
-              src={HomeCard1}
-              alt="alt image"
-              width={500}
-              height={320}
-              className="absolute top-0 z-10 left-0 h-full w-full max-w-[600px] object-cover opacity-80 "
-            />
-            <Image
-              src={MileStone}
-              alt="miltstone img"
-              width={500}
-              height={320}
-              className="absolute object-contain scale-75 z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:scale-100"
-            />
-          </div>
-          <div className="h-full min-h-[15rem] md:min-h-[20rem] relative max-h-[20rem] rounded-lg flex justify-end">
-            <Image
-              src={HomeCard2}
-              alt="alt image"
-              width={500}
-              height={320}
-              className="absolute z-10 top-0 left-0 h-full w-full max-w-[600px] object-cover opacity-80 "
-            />
-            <Image
-              src={HeroChlng}
-              className="absolute object-contain scale-75 z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:scale-100"
-              width={500}
-              height={320}
-              alt="alt image"
-            />
-          </div>
+          <Link href={"/events/67thmilestone"}>
+            <div className="h-full min-h-[15rem] md:min-h-[20rem] relative max-h-[20rem] rounded-lg flex justify-end">
+              <Image
+                src={HomeCard1}
+                alt="alt image"
+                width={500}
+                height={320}
+                className="absolute top-0 z-10 left-0 h-full w-full max-w-[600px] object-cover opacity-80 "
+              />
+              <Image
+                src={MileStone}
+                alt="miltstone img"
+                width={500}
+                height={320}
+                className="absolute object-contain scale-75 z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:scale-100"
+              />
+            </div>
+          </Link>
+          <Link href={"/events/heros-challenge"}>
+            <div className="h-full min-h-[15rem] md:min-h-[20rem] relative max-h-[20rem] rounded-lg flex justify-end">
+              <Image
+                src={HomeCard2}
+                alt="alt image"
+                width={500}
+                height={320}
+                className="absolute z-10 top-0 left-0 h-full w-full max-w-[600px] object-cover opacity-80 "
+              />
+              <Image
+                src={HeroChlng}
+                className="absolute object-contain scale-75 z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:scale-100"
+                width={500}
+                height={320}
+                alt="alt image"
+              />
+            </div>
+          </Link>
         </div>
         <div className="flex ">
           <div className="row-span-full py-4 md:px-4 sm:px-4 lg:px-8 flex flex-col items-center">
