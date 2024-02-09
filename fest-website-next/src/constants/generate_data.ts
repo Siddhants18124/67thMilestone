@@ -371,16 +371,16 @@ const culturalEvents: IEvent[] = [
     ],
     pocs: [
       {
-        name: "Parth Kulshreshtha",
-        contact: "9760384538",
-        mailId: "parth.kulshreshtha.21cse@bmu.edu.in",
+        name: "Manasava Nagar",
+        contact: "9599056932",
+        mailId: "manasava.nagar.22mb@bmu.edu.in",
         position: "",
         image: Poc1,
       },
       {
-        name: "Sheena Mittal",
-        contact: "8307045704",
-        mailId: "sheena.mittal.22cse@bmu.edu.in",
+        name: "Parth Kulshreshtha",
+        contact: "9760384538",
+        mailId: "parth.kulshreshtha.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -404,16 +404,16 @@ const culturalEvents: IEvent[] = [
     ],
     pocs: [
       {
-        name: "Parth Kulshreshtha",
-        contact: "9760384538",
-        mailId: "parth.kulshreshtha.21cse@bmu.edu.in",
+        name: "Manasava Nagar",
+        contact: "9599056932",
+        mailId: "manasava.nagar.22mb@bmu.edu.in",
         position: "",
         image: Poc1,
       },
       {
-        name: "Sheena Mittal",
-        contact: "8307045704",
-        mailId: "sheena.mittal.22cse@bmu.edu.in",
+        name: "Parth Kulshreshtha",
+        contact: "9760384538",
+        mailId: "parth.kulshreshtha.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -437,9 +437,9 @@ const culturalEvents: IEvent[] = [
     ],
     pocs: [
       {
-        name: "Parth Kulshreshtha",
-        contact: "9760384538",
-        mailId: "parth.kulshreshtha.21cse@bmu.edu.in",
+        name: "Ashi Jain",
+        contact: "8800439787",
+        mailId: "ashi.jain.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -472,9 +472,9 @@ const culturalEvents: IEvent[] = [
     ],
     pocs: [
       {
-        name: "Parth Kulshreshtha",
-        contact: "9760384538",
-        mailId: "parth.kulshreshtha.21cse@bmu.edu.in",
+        name: "Ashi Jain",
+        contact: "8800439787",
+        mailId: "ashi.jain.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
