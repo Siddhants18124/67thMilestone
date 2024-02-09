@@ -31,7 +31,7 @@ export default function RootLayout({
             src={"/assets/background.jpg"}
             alt="website background"
             width={1920}
-            height={1080}
+            height={1400}
             className="absolute object-cover top-0 left-0 w-full h-full z-[-2] bg-fixed bg-center bg-cover bgGrad scroll-smooth"
           ></Image>
           <div className="absolute z-[-1] bg-[#000000A0] top-0 left-0 w-full h-full"></div>
