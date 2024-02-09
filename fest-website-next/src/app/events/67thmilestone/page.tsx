@@ -1,22 +1,21 @@
+import Image from "next/image";
+import Link from "next/link";
 import {
   CulturalBg,
   HomeHeroBg,
   MileStone,
-  MilestoneCardBg,
   MilestoneGamingBg,
   MilestoneMgmtBg,
   TechBg,
 } from "../../../assets";
-import EventCategory from "../EventCategory";
 import NextText from "../../../components/NextText";
 import {
-  technicalEvents,
-  mgmtEvents,
   culturalEvents,
   gamingEvent,
+  mgmtEvents,
+  technicalEvents,
 } from "../../../constants/generate_data";
-import Image from "next/image";
-import Link from "next/link";
+import EventCategory from "../EventCategory";
 
 function MilestonePage() {
   return (
