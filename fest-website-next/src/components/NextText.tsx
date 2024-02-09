@@ -8,7 +8,7 @@ const sto = () => {
 
 function NextText() {
   return (
-    <a
+    <button
       onClick={() => {
         sto();
       }}
@@ -20,7 +20,7 @@ function NextText() {
       >
         NEXT &gt;&gt;
       </h3>
-    </a>
+    </button>
   );
 }
 

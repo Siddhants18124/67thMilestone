@@ -15,20 +15,21 @@ import {
   gamingEvent,
 } from "../../../constants/generate_data";
 import Image from "next/image";
+import Link from "next/link";
 
 function MilestonePage() {
   return (
     <>
       <section className="h-screen relative z-20">
-        <a href="#category" className="scroll-smooth">
+        <Link href="#category" className="scroll-smooth">
           <NextText />
-        </a>
-        <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
+        </Link>
+        <div className="-z-10 absolute h-full w-full top-0 bg-black opacity-40" />
         <Image
           src={HomeHeroBg}
           alt=""
           width={1280}
-          className="absolute h-full w-full object-cover -z-20"
+          className="absolute top-0 h-full w-full object-cover -z-20"
         />
         <section className="h-full w-full p-4 pt-32 text-white flex flex-col justify-center items-center">
           <Image width={1000} src={MileStone} alt="" className="" />
