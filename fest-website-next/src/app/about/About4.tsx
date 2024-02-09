@@ -1,12 +1,11 @@
 "use client";
 
+import { MouseEventHandler, useCallback } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { MouseEventHandler, useState, useEffect, useCallback } from "react";
 // import { Social } from "../../assets";
-import "./About4.css";
 import {
   Core1,
   Core2,
@@ -18,6 +17,7 @@ import {
   Core8,
 } from "@/assets";
 import Image, { StaticImageData } from "next/image";
+import "./About4.css";
 
 const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
   <div
@@ -86,9 +86,7 @@ export function About4() {
         </Slider>
         <div className="flex h-auto rounded-lg items-center my-8 w-[17rem]">
           <div className="mt-1 text-wrap">
-            <h1 className="font-bold text-[2rem] mb-8 font-['Poppins']">
-              Meet The Heads
-            </h1>
+            <h1 className="font-bold text-[2rem] mb-8">Meet The Heads</h1>
             <p className=" text-justify  text-lg mt-3">
               The one who have made this all possible and made our fest a grand
               success
