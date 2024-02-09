@@ -52,7 +52,12 @@ function Navbar() {
               <NavbarLink link="/" name="Home"></NavbarLink>
               <NavbarLink link="/about" name="About"></NavbarLink>
               <NavbarLink link="/events" name="Events"></NavbarLink>
-              <Link to={{ pathname: "https://herewecode.io/" }} target="_blank">Register</Link>
+              <a
+                href="https://maitri.bmu.edu.in/asd_EventPublicUserMaster.htm?eventID=23"
+                target="_blank"
+              >
+                Register
+              </a>
               {/* <NavbarLink link="/sponsors" name="Sponsors"></NavbarLink> */}
             </ul>
             <div
