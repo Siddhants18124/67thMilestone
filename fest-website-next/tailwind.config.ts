@@ -14,7 +14,7 @@ const config: Config = {
         mobile_l: "425px",
       },
       backgroundImage: {
-        bgGrad: "url('/assets/bg_grad_4.png')",
+        bgGrad: "url('/assets/background.jpg')",
         culturalPx: "url('/assets/cultural.jpg')",
         technicalPx: "url('/assets/technical.jpeg')",
         mgmtPx: "url('/assets/management.png')",

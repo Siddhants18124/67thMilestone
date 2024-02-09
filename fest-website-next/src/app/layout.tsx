@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import Navbar from "../components/Navbar";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 const inter = Poppins({
   subsets: ["latin"],
@@ -26,8 +27,14 @@ export default function RootLayout({
       <body className={inter.className}>
         <main className="relative overflow-x-hidden">
           <Navbar />
-          <div className="absolute top-0 left-0 w-full h-full z-[-2] bg-fixed bg-center bg-cover bg-bgGrad scroll-smooth"></div>
-          <div className="absolute z-[-1] bg-[#00000080] top-0 left-0 w-full h-full"></div>
+          <Image
+            src={"/assets/background.jpg"}
+            alt="website background"
+            width={1920}
+            height={1080}
+            className="absolute object-cover top-0 left-0 w-full h-full z-[-2] bg-fixed bg-center bg-cover bgGrad scroll-smooth"
+          ></Image>
+          <div className="absolute z-[-1] bg-[#000000A0] top-0 left-0 w-full h-full"></div>
           {children}
           <Footer />
         </main>
