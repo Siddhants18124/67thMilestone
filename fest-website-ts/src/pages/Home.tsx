@@ -55,8 +55,8 @@ const ExploreCard = ({
 
 function HomePage() {
   const sto = () => {
-    let deepDive = document.getElementById("deepdive");
-    var topOffset = deepDive?.offsetTop || 0;
+    const deepDive = document.getElementById("deepdive");
+    const topOffset = deepDive?.offsetTop || 0;
     window.scrollTo(0, topOffset - 50);
   };
   return (
