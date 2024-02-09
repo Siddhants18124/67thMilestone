@@ -21,9 +21,7 @@ function MilestonePage() {
   return (
     <>
       <section className="h-screen relative z-20">
-        <Link href="#category" className="scroll-smooth">
-          <NextText />
-        </Link>
+        <NextText />
         <div className="-z-10 absolute h-full w-full top-0 bg-black opacity-40" />
         <Image
           src={HomeHeroBg}
