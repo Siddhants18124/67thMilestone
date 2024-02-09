@@ -97,9 +97,7 @@ const dummyImages = [
   gm4,
   dlft,
   gm5,
-  
 ];
-
 
 const heroes = [
   cricket,
@@ -388,7 +386,8 @@ const culturalEvents: IEvent[] = [
       },
     ],
     image: dummyImages[20],
-    registerLink: "/",
+    registerLink: "https://forms.gle/Nk6AZyDtHzpHYqKM8",
+    customLink: true,
     desc: `Your chance to shine! Join our solo singing competition and
     show off your unique voice. From soulful tunes to powerful
     performances, be the star and compete for the title of the next
@@ -453,7 +452,8 @@ const culturalEvents: IEvent[] = [
       },
     ],
     image: dummyImages[22],
-    registerLink: "/",
+    registerLink: "https://forms.gle/5BZdTHZSvAA2ajis8",
+    customLink: true,
     desc: `Get ready to witness a spectacular fusion of talent, rhythm, and
     creativity as we present "Beat the Streets," an electrifying dance
     competition that promises to set the stage ablaze! This
@@ -487,7 +487,8 @@ const culturalEvents: IEvent[] = [
       },
     ],
     image: dummyImages[23],
-    registerLink: "/",
+    registerLink: "https://forms.gle/KDTETXLv4kHSrpJc7",
+    customLink: true,
     desc: `Prepare to embark on a breathtaking journey through the
     mesmerizing realms of dance as we present the Rhythm Blaze
     Solo Dance Competition! This spellbinding event transcends the
@@ -633,7 +634,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    
+
     image: heroes[0],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -646,8 +647,7 @@ const heroevent: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-      "The competition consists of league and knockout stages.", 
-      
+      "The competition consists of league and knockout stages.",
     ],
     pocs: [
       {
@@ -676,10 +676,9 @@ const heroevent: IEvent[] = [
       "Each match is best of three sets, 15 points each.",
       "Plastic Yonex Mavis 350/500 shuttles will be used.",
       "Only non-marking shoes allowed.",
-      
     ],
     pocs: [
-      { 
+      {
         name: "PRIYANSH",
         contact: "+91 956087259",
         mailId: "priyansh.jain.21cse@bmu.edu.in",
@@ -700,10 +699,9 @@ const heroevent: IEvent[] = [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
       "Team event involves league and knockout stages, featuring 2 singles matches and 1 doubles match.",
-      
     ],
     pocs: [
-      { 
+      {
         name: "KRISHNA",
         contact: "+91 9129707168",
         mailId: "", // need to update
@@ -727,10 +725,10 @@ const heroevent: IEvent[] = [
       "During the league stage, matches are scheduled for 30 minutes, followed by a 10-minute break, and then another 30 minutes. In the semifinals and final, matches extend to 35 minutes, followed by a 10-minute break, and another 35 minutes of play.",
     ],
     pocs: [
-      { 
+      {
         name: "LAKSHYA",
         contact: "+91 9182304665",
-        mailId: "lakshya.bindal.22cse@bmu.edu.in", 
+        mailId: "lakshya.bindal.22cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -750,7 +748,7 @@ const heroevent: IEvent[] = [
       "Team event includes league and knockout stages with three boys and three girls competing in each single event.",
     ],
     pocs: [
-      { 
+      {
         name: "APOORV",
         contact: "+91 8750975992",
         mailId: "", // need to update
@@ -773,7 +771,7 @@ const heroevent: IEvent[] = [
       "The competition is indoors on mats with an 85 kg weight limit. Matches consist of two halves, each lasting 20 minutes.",
     ],
     pocs: [
-      { 
+      {
         name: "ASHISH",
         contact: "+91 9983667925",
         mailId: "", // need to update
@@ -796,10 +794,10 @@ const heroevent: IEvent[] = [
       "Competition - League/Knock out 5 Singles| A-X B-Y C-Z A-Y B-X 2 Players can repeat",
     ],
     pocs: [
-      { 
+      {
         name: "JAIDEEP",
         contact: "+91 8688896662",
-        mailId: "kodati.jaideep.21cse@bmu.edu.in", 
+        mailId: "kodati.jaideep.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -819,10 +817,10 @@ const heroevent: IEvent[] = [
       "Players can participate in singles, doubles, or singles matches. Each set involves two players, and individuals are allowed to repeat.",
     ],
     pocs: [
-      { 
+      {
         name: "ARADHANA",
         contact: "+91 9772423816",
-        mailId: "aradhana.gupta.22bba@bmu.edu.in", 
+        mailId: "aradhana.gupta.22bba@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -842,10 +840,10 @@ const heroevent: IEvent[] = [
       "Competition features league and knockout stages with matches played as best of 3 sets, each set comprising 25 points.",
     ],
     pocs: [
-      { 
+      {
         name: "ABHAY",
         contact: "+91 7533952330",
-        mailId: "abhay.varma.22mb@bmu.edu.in", 
+        mailId: "abhay.varma.22mb@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -865,10 +863,10 @@ const heroevent: IEvent[] = [
       "Matches last one hour with a 10-minute overtime for league and knockout stages.",
     ],
     pocs: [
-      { 
+      {
         name: "LAKSHAY",
         contact: "+91 9896548214",
-        mailId: "lakshay.yadav.21cse@bmu.edu.in", 
+        mailId: "lakshay.yadav.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -1078,7 +1076,7 @@ const technicalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
-  
+
     image: dummyImages[28],
     registerLink: "/",
     desc: "Welcome to Hacked2.0! This premier technical hackathon at the 67th Milestone invites engineers, developers, and tech enthusiasts nationwide. Join us for 24 hours of innovation, collaboration, and networking. Unleash your ingenuity and push boundaries in the ever-evolving tech industry. Don't miss out on this opportunity to hack your way to greatness!",

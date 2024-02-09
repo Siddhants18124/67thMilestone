@@ -24,6 +24,7 @@ export type IEventCard = {
 export type IEvent = {
   eventId: string;
   eventType: "cultural" | "technical" | "management" | "hero" | "gaming";
+  customLink?: boolean;
   name: string;
   rules: string[];
   registerLink: string;

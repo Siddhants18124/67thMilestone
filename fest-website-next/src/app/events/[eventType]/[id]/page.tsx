@@ -60,16 +60,25 @@ function EventDetails({
                   );
                 })}
               </div>
-              <Link
-                href={
-                  currEvent.eventType === "hero"
-                    ? "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link"
-                    : "https://maitri.bmu.edu.in/asd_EventPublicUserMaster.htm?eventID=23"
-                }
-                className="bg-transparent border-4 border-white w-fit px-16 my-4 py-4"
-              >
-                Register
-              </Link>
+              {currEvent.customLink ? (
+                <Link
+                  href={currEvent.registerLink}
+                  className="bg-transparent border-4 border-white w-fit px-16 my-4 py-4"
+                >
+                  Register
+                </Link>
+              ) : (
+                <Link
+                  href={
+                    currEvent.eventType === "hero"
+                      ? "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link"
+                      : "https://maitri.bmu.edu.in/asd_EventPublicUserMaster.htm?eventID=23"
+                  }
+                  className="bg-transparent border-4 border-white w-fit px-16 my-4 py-4"
+                >
+                  Register
+                </Link>
+              )}
             </div>
           </div>
         </div>
