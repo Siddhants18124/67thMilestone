@@ -5,7 +5,7 @@ export type PersonOfContact = {
   position: string;
   contact: string;
   mailId: string;
-  image: string;
+  image: StaticImageData;
 };
 
 export type EventType =

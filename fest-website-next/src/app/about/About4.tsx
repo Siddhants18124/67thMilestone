@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { MouseEventHandler, useState, useEffect } from "react";
+import { MouseEventHandler, useState, useEffect, useCallback } from "react";
 // import { Social } from "../../assets";
 import "./About4.css";
 import {
@@ -17,7 +17,7 @@ import {
   Core7,
   Core8,
 } from "@/assets";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
   <div
@@ -42,22 +42,25 @@ export function About4() {
     Core8,
   ];
 
-  const noOfSlides = () => {
-    if (window.innerWidth > 1000) {
-      return 3;
-    } else if (window.innerWidth > 900) {
-      return 2;
-    } else if (window.innerWidth < 750 && window.innerWidth > 725) {
-      return 1;
-    } else if (window.innerWidth < 725 && window.innerWidth > 500) {
-      return 2;
-    } else if (window.innerWidth < 500) {
-      return 1;
-    } else {
-      return 1;
-    }
-  };
-  const settings = {
+  const noOfSlides = useCallback(() => {
+    return () => {
+      if (window.innerWidth > 1000) {
+        return 3;
+      } else if (window.innerWidth > 900) {
+        return 2;
+      } else if (window.innerWidth < 750 && window.innerWidth > 725) {
+        return 1;
+      } else if (window.innerWidth < 725 && window.innerWidth > 500) {
+        return 2;
+      } else if (window.innerWidth < 500) {
+        return 1;
+      } else {
+        return 1;
+      }
+    };
+  }, []);
+
+  const settings: any = {
     infinite: true,
     slidesToShow: noOfSlides(),
     slidesToScroll: 1,
