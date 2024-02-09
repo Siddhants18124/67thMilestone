@@ -71,3 +71,6 @@ export { default as volley } from "./volley.jpg";
 export { default as football } from "./football.jpg";
 export { default as kabadi } from "./kabadi.jpg";
 
+export { default as HomeCard1 } from "./home/card1.avif";
+export { default as HomeCard2 } from "./home/card2.avif";
+

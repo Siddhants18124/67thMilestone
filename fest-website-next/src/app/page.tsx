@@ -7,6 +7,8 @@ import {
   day1,
   day2,
   day3,
+  HomeCard1,
+  HomeCard2,
 } from "../assets";
 import EventsPageGrid from "./EventsPageGrid";
 import ExploreCard from "./ExploreCard";
@@ -32,16 +34,12 @@ export default function Home() {
               <EventsPageGrid
                 url="/events/67milestone"
                 logo={MileStone}
-                bg={
-                  "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                }
+                bg={HomeCard1}
               />
               <EventsPageGrid
                 url="/events/heros-challenge"
                 logo={HeroChlng}
-                bg={
-                  "https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                }
+                bg={HomeCard2}
               />
             </div>
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 mt-3 lg:gap-3">
