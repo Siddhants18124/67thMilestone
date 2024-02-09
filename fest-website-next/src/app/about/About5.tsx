@@ -28,6 +28,7 @@ import a11 from "../../assets/cr2/a11.png";
 import a12 from "../../assets/cr2/a12.png";
 import a13 from "../../assets/cr2/a13.png";
 import a14 from "../../assets/cr2/a14.png";
+import Image from "next/image";
 
 const About5 = () => {
   return (
@@ -75,21 +76,21 @@ const About5 = () => {
 const Testimonial = () => {
   return (
     <div className="slide">
-      <img src={c1} />
+      <Image width={400} height={300} alt="testi" src={c1} />
     </div>
   );
 };
 const Testimonial2 = () => {
   return (
     <div className="slide">
-      <img src={c2} />
+      <Image width={400} height={300} alt="testi" src={c2} />
     </div>
   );
 };
 const Testimonial3 = () => {
   return (
     <div className="slide">
-      <img src={c3}  />
+      <Image width={400} height={300} alt="testi" src={c3} />
     </div>
   );
 };
@@ -97,77 +98,77 @@ const Testimonial3 = () => {
 const Testimonial4 = () => {
   return (
     <div className="slide">
-      <img src={c4} />
+      <Image width={400} height={300} alt="testi" src={c4} />
     </div>
   );
 };
 const Testimonial5 = () => {
   return (
     <div className="slide">
-      <img src={c5} />
+      <Image width={400} height={300} alt="testi" src={c5} />
     </div>
   );
 };
 const Testimonial6 = () => {
   return (
     <div className="slide">
-      <img src={c6} />
+      <Image width={400} height={300} alt="testi" src={c6} />
     </div>
   );
 };
 const Testimonial7 = () => {
   return (
     <div className="slide">
-      <img src={c7} />
+      <Image width={400} height={300} alt="testi" src={c7} />
     </div>
   );
 };
 const Testimonial8 = () => {
   return (
     <div className="slide">
-      <img src={c8} />
+      <Image width={400} height={300} alt="testi" src={c8} />
     </div>
   );
 };
 const Testimonial9 = () => {
   return (
     <div className="slide">
-      <img src={c9} />
+      <Image width={400} height={300} alt="testi" src={c9} />
     </div>
   );
 };
 const Testimonial10 = () => {
   return (
     <div className="slide">
-      <img src={c10} />
+      <Image width={400} height={300} alt="testi" src={c10} />
     </div>
   );
 };
 const Testimonial11 = () => {
   return (
     <div className="slide">
-      <img src={c11} />
+      <Image width={400} height={300} alt="testi" src={c11} />
     </div>
   );
 };
 const Testimonial12 = () => {
   return (
     <div className="slide">
-      <img src={c12} />
+      <Image width={400} height={300} alt="testi" src={c12} />
     </div>
   );
 };
 const Testimonial13 = () => {
   return (
     <div className="slide">
-      <img src={c13} />
+      <Image width={400} height={300} alt="testi" src={c13} />
     </div>
   );
 };
 const Testimonial14 = () => {
   return (
     <div className="slide">
-      <img src={c14} />
+      <Image width={400} height={300} alt="testi" src={c14} />
     </div>
   );
 };
@@ -177,7 +178,7 @@ const Testimonial14 = () => {
 const Testimonial15 = () => {
   return (
     <div className="slide">
-      <img src={a1} />
+      <Image width={400} height={300} alt="testi" src={a1} />
     </div>
   );
 };
@@ -185,7 +186,7 @@ const Testimonial15 = () => {
 const Testimonial16 = () => {
   return (
     <div className="slide">
-      <img src={a2} />
+      <Image width={400} height={300} alt="testi" src={a2} />
     </div>
   );
 };
@@ -193,7 +194,7 @@ const Testimonial16 = () => {
 const Testimonial17 = () => {
   return (
     <div className="slide">
-      <img src={a3} />
+      <Image width={400} height={300} alt="testi" src={a3} />
     </div>
   );
 };
@@ -201,7 +202,7 @@ const Testimonial17 = () => {
 const Testimonial18 = () => {
   return (
     <div className="slide">
-      <img src={a4} />
+      <Image width={400} height={300} alt="testi" src={a4} />
     </div>
   );
 };
@@ -209,7 +210,7 @@ const Testimonial18 = () => {
 const Testimonial19 = () => {
   return (
     <div className="slide">
-      <img src={a5} />
+      <Image width={400} height={300} alt="testi" src={a5} />
     </div>
   );
 };
@@ -217,7 +218,7 @@ const Testimonial19 = () => {
 const Testimonial20 = () => {
   return (
     <div className="slide">
-      <img src={a6} />
+      <Image width={400} height={300} alt="testi" src={a6} />
     </div>
   );
 };
@@ -225,7 +226,7 @@ const Testimonial20 = () => {
 const Testimonial21 = () => {
   return (
     <div className="slide">
-      <img src={a7} />
+      <Image width={400} height={300} alt="testi" src={a7} />
     </div>
   );
 };
@@ -233,7 +234,7 @@ const Testimonial21 = () => {
 const Testimonial22 = () => {
   return (
     <div className="slide">
-      <img src={a8} />
+      <Image width={400} height={300} alt="testi" src={a8} />
     </div>
   );
 };
@@ -241,7 +242,7 @@ const Testimonial22 = () => {
 const Testimonial23 = () => {
   return (
     <div className="slide">
-      <img src={a9} />
+      <Image width={400} height={300} alt="testi" src={a9} />
     </div>
   );
 };
@@ -249,7 +250,7 @@ const Testimonial23 = () => {
 const Testimonial24 = () => {
   return (
     <div className="slide">
-      <img src={a10} />
+      <Image width={400} height={300} alt="testi" src={a10} />
     </div>
   );
 };
@@ -257,7 +258,13 @@ const Testimonial24 = () => {
 const Testimonial25 = () => {
   return (
     <div className="slide">
-      <img src={a11} />
+      <Image
+        className="object-cover"
+        width={400}
+        height={300}
+        alt="testi"
+        src={a11}
+      />
     </div>
   );
 };
@@ -265,7 +272,7 @@ const Testimonial25 = () => {
 const Testimonial26 = () => {
   return (
     <div className="slide">
-      <img src={a12} />
+      <Image width={400} height={300} alt="testi" src={a12} />
     </div>
   );
 };
@@ -273,7 +280,7 @@ const Testimonial26 = () => {
 const Testimonial27 = () => {
   return (
     <div className="slide">
-      <img src={a13} />
+      <Image width={400} height={300} alt="testi" src={a13} />
     </div>
   );
 };
@@ -281,7 +288,7 @@ const Testimonial27 = () => {
 const Testimonial28 = () => {
   return (
     <div className="slide">
-      <img src={a14} />
+      <Image width={400} height={300} alt="testi" src={a14} />
     </div>
   );
 };
