@@ -60,15 +60,14 @@ export { default as gm4 } from "./gm4.jpg";
 export { default as gm5 } from "./gm5.jpg";
 export { default as dlft } from "./deadlift.jpg";
 
-
 export { default as Badminton } from "./Badminton.jpg";
 export { default as Chess } from "./chess.jpg";
 export { default as Pool } from "./Pool.jpg";
-export {default as tablet} from "./tablet.jpg";
-export {default as lawnt} from "./lawnt.jpg";
-export {default as archery} from "./archery.jpg";
-export {default as basketball} from "./basketball.jpg";
-export {default as cricket} from "./cricket.jpg";
-export {default as volley} from "./volley.jpg";
-export {default as football} from "./football.jpg";
-export {default as kabadi} from "./kabadi.jpg";
+export { default as tablet } from "./tablet.jpg";
+export { default as lawnt } from "./lawnt.jpg";
+export { default as archery } from "./archery.jpg";
+export { default as basketball } from "./basketball.jpg";
+export { default as cricket } from "./cricket.jpg";
+export { default as volley } from "./volley.jpg";
+export { default as football } from "./football.jpg";
+export { default as kabadi } from "./kabadi.jpg";
