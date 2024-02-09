@@ -49,7 +49,7 @@ const About2 = () => {
             <h1 className="text-white font-extrabold text-5xl mt-2 mb-8">
               About Fest
             </h1>
-            <p className="text-white flex-grow font-[20px] text-justify leading-[36px] font-['Poppins']">
+            <p className="text-white flex-grow font-[20px] text-justify leading-[36px] ">
               BML Munjal University, founded by The Hero Group, is acclaimed for
               academic excellence and innovative learning. Recognized as a
               top-notch budding university by former President Shri Pranab

@@ -74,3 +74,12 @@ export { default as kabadi } from "./kabadi.jpg";
 export { default as HomeCard1 } from "./home/card1.avif";
 export { default as HomeCard2 } from "./home/card2.avif";
 
+export { default as Core1 } from "./core/acm.jpeg";
+export { default as Core2 } from "./core/esec.jpeg";
+export { default as Core3 } from "./core/pres.jpeg";
+export { default as Core4 } from "./core/soni.jpeg";
+export { default as Core5 } from "./core/aasec.jpeg";
+export { default as Core6 } from "./core/hostel.jpeg";
+export { default as Core7 } from "./core/social.jpeg";
+export { default as Core8 } from "./core/treasurer.jpeg";
+
