@@ -12,6 +12,7 @@ import {
 } from "../assets";
 import EventsPageGrid from "./EventsPageGrid";
 import ExploreCard from "./ExploreCard";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -54,18 +55,22 @@ export default function Home() {
             Social Cause
           </p>
           <div className="flex flex-row flex-wrap-reverse w-[80vw] gap-8 justify-center items-start mx-auto my-8 text-white">
-            <img
+            <Image
               src={ParllaxImg}
               alt="Parallax Image"
+              width={600}
+              height={300}
               className="object-cover w-[28vw] min-w-[17rem] flex-grow"
             />
             <div className="flex flex-col sm:flex-grow gap-4 w-[25vw] h-full justify-center items-center min-w-[17rem] ">
-              <img
+              <Image
                 src={EducateImg}
+                width={500}
+                height={200}
                 alt="educate Logo"
                 className="object-cover w-full max-w-[30rem] my-8"
               />
-              <p className="font-['Poppins'] max-w-[30rem] w-full text-left text-white leading-relaxed font-[1.15rem]">
+              <p className="max-w-[30rem] w-full text-left text-white leading-relaxed font-[1.15rem]">
                 At BMU, in our unwavering commitment to theme:Enthusiasmo -
                 Embrace Openness, Ignite Happiness we are thrilled to announce
                 our dedicated support for the profound social cause of Openness.

@@ -22,7 +22,7 @@
 .social {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-size: max(5.625vw, 2.25rem);
   font-style: normal;
   line-height: normal;
