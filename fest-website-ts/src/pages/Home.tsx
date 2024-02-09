@@ -157,10 +157,11 @@ function HomePage() {
                 alt="educate Logo"
                 className="object-cover w-full max-w-[30rem] my-8"
               />
-              <p className="font-['Poppins'] max-w-[30rem] w-full text-justify text-white leading-relaxed font-[1.15rem]">
-                Etiam nulla nulla bibendum et egestas. Tellus luctus duis
-                pellentesque cursus consectetur luctus. Et sed semper ornare et
-                luctus volutpat ipsum in faucibus.
+              <p className="font-['Poppins'] max-w-[30rem] w-full text-left text-white leading-relaxed font-[1.15rem]">
+                At BMU, in our unwavering commitment to theme:Enthusiasmo -
+                Embrace Openness, Ignite Happiness we are thrilled to announce
+                our dedicated support for the profound social cause of Openness.
+                This cause encapsulates the very essence of happiness.
               </p>
             </div>
           </div>
