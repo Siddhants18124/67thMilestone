@@ -27,7 +27,6 @@ export { default as Poc2 } from "./poc2.png";
 export { default as EducateImg } from "./edu.png";
 export { default as ParllaxImg } from "./parllaxImg.png";
 export { default as Social } from "./core/social.jpeg";
-export { default as video } from "./bla_bg.mp4";
 export { default as day1 } from "./day1.png";
 export { default as day2 } from "./day2.png";
 export { default as day3 } from "./day3.png";
@@ -60,15 +59,15 @@ export { default as gm4 } from "./gm4.jpg";
 export { default as gm5 } from "./gm5.jpg";
 export { default as dlft } from "./deadlift.jpg";
 
-
 export { default as Badminton } from "./Badminton.jpg";
 export { default as Chess } from "./chess.jpg";
 export { default as Pool } from "./Pool.jpg";
-export {default as tablet} from "./tablet.jpg";
-export {default as lawnt} from "./lawnt.jpg";
-export {default as archery} from "./archery.jpg";
-export {default as basketball} from "./basketball.jpg";
-export {default as cricket} from "./cricket.jpg";
-export {default as volley} from "./volley.jpg";
-export {default as football} from "./football.jpg";
-export {default as kabadi} from "./kabadi.jpg";
+export { default as tablet } from "./tablet.jpg";
+export { default as lawnt } from "./lawnt.jpg";
+export { default as archery } from "./archery.jpg";
+export { default as basketball } from "./basketball.jpg";
+export { default as cricket } from "./cricket.jpg";
+export { default as volley } from "./volley.jpg";
+export { default as football } from "./football.jpg";
+export { default as kabadi } from "./kabadi.jpg";
+
