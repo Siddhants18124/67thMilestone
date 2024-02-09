@@ -6,7 +6,7 @@ function EventsPage() {
     <section className="min-h-screen flex flex-col justify-center items-center gap-4 pt-0 ">
       <div className="my-4 grid gap-5 w-full place-content-center grid-cols-1 px-4 sm:w-11/12 sm:mx-auto sm:grid-cols-2">
         <EventsPageGrid
-          url="/events/67milestone"
+          url="/events/67thmilestone"
           logo={MileStone}
           events={true}
           bg={HomeCard1}

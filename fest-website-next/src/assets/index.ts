@@ -83,3 +83,5 @@ export { default as Core6 } from "./core/hostel.jpeg";
 export { default as Core7 } from "./core/social.jpeg";
 export { default as Core8 } from "./core/treasurer.jpeg";
 
+export { default as MilestoneMgmtBg } from "./67thmilestone/mgmt.avif";
+export { default as MilestoneGamingBg } from "./67thmilestone/gaming.avif";
