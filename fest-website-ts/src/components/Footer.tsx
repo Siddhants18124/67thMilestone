@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import footer from "../assets/navbarimg.png";
-import { SocialIcon } from "react-social-icons";
 
 function Footer() {
   return (
