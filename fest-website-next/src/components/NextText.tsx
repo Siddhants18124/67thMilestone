@@ -1,12 +1,16 @@
 "use client";
 
-const sto = () => {
-  const deepDive = document.getElementById("deepdive");
-  const topOffset = deepDive?.offsetTop || 0;
-  window.scrollTo(0, topOffset - 50);
-};
+import { useCallback } from "react";
 
 function NextText() {
+  const sto = useCallback(() => {
+    return () => {
+      const deepDive = document.getElementById("deepdive");
+      const topOffset = deepDive?.offsetTop || 0;
+      window.scrollTo(0, topOffset - 50);
+    };
+  }, []);
+
   return (
     <button
       onClick={() => {
