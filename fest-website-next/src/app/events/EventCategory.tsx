@@ -15,7 +15,7 @@ function EventCategory(props: Props) {
       className="bg-fixed bg-cover relative z-20"
       style={{
         backgroundImage: `url('${props.bgImg.src}')`,
-        background: `url('${props.bgImg}')`,
+        background: `url('${props.bgImg.src}')`,
         backgroundSize: "100vw 100vh",
       }}
     >
