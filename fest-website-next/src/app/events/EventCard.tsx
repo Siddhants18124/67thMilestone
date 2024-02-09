@@ -11,11 +11,11 @@ type Props = {
 
 function EventCard(props: Props) {
   return (
-    <Link href={`/events/${props.id}`}>
+    <Link href={`/events/${props.eventType}/${props.id}`}>
       <div className="h-56 w-full relative group overflow-hidden cursor-pointer rounded-xl hover:rounded-none transition-all duration-300 ease-in-out">
         <div className="absolute w-full h-full bg-black opacity-40 z-10 group-hover:opacity-40 transition-all duration-300 ease-in-out" />
         <Image
-          src={props.image}
+          src={props.image.src}
           width={350}
           height={250}
           alt=""
