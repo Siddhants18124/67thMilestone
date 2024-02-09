@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import Navbar from "../components/Navbar";
 import "./globals.css";
+import Footer from "@/components/Footer";
 
 const inter = Poppins({
   subsets: ["latin"],
@@ -29,6 +30,7 @@ export default function RootLayout({
           <div className="absolute z-[-1] bg-[#00000080] top-0 left-0 w-full h-full"></div>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
