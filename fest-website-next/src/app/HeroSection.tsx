@@ -8,7 +8,7 @@ type Props = {};
 function HeroSection({}: Props) {
   return (
     <section className="h-screen relative z-20">
-      <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
+      <div className="-z-10 absolute h-full w-full bg-black opacity-40 top-0" />
       <NextText />
       <video
         src="/video/bla_bg.mp4"
@@ -17,7 +17,7 @@ function HeroSection({}: Props) {
         loop
         controls={false}
         playsInline
-        className="absolute h-full w-full object-cover -z-20"
+        className="absolute h-full w-full object-cover -z-20 top-0"
       ></video>
       <section className="relative h-full w-full p-4 pt-32 text-white flex flex-col justify-between lg:w-11/12 lg:mx-auto">
         <div />
