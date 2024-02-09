@@ -1,3 +1,5 @@
+"use client";
+
 import { FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
@@ -5,6 +7,17 @@ import "slick-carousel/slick/slick.css";
 import { MouseEventHandler, useState, useEffect } from "react";
 // import { Social } from "../../assets";
 import "./About4.css";
+import {
+  Core1,
+  Core2,
+  Core3,
+  Core4,
+  Core5,
+  Core6,
+  Core7,
+  Core8,
+} from "@/assets";
+import Image from "next/image";
 
 const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
   <div
@@ -18,28 +31,17 @@ const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
 );
 
 export function About4() {
-  const [images, setImages] = useState<string[]>([]);
+  const images: StaticImageData[] = [
+    Core1,
+    Core2,
+    Core3,
+    Core4,
+    Core5,
+    Core6,
+    Core7,
+    Core8,
+  ];
 
-  useEffect(() => {
-    const importImages = async () => {
-      // Dynamically import all image files from the 'images' folder
-      const imagePaths = import.meta.glob(
-        "../../assets/core/*.{png,jpg,jpeg,svg}"
-      );
-
-      const importedImages = Object.values(imagePaths).map(
-        async (imageModule) => {
-          const module = (await imageModule()) as { default: string };
-          return module.default;
-        }
-      );
-
-      const resolvedImages = await Promise.all(importedImages);
-      setImages(resolvedImages);
-    };
-
-    importImages();
-  }, []);
   const noOfSlides = () => {
     if (window.innerWidth > 1000) {
       return 3;
@@ -63,7 +65,6 @@ export function About4() {
     autoplay: false,
     prevArrow: <></>,
     nextArrow: <CustomArrow onClick={() => {}} />,
-    
   };
   return (
     <div
@@ -77,7 +78,7 @@ export function About4() {
           className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[20rem] flex-grow"
         >
           {images.map((img, i) => {
-            return < img src={img} key={i} alt="" />;
+            return <Image width={300} height={300} src={img} key={i} alt="" />;
           })}
         </Slider>
         <div className="flex h-auto rounded-lg items-center my-8 w-[17rem]">
