@@ -1,5 +1,6 @@
 import "./about2.css";
-import { HeroChlng, MileStone } from "../../assets";
+import { HeroChlng, HomeCard1, HomeCard2, MileStone } from "../../assets";
+import Image from "next/image";
 
 const About2 = () => {
   return (
@@ -11,25 +12,35 @@ const About2 = () => {
       <div className="grid md:w-[73vw] w-[80vw] grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
         <div className="grid grid-cols-1 gap-3 lg:grid-row-2">
           <div className="h-full min-h-[15rem] md:min-h-[20rem] relative max-h-[20rem] rounded-lg flex justify-end">
-            <img
-              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            <Image
+              src={HomeCard1}
               alt="alt image"
+              width={500}
+              height={320}
               className="absolute top-0 z-10 left-0 h-full w-full max-w-[600px] object-cover opacity-80 "
             />
-            <img
+            <Image
               src={MileStone}
+              alt="miltstone img"
+              width={500}
+              height={320}
               className="absolute object-contain scale-75 z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:scale-100"
             />
           </div>
           <div className="h-full min-h-[15rem] md:min-h-[20rem] relative max-h-[20rem] rounded-lg flex justify-end">
-            <img
-              src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            <Image
+              src={HomeCard2}
               alt="alt image"
+              width={500}
+              height={320}
               className="absolute z-10 top-0 left-0 h-full w-full max-w-[600px] object-cover opacity-80 "
             />
-            <img
+            <Image
               src={HeroChlng}
               className="absolute object-contain scale-75 z-20 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transition-all duration-300 ease-in-out group-hover:scale-100"
+              width={500}
+              height={320}
+              alt="alt image"
             />
           </div>
         </div>
@@ -48,10 +59,11 @@ const About2 = () => {
               create a sustainable college environment. With an emphasis on
               developing moral leaders with critical life skills, BMU has
               achieved many milestones and laurels in academics, athletics, and
-              research conferences.<br/> Our campus is a vibrant, multicultural
-              institution with students from various parts of the country. It
-              emphasizes on holistic development, fostering personalities to
-              explore their full potential apart from scholastic brilliance.
+              research conferences.
+              <br /> Our campus is a vibrant, multicultural institution with
+              students from various parts of the country. It emphasizes on
+              holistic development, fostering personalities to explore their
+              full potential apart from scholastic brilliance.
             </p>
           </div>
         </div>
