@@ -4,13 +4,12 @@ import { IoLocationOutline } from "react-icons/io5";
 
 export default function Home() {
   return (
-    <main className="">
+    <>
       <section className="h-screen relative z-20">
         <div className="-z-10 absolute h-full w-full bg-black opacity-40" />
         <NextText />
         <video
           src="/video/bla_bg.mp4"
-          // src={video}
           autoPlay
           muted
           loop
@@ -43,6 +42,6 @@ export default function Home() {
           </Link>
         </section>
       </section>
-    </main>
+    </>
   );
 }

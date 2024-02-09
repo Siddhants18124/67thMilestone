@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: "Poppins", sans-serif;
-}
-
 .loading {
   background-color: #722c7e;
   background-image: linear-gradient(316deg, #e94b77 0%, #722c7e 74%);

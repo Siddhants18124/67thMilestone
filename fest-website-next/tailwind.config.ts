@@ -8,13 +8,21 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        mobile_s: "320px",
+        mobile_m: "375px",
+        mobile_l: "425px",
+      },
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        bgGrad: "url('/assets/bg_grad_4.png')",
+        culturalPx: "url('/assets/cultural.jpg')",
+        technicalPx: "url('/assets/technical.jpeg')",
+        mgmtPx: "url('/assets/management.png')",
       },
     },
   },
+  important: true,
   plugins: [],
 };
+
 export default config;
