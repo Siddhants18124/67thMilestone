@@ -16,8 +16,7 @@ import {
   Core4,
   Core5,
   Core6,
-  Core7,
-  Core8,
+ 
 } from "@/assets";
 
 const About3 = () => {
@@ -30,8 +29,7 @@ const About3 = () => {
     Core4,
     Core5,
     Core6,
-    Core7,
-    Core8,
+  
   ];
 
   const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
