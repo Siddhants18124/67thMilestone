@@ -81,7 +81,7 @@ export function About4() {
       <div className="flex  justify-between items-center flex-wrap-reverse  gap-x-4">
         <Slider
           {...settings}
-          className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[20rem] flex-grow"
+          className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[16rem] flex-grow"
         >
           {images.map((img, i) => {
             return <Image width={300} height={300} src={img} key={i} alt="" />;

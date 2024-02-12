@@ -139,7 +139,7 @@ const About3 = () => {
           </div>
           <Slider
             {...settings}
-            className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[20rem] flex-grow"
+            className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[16rem] flex-grow"
           >
             {images.map((image, i) => {
               return (
