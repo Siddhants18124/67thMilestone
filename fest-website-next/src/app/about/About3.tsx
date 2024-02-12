@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
@@ -60,27 +60,25 @@ const About3 = () => {
     };
   }, []);
 
-  const noOfSlides = useCallback(() => {
-    return () => {
-      if (window.innerWidth > 1000) {
-        return 3;
-      } else if (window.innerWidth > 900) {
-        return 2;
-      } else if (window.innerWidth < 750 && window.innerWidth > 725) {
-        return 1;
-      } else if (window.innerWidth < 725 && window.innerWidth > 500) {
-        return 2;
-      } else if (window.innerWidth < 500) {
-        return 1;
-      } else {
-        return 1;
-      }
-    };
-  }, []);
+  const noOfSlides = useMemo(() => {
+    if (window.innerWidth > 1000) {
+      return 3;
+    } else if (window.innerWidth > 900) {
+      return 2;
+    } else if (window.innerWidth < 750 && window.innerWidth > 725) {
+      return 1;
+    } else if (window.innerWidth < 725 && window.innerWidth > 500) {
+      return 2;
+    } else if (window.innerWidth < 500) {
+      return 1;
+    } else {
+      return 1;
+    }
+  }, [window.innerHeight]);
 
   const settings: any = {
     infinite: true,
-    slidesToShow: noOfSlides(),
+    slidesToShow: noOfSlides,
     slidesToScroll: 1,
     cssEase: "ease-in",
     autoplay: false,

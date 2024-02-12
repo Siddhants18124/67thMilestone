@@ -1,6 +1,6 @@
 "use client";
 
-import { MouseEventHandler, useCallback } from "react";
+import { MouseEventHandler, useCallback, useMemo } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,7 +19,7 @@ import {
 import Image, { StaticImageData } from "next/image";
 import "./About4.css";
 
-const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
+const CustomArrow = ({ onClick }: { onClick?: MouseEventHandler }) => (
   <div
     onClick={onClick}
     className="w-[30%] max-w-[10rem] cursor-pointer h-full before:opacity-0 absolute right-0 top-[50%] translate-y-[-50%] text-white"
@@ -42,33 +42,32 @@ export function About4() {
     Core8,
   ];
 
-  const noOfSlides = useCallback(() => {
-    return () => {
-      if (window.innerWidth > 1000) {
-        return 3;
-      } else if (window.innerWidth > 900) {
-        return 2;
-      } else if (window.innerWidth < 750 && window.innerWidth > 725) {
-        return 1;
-      } else if (window.innerWidth < 725 && window.innerWidth > 500) {
-        return 2;
-      } else if (window.innerWidth < 500) {
-        return 1;
-      } else {
-        return 1;
-      }
-    };
-  }, []);
+  const noOfSlides = useMemo(() => {
+    if (window.innerWidth > 1000) {
+      return 3;
+    } else if (window.innerWidth > 900) {
+      return 2;
+    } else if (window.innerWidth < 750 && window.innerWidth > 725) {
+      return 1;
+    } else if (window.innerWidth < 725 && window.innerWidth > 500) {
+      return 2;
+    } else if (window.innerWidth < 500) {
+      return 1;
+    } else {
+      return 1;
+    }
+  }, [window.innerHeight]);
 
-  const settings: any = {
+  const settings = {
     infinite: true,
-    slidesToShow: noOfSlides(),
+    slidesToShow: noOfSlides,
     slidesToScroll: 1,
     cssEase: "ease-in",
     autoplay: false,
     prevArrow: <></>,
     nextArrow: <CustomArrow onClick={() => {}} />,
   };
+
   return (
     <div
       className=" w-[84vw] text-white mx-auto mb-16"
