@@ -61,24 +61,26 @@ const About3 = () => {
   }, []);
 
   const noOfSlides = useMemo(() => {
-    if (window.innerWidth > 1000) {
-      return 3;
-    } else if (window.innerWidth > 900) {
-      return 2;
-    } else if (window.innerWidth < 750 && window.innerWidth > 725) {
-      return 1;
-    } else if (window.innerWidth < 725 && window.innerWidth > 500) {
-      return 2;
-    } else if (window.innerWidth < 500) {
-      return 1;
-    } else {
-      return 1;
-    }
-  }, [window.innerHeight]);
+    return () => {
+      if (window.innerWidth > 1000) {
+        return 3;
+      } else if (window.innerWidth > 900) {
+        return 2;
+      } else if (window.innerWidth < 750 && window.innerWidth > 725) {
+        return 1;
+      } else if (window.innerWidth < 725 && window.innerWidth > 500) {
+        return 2;
+      } else if (window.innerWidth < 500) {
+        return 1;
+      } else {
+        return 1;
+      }
+    };
+  }, []);
 
   const settings: any = {
     infinite: true,
-    slidesToShow: noOfSlides,
+    slidesToShow: noOfSlides(),
     slidesToScroll: 1,
     cssEase: "ease-in",
     autoplay: false,
