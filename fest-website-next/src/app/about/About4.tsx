@@ -44,19 +44,21 @@ export function About4() {
 
   const noOfSlides = useMemo(() => {
     return () => {
-      if (window.innerWidth > 1000) {
-        return 3;
-      } else if (window.innerWidth > 900) {
-        return 2;
-      } else if (window.innerWidth < 750 && window.innerWidth > 725) {
-        return 1;
-      } else if (window.innerWidth < 725 && window.innerWidth > 500) {
-        return 2;
-      } else if (window.innerWidth < 500) {
-        return 1;
-      } else {
-        return 1;
-      }
+      if (typeof window !== "undefined") {
+        if (window.innerWidth > 1000) {
+          return 3;
+        } else if (window.innerWidth > 900) {
+          return 2;
+        } else if (window.innerWidth < 750 && window.innerWidth > 725) {
+          return 1;
+        } else if (window.innerWidth < 725 && window.innerWidth > 500) {
+          return 2;
+        } else if (window.innerWidth < 500) {
+          return 1;
+        } else {
+          return 1;
+        }
+      } else return 1;
     };
   }, []);
 
