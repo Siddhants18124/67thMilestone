@@ -26,7 +26,7 @@ export { default as Poc1 } from "./poc1.png";
 export { default as Poc2 } from "./poc2.png";
 export { default as EducateImg } from "./edu.png";
 export { default as ParllaxImg } from "./parllaxImg.png";
-export { default as Social } from "./core/social.jpeg";
+// export { default as Social } from "./core/social.jpeg";
 export { default as day1 } from "./day1.png";
 export { default as day2 } from "./day2.png";
 export { default as day3 } from "./day3.png";
@@ -74,14 +74,26 @@ export { default as kabadi } from "./kabadi.jpg";
 export { default as HomeCard1 } from "./home/card1.avif";
 export { default as HomeCard2 } from "./home/card2.avif";
 
-export { default as Core1 } from "./core/acm.jpeg";
-export { default as Core2 } from "./core/esec.jpeg";
-export { default as Core3 } from "./core/pres.jpeg";
-export { default as Core4 } from "./core/soni.jpeg";
-export { default as Core5 } from "./core/aasec.jpeg";
-export { default as Core6 } from "./core/hostel.jpeg";
-export { default as Core7 } from "./core/social.jpeg";
-export { default as Core8 } from "./core/treasurer.jpeg";
+export { default as Core1 } from "./core/President.jpg";
+export { default as Core2 } from "./core/Treasurer.jpg";
+export { default as Core3 } from "./core/hostel.jpg";
+export { default as Core4 } from "./core/acd.jpg";
+export { default as Core5 } from "./core/sports.jpg";
+export { default as Core6 } from "./core/event.jpg";
+// export { default as Core7 } from "./core/club.jpeg";
+
+export { default as a1 } from "./heads/Cinematography Head.jpeg"
+export { default as a2 } from "./heads/Ananya Jain Core Team.jpeg"
+export { default as a3 } from "./heads/Content Head.jpg"
+export { default as a4 } from "./heads/Coverage Head.jpg"
+export { default as a5 } from "./heads/Decor Head.jpg"
+export { default as a6 } from "./heads/Design Head.jpg"
+export { default as a7 } from "./heads/Marketing Head1.jpeg"
+export { default as a8 } from "./heads/Marketing Head2.jpg"
+export { default as a9 } from "./heads/Operations Head.jpg"
+export { default as a10 } from "./heads/Shashank Goswami Core Team.jpeg"
+export { default as a11} from "./heads/Siddhant Sharma.jpg"
+export { default as a12 } from "./heads/Sponsorship Head.jpg"
 
 export { default as MilestoneMgmtBg } from "./67thmilestone/mgmt.avif";
 export { default as MilestoneGamingBg } from "./67thmilestone/gaming.avif";
