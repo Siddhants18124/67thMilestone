@@ -206,12 +206,13 @@ const mgmtEvents: IEvent[] = [
         image: Poc1,
       },
       {
-        name: "Prashant Kumar",
-        contact: "7042841795",
-        mailId: "prashant.kumar.22cse@bmu.edu.in",
+        name: "Rohan Dhingra",
+        contact: "+91 9711555996",
+        mailId: "roan.dhingra.22cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
+      
     ],
     image: dummyImages[14],
     registerLink: "/",
@@ -228,9 +229,9 @@ const mgmtEvents: IEvent[] = [
     ],
     pocs: [
       {
-        name: "Aaditya Vikram Agrawal",
-        contact: "8305720200",
-        mailId: "aadityavikram.agrawal.21cse@bmu.edu.in",
+        name: "Ananya Nair",
+        contact: "9811356355",
+        mailId: "ananya.nair.22bbl@bmu.edu.in",
         position: "",
         image: Poc1,
       },
