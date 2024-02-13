@@ -432,6 +432,8 @@ const culturalEvents: IEvent[] = [
     creating a dynamic and electrifying atmosphere. Get ready for
     an epic clash of melodies as musicians vie for the title of
     ultimate sonic champion.
+
+    Note: This event doesn't have any of prelims.
     `,
   },
   {

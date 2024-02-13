@@ -24,7 +24,9 @@ function EventDetails({
             />
             <div className="flex flex-col gap-4 w-[30rem] flex-grow">
               <p className="text-[2rem] br">{currEvent.name}</p>
-              <p className="text-[1.15rem] leading-relaxed">{currEvent.desc}</p>
+              <p className="text-[1.15rem] leading-relaxed whitespace-pre-line">
+                {currEvent.desc}
+              </p>
               <p className="text-[2rem]">Rules</p>
               <ol className="list-decimal list-inside flex flex-col gap-2">
                 {currEvent.rules.map((rule, i) => {
