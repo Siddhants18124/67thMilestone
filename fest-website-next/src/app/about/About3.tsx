@@ -1,23 +1,14 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { MouseEventHandler, useEffect, useMemo, useState } from "react";
+import { FaArrowRight } from "react-icons/fa";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import { MouseEventHandler } from "react";
-import { FaArrowRight } from "react-icons/fa";
 // import { Social } from "../../assets";
-import "./About4.css";
+import { Core1, Core2, Core3, Core4, Core5, Core6, a10 } from "@/assets";
 import Image, { StaticImageData } from "next/image";
-import {
-  Core1,
-  Core2,
-  Core3,
-  Core4,
-  Core5,
-  Core6,
- 
-} from "@/assets";
+import "./About4.css";
 
 const About3 = () => {
   const [sm, setSm] = useState(false);
@@ -29,7 +20,7 @@ const About3 = () => {
     Core4,
     Core5,
     Core6,
-  
+    a10,
   ];
 
   const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
