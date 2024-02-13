@@ -64,6 +64,13 @@ function Navbar() {
               <NavbarLink link="/about" name="About"></NavbarLink>
               <NavbarLink link="/events" name="Events"></NavbarLink>
               <Link
+                href="https://drive.google.com/file/d/1DvWKw2UYGOArsBhXi2onB_c9Ew73e0U1/view?usp=sharing"
+                target="_blank"
+                className="border-2 border-white py-2 px-4 text-black bg-white transition-all duration-300 ease-in-out cursor-pointer hover:bg-transparent hover:text-white"
+              >
+                Brochure
+              </Link>
+              <Link
                 href="https://maitri.bmu.edu.in/asd_EventPublicUserMaster.htm?eventID=23"
                 target="_blank"
                 className="border-2 border-white py-2 px-4 text-black bg-white transition-all duration-300 ease-in-out cursor-pointer hover:bg-transparent hover:text-white"
