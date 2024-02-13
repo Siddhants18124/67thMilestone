@@ -373,7 +373,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-      "https://docs.google.com/document/d/13VqjqftTy-mNyOExHWC1mGWzsGV6dtZ4/edit?usp=drive_link",
+      "https://docs.google.com/document/d/1EwraCDih4F5aWo3e7s4pNtgOSfYxSX5lkcMQARS_bM0/edit?usp=sharing",
     ],
     pocs: [
       {
