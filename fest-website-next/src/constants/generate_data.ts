@@ -137,7 +137,7 @@ const mgmtEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-      "https://docs.google.com/document/d/1F0Pf7wMpKsfqroGx7GgC5bvLmohjfuOc/edit",
+      "https://docs.google.com/document/d/1Sa-MalX5Rr4FpY9oXc7-jsczY_03By_X/edit?usp=drive_link",
     ],
     pocs: [
       {
@@ -166,7 +166,7 @@ const mgmtEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-      "https://docs.google.com/document/d/1F0Pf7wMpKsfqroGx7GgC5bvLmohjfuOc/edit",
+      "https://docs.google.com/document/d/116Ww78Ls-uB2I7AilsGEkLV9KxTpqz4Z/edit?usp=drive_link",
     ],
     pocs: [
       {
@@ -186,7 +186,7 @@ const mgmtEvents: IEvent[] = [
     ],
     image: dummyImages[13],
     registerLink: "/",
-    desc: "Get hyped for a talk show featuring top social entrepreneurs and a case study competition on Unstop. Hear inspiring stories and brainstorm solutions for real issues. Let's unleash our creativity and drive positive change!",
+    desc: "Join us at the highly anticipated BizzyBash - Bash for Business Brilliance event on March 1st 2024, from 10:00 AM to 12:30 PM, at the prestigious auditorium venue. This dynamic gathering will feature three distinguished speakers sharing their insights on entrepreneurship, providing attendees with valuable perspectives on navigating the business landscape. What sets BizzyBash apart is its interactive element, as we invite audience members to actively participate by sharing their views and ideas on entrepreneurship. A unique aspect of this engagement is the opportunity for attendees to contribute their thoughts through write up and speaking, which will be assessed for their innovative and impactful nature. To add an exciting incentive, we have allocated prize money for the best contributions, with the first-place winner receiving Rs.5000, the second-place winner earning Rs. 3000, and the third-place recipient receiving Rs. 2000. Don't miss this chance to immerse yourself in a wealth of entrepreneurial knowledge and potentially take home a substantial prize for your innovative ideas.",
   },
   {
     eventId: "Management-3",
@@ -195,7 +195,7 @@ const mgmtEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-      "https://docs.google.com/document/d/1azcW3AnOMtr_YZm9jLGSfwOXium1WMbn/edit",
+      "https://docs.google.com/document/d/1tUR7Jex_MGJfyYFdhKwQbqaxKbDLf-A1/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -224,6 +224,7 @@ const mgmtEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1azcW3AnOMtr_YZm9jLGSfwOXium1WMbn/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -252,6 +253,7 @@ const mgmtEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1foUrSn1p7mG23CJFaF7XU8izOcI0-NaZ/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -283,6 +285,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1k1CFUVEtjRNO_PSwG10jgn5QNxyQw-2O/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -312,6 +315,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1kCS5-fHd7RtJup7uSchGnZ6XXdFEURKe/edit?usp=drive_link&ouid=113133812686016347322&rtpof=true&sd=true"
     ],
     pocs: [
       {
@@ -340,6 +344,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1kCS5-fHd7RtJup7uSchGnZ6XXdFEURKe/edit?usp=drive_link&ouid=113133812686016347322&rtpof=true&sd=true"
     ],
     pocs: [
       {
@@ -368,6 +373,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1OjACrOMe-EqI_PPC-JJLSVG4tBnqye9a/edit?usp=drive_link&ouid=113133812686016347322&rtpof=true&sd=true"
     ],
     pocs: [
       {
@@ -401,6 +407,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/13VqjqftTy-mNyOExHWC1mGWzsGV6dtZ4/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -434,6 +441,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1ANVmD3R_zf-USNtDZ1Imu56v9k3uy-ob/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -469,6 +477,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1bvdcaOUmGxzsj_dnPkArXqcERoNYK56m/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -532,6 +541,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1jqc1rr4aQCQzGqxW-Ygn4CQaLP996Tpm/edit?usp=drive_link&ouid=113133812686016347322&rtpof=true&sd=true"
     ],
     pocs: [
       {
@@ -560,6 +570,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1deEH_BfRntRvtfPDixcjqAi8zjFN3i8H/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -588,6 +599,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1uofOLUrcyEllX54c2P2ldHob2YU4DMAh/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -886,6 +898,7 @@ const gamingEvent: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/14qNZb-jZqvQRVFcmEhK9Pzp_9eXpR9p5/edit?usp=drive_link&ouid=113133812686016347322&rtpof=true&sd=true"
     ],
     pocs: [
       {
@@ -915,6 +928,7 @@ const gamingEvent: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1tOysSvqxYJziAlRmBGmYPl0lRrqeSxvW/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -943,6 +957,7 @@ const gamingEvent: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1pH4T7PxZVDADpKqWeRMv-I-Z0vOtDM5e/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -971,6 +986,7 @@ const gamingEvent: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1wKCsp25KdKekbIc9Uh-HCjh7CEBYGwiD/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -981,9 +997,9 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
       {
-        name: "G V Manasa",
-        contact: "7674048645",
-        mailId: "manasag.v.22bbl@bmu.edu.in",
+        name: "Jesselynn Mazel",
+        contact: "7995268885",
+        mailId: "",
         position: "",
         image: Poc1,
       },
@@ -999,6 +1015,7 @@ const gamingEvent: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1F0Pf7wMpKsfqroGx7GgC5bvLmohjfuOc/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -1054,23 +1071,24 @@ const technicalEvents: IEvent[] = [
   {
     eventId: "Technical-1",
     eventType: "technical",
-    name: "Hacked",
+    name: "Hacked - 2.0",
     rules: [
       "Each team should have 2-4 members. If you wish to submit solo, you can, but you will not be eligible for winning the hackathon still, you will be eligible for participation prizes.",
       "Teams can of course gain advice and support from organizers, volunteers, sponsors, and others.",
       "All work on a project should be done at the hackathon.",
+      "https://docs.google.com/document/d/1AiSdvIynAf9KNbuIZ1iI0Kz3tjpdP49V/edit?usp=drive_link"
     ],
     pocs: [
       {
         name: "Dhruv Goel",
-        contact: "7838531201",
+        contact: "+91 7838531201",
         mailId: "dhruv.goel.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
       {
         name: "Aditya Rastogi",
-        contact: "8826427240",
+        contact: "+91 8826427240",
         mailId: "aditiya.rastogi.22cse@bmu.edu.in",
         position: "",
         image: Poc1,
@@ -1088,19 +1106,20 @@ const technicalEvents: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1zjgc2A2-X-9ZuxpgkFipf_l2zURLNqKP/edit?usp=drive_link"
     ],
     pocs: [
       {
-        name: "Anirudh Dattu",
-        contact: "9246571596",
-        mailId: "anirudh.dattu.22cse@bmu.edu.in",
+        name: "Vardaan ",
+        contact: "+91 9957563656",
+        mailId: "vardaan.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
       {
-        name: "Vardaan ",
-        contact: "9957563656",
-        mailId: "vardaan.21cse@bmu.edu.in",
+        name: "ketan thakur  ",
+        contact: "8448721488",
+        mailId: "ketan.thakur.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -1116,6 +1135,7 @@ const technicalEvents: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://drive.google.com/file/d/1TeTmNiIexLTJQapGFjMMiv75oX2AB6QY/view"
     ],
     pocs: [
       {
@@ -1126,9 +1146,9 @@ const technicalEvents: IEvent[] = [
         image: Poc1,
       },
       {
-        name: "Vardaan ",
-        contact: "9957563656",
-        mailId: "vardaan.21cse@bmu.edu.in",
+        name: "ketan thakur  ",
+        contact: "8448721488",
+        mailId: "ketan.thakur.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -1144,6 +1164,7 @@ const technicalEvents: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1oos8p08uLVquLhQJp1kUlE788BjkbA8g/edit?usp=drive_link"
     ],
     pocs: [
       {
@@ -1154,9 +1175,9 @@ const technicalEvents: IEvent[] = [
         image: Poc1,
       },
       {
-        name: "Vardaan ",
-        contact: "9957563656",
-        mailId: "vardaan.21cse@bmu.edu.in",
+        name: "ketan thakur  ",
+        contact: "8448721488",
+        mailId: "ketan.thakur.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -1175,16 +1196,16 @@ const technicalEvents: IEvent[] = [
     ],
     pocs: [
       {
-        name: "Anirudh Dattu",
-        contact: "9246571596",
-        mailId: "anirudh.dattu.22cse@bmu.edu.in",
+        name: "Supriya ",
+        contact: "74488 89093",
+        mailId: "supriya.s.21mec@bmu.edu.in",
         position: "",
         image: Poc1,
       },
       {
-        name: "Vardaan ",
-        contact: "9957563656",
-        mailId: "vardaan.21cse@bmu.edu.in",
+        name: "Ridit jain",
+        contact: "9560410184",
+        mailId: "ridit.jain.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -1200,19 +1221,20 @@ const technicalEvents: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1trSEUEEG5-Ubs-Vjtzl8kLgUEjv5pPO7/edit?usp=drive_link"
     ],
     pocs: [
       {
-        name: "Anirudh Dattu",
-        contact: "9246571596",
-        mailId: "anirudh.dattu.22cse@bmu.edu.in",
+        name: "Raghav Sobti",
+        contact: "85914 99393",
+        mailId: "raghavraj.sobti.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
       {
-        name: "Vardaan ",
-        contact: "9957563656",
-        mailId: "vardaan.21cse@bmu.edu.in",
+        name: "ketan thakur  ",
+        contact: "8448721488",
+        mailId: "ketan.thakur.21cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
