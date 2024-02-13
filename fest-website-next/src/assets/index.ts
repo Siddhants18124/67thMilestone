@@ -82,18 +82,18 @@ export { default as Core5 } from "./core/sports.jpg";
 export { default as Core6 } from "./core/event.jpg";
 // export { default as Core7 } from "./core/club.jpeg";
 
-export { default as a1 } from "./heads/Cinematography Head.jpeg"
-export { default as a2 } from "./heads/Ananya Jain Core Team.jpeg"
-export { default as a3 } from "./heads/Content Head.jpg"
-export { default as a4 } from "./heads/Coverage Head.jpg"
-export { default as a5 } from "./heads/Decor Head.jpg"
-export { default as a6 } from "./heads/Design Head.jpg"
-export { default as a7 } from "./heads/Marketing Head1.jpeg"
-export { default as a8 } from "./heads/Marketing Head2.jpg"
-export { default as a9 } from "./heads/Operations Head.jpg"
-export { default as a10 } from "./heads/Shashank Goswami Core Team.jpeg"
-export { default as a11} from "./heads/Siddhant Sharma.jpg"
-export { default as a12 } from "./heads/Sponsorship Head.jpg"
+export { default as a1 } from "./heads/Cinematography Head.jpeg";
+export { default as a2 } from "./heads/Ananya Jain Core Team.jpeg";
+export { default as a3 } from "./heads/Content Head.jpg";
+export { default as a4 } from "./heads/Coverage Head.jpg";
+export { default as a5 } from "./heads/Decor Head.jpg";
+export { default as a6 } from "./heads/Design Head.jpg";
+export { default as a7 } from "./heads/Marketing Head1.jpeg";
+export { default as a8 } from "./heads/Marketing Head2.jpg";
+export { default as a9 } from "./heads/Operations Head.jpg";
+export { default as a10 } from "./heads/Shashank Goswami Core Team.jpeg";
+export { default as a11 } from "./heads/Siddhant Sharma.jpg";
+export { default as a12 } from "./heads/Sponsorship Head.jpg";
 
 export { default as MilestoneMgmtBg } from "./67thmilestone/mgmt.avif";
 export { default as MilestoneGamingBg } from "./67thmilestone/gaming.avif";
