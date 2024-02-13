@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 // import { Social } from "../../assets";
-import { Core1, Core2, Core3, Core4, Core5, Core6, a10 } from "@/assets";
+import { Core1, Core2, Core3, Core4, Core5, Core6, a10, a2 } from "@/assets";
 import Image, { StaticImageData } from "next/image";
 import "./About4.css";
 
@@ -18,9 +18,10 @@ const About3 = () => {
     Core2,
     Core3,
     Core4,
-    Core5,
-    Core6,
+    Core5,   
     a10,
+    a2,
+    Core6,
   ];
 
   const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (

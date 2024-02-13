@@ -66,7 +66,7 @@ function Navbar() {
               <Link
                 href="https://drive.google.com/file/d/1DvWKw2UYGOArsBhXi2onB_c9Ew73e0U1/view?usp=sharing"
                 target="_blank"
-                className="border-2 border-white py-2 px-4 text-black bg-white transition-all duration-300 ease-in-out cursor-pointer hover:bg-transparent hover:text-white"
+                // className="border-2 border-white py-2 px-4 text-black bg-white transition-all duration-300 ease-in-out cursor-pointer hover:bg-transparent hover:text-white"
               >
                 Brochure
               </Link>
