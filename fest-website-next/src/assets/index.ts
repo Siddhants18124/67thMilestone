@@ -53,7 +53,7 @@ export { default as lnfol } from "./linefolrbt.jpg";
 export { default as robwar } from "./robowar.jpg";
 export { default as robsoc } from "./robosoc.jpg";
 export { default as gm1 } from "./gam1.jpg";
-export { default as gm2 } from "./gm2.jpg";
+export { default as gm2 } from "./valorant.png";
 export { default as gm3 } from "./gm3.jpg";
 export { default as gm4 } from "./gm4.jpg";
 export { default as gm5 } from "./gm5.jpg";

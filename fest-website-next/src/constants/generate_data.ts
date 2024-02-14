@@ -212,7 +212,6 @@ const mgmtEvents: IEvent[] = [
         position: "",
         image: Poc1,
       },
-      
     ],
     image: dummyImages[14],
     registerLink: "/",
@@ -250,7 +249,7 @@ const mgmtEvents: IEvent[] = [
   {
     eventId: "Management-5",
     eventType: "management",
-    name: "flash fiction",
+    name: "Flash Fiction",
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
@@ -571,8 +570,8 @@ const culturalEvents: IEvent[] = [
     eventType: "cultural",
     name: "CINEMATIC CHRONICLES",
     rules: [
-      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
-      "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+      "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
+      "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
       "https://docs.google.com/document/d/1deEH_BfRntRvtfPDixcjqAi8zjFN3i8H/edit?usp=drive_link",
     ],
     pocs: [
@@ -600,8 +599,8 @@ const culturalEvents: IEvent[] = [
     eventType: "cultural",
     name: "SnapQuest",
     rules: [
-      "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
-      "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+      "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
+      "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
       "https://docs.google.com/document/d/1uofOLUrcyEllX54c2P2ldHob2YU4DMAh/edit?usp=drive_link",
     ],
     pocs: [

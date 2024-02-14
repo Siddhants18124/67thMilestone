@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 // import { Social } from "../../assets";
-import { a1,  a3, a4, a5, a6, a7, a8, a9, a11, a12 } from "@/assets";
+import { a1, a3, a4, a5, a6, a7, a8, a9, a11, a12 } from "@/assets";
 import Image, { StaticImageData } from "next/image";
 import "./About4.css";
 
@@ -22,18 +22,7 @@ const CustomArrow = ({ onClick }: { onClick?: MouseEventHandler }) => (
 );
 
 export function About4() {
-  const images: StaticImageData[] = [
-    a1,
-    a3,
-    a4,
-    a5,
-    a6,
-    a7,
-    a8,
-    a9,
-    a11,
-    a12,
-  ];
+  const images: StaticImageData[] = [a1, a3, a4, a5, a6, a7, a8, a9, a11, a12];
 
   const noOfSlides = useMemo(() => {
     return () => {
@@ -74,10 +63,10 @@ export function About4() {
       <div className="flex  justify-between items-center flex-wrap-reverse  gap-x-4">
         <Slider
           {...settings}
-          className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[16rem] flex-grow"
+          className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[20rem] flex-grow"
         >
           {images.map((img, i) => {
-            return <Image width={300} height={300} src={img} key={i} alt="" />;
+            return <Image width={300} height={400} src={img} key={i} alt="" />;
           })}
         </Slider>
         <div className="flex h-auto rounded-lg items-center my-8 w-[17rem]">

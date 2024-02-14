@@ -24,9 +24,7 @@ function EventDetails({
             />
             <div className="flex flex-col gap-4 w-[30rem] flex-grow">
               <p className="text-[2rem] br">{currEvent.name}</p>
-              <p className="text-[1.15rem] leading-relaxed whitespace-pre-line">
-                {currEvent.desc}
-              </p>
+              <p className="text-[1.15rem] leading-relaxed">{currEvent.desc}</p>
               <p className="text-[2rem]">Rules</p>
               <ol className="list-decimal list-inside flex flex-col gap-2">
                 {currEvent.rules.map((rule, i) => {
@@ -47,6 +45,21 @@ function EventDetails({
                   }
                   return <li key={i}>{rule}</li>;
                 })}
+                {params.eventType === "hero" ? (
+                  <li>
+                    For guidelines and payment details. Click
+                    <Link
+                      href="https://docs.google.com/document/d/1zgs0lmroIqAkR357tYckSF02ldWBgSVY/edit?usp=drive_link&ouid=104421089986991689196&rtpof=true&sd=true"
+                      target="_blank"
+                      className="text-red-500"
+                    >
+                      {" "}
+                      here.
+                    </Link>
+                  </li>
+                ) : (
+                  ""
+                )}
               </ol>
               <div className="flex flex-wrap gap-8 md:gap-16 my-8">
                 {currEvent.pocs.map((poc, i) => {
@@ -62,25 +75,37 @@ function EventDetails({
                   );
                 })}
               </div>
-              {currEvent.customLink ? (
-                <Link
-                  href={currEvent.registerLink}
-                  className="bg-transparent border-4 border-white w-fit px-16 my-4 py-4"
-                >
-                  Register
-                </Link>
-              ) : (
-                <Link
-                  href={
-                    currEvent.eventType === "hero"
-                      ? "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link"
-                      : "https://maitri.bmu.edu.in/asd_EventPublicUserMaster.htm?eventID=23"
-                  }
-                  className="bg-transparent border-4 border-white w-fit px-16 my-4 py-4"
-                >
-                  Register
-                </Link>
-              )}
+              <div className="flex flex-row gap-6 flex-wrap gap-y-4">
+                {currEvent.customLink ? (
+                  <Link
+                    href={currEvent.registerLink}
+                    className="bg-transparent border-4 border-white w-fit px-16 my-4 py-4"
+                  >
+                    Register
+                  </Link>
+                ) : (
+                  <Link
+                    href={
+                      currEvent.eventType === "hero"
+                        ? "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link"
+                        : "https://maitri.bmu.edu.in/asd_EventPublicUserMaster.htm?eventID=23"
+                    }
+                    className="bg-transparent border-4 border-white w-fit px-16 my-4 py-4"
+                  >
+                    Register
+                  </Link>
+                )}
+                {params.eventType === "hero" ? (
+                  <Link
+                    href="https://drive.google.com/file/d/11AgQY1lYO_D0qwFZ4TZo_hb4KCZgYkJF/view"
+                    className="bg-transparent border-4 border-white w-fit px-16 my-4 py-4"
+                  >
+                    Brochure
+                  </Link>
+                ) : (
+                  ""
+                )}
+              </div>
             </div>
           </div>
         </div>
