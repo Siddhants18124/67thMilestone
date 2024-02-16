@@ -58,48 +58,7 @@ const About3 = () => {
       name: "Ananya Jain",
     },
   ];
-  const heads = [
-    {
-      title: "Coverage Head",
-      name: "Akshay Satyapal",
-    },
-    {
-      title: "Content Head",
-      name: "Aastha",
-    },
-    {
-      title: "Coverage Head",
-      name: "Sanskar Gupta",
-    },
-    {
-      title: "Decoration Head",
-      name: "Angelina Gupta",
-    },
-    {
-      title: "Design Head",
-      name: "Aryan gandotra",
-    },
-    {
-      title: "Marketing Head",
-      name: "Anchal Singh",
-    },
-    {
-      title: "Marketing Head",
-      name: "Anmol Agrawal",
-    },
-    {
-      title: "Operations head",
-      name: "Anubhav Lala",
-    },
-    {
-      title: "Website Head",
-      name: "Siddhant Sharma",
-    },
-    {
-      title: "Sponsorship Head",
-      name: "Yash Mittal",
-    },
-  ];
+
 
   const CustomArrow = ({ onClick }: { onClick: MouseEventHandler }) => (
     <div
@@ -179,14 +138,14 @@ const About3 = () => {
         </div>
         {images.map((image, i) => {
           return (
-            <div className="relative group transition-all">
+            <div key={i} className="relative group transition-all">
               <Image
                 src={image}
                 width={300}
-                height={400}
+                height={300}
                 key={i}
                 alt=""
-                className=" col-span-1 h-[19rem] w-full object-cover object-top "
+                className=" col-span-1 h-[15rem] w-full object-cover object-top "
               />
               <div className="absolute opacity-0 group-hover:opacity-100 duration-700 z-20 flex flex-col  justify-center items-center bottom-0 left-0 w-full h-[5rem] bg-[#0000008f] text-white">
                 <p className="text-[0.9rem] ">{designation[i].name}</p>
@@ -216,12 +175,8 @@ const About3 = () => {
           >
             {images.map((image, i) => {
               return (
-                <div className="relative group">
+                <div key={i} className="relative group">
                   <Image width={300} height={300} src={image} key={i} alt="" />
-                  <div className="absolute opacity-0 group-hover:opacity-100 duration-700 z-20 flex flex-col  justify-center items-center bottom-0 left-0 w-full h-[5rem] bg-[#0000008f] text-white">
-                    <p className="text-[0.9rem] ">{designation[i].name}</p>
-                    <p className="font-semibold">{designation[i].title}</p>
-                  </div>
                 </div>
               );
             })}

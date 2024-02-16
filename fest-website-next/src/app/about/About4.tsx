@@ -22,7 +22,7 @@ const CustomArrow = ({ onClick }: { onClick?: MouseEventHandler }) => (
 );
 
 export function About4() {
-  const images: StaticImageData[] = [a1, a3, a4, a5, a6, a7, a8, a9, a11, a12];
+  const images: StaticImageData[] = [a1, a3, a4, a5, a6,a11, a7, a8, a9, a12];
 
   const noOfSlides = useMemo(() => {
     return () => {
@@ -53,7 +53,52 @@ export function About4() {
     prevArrow: <></>,
     nextArrow: <CustomArrow onClick={() => {}} />,
   };
-
+  const heads = [
+    {
+      title: "Coverage Head",
+      name: "Akshay Satyapal",
+    },
+    {
+      title: "Content Head",
+      name: "Aastha",
+    },
+    {
+      title: "Coverage Head",
+      name: "Sanskar Gupta",
+    },
+    {
+      title: "Decoration Head",
+      name: "Angelina Gupta",
+    },
+    {
+      title: "Design Head",
+      name: "Aryan gandotra",
+    },
+    {
+      title: "Marketing Head",
+      name: "Anchal Singh",
+    },
+    {
+      title: "Marketing Head",
+      name: "Anmol Agrawal",
+    },
+    {
+      title: "Operations head",
+      name: "Anubhav Lala",
+    },
+    {
+      title: "Website Head",
+      name: "Siddhant Sharma",
+    },
+    {
+      title: "Sponsorship Head",
+      name: "Yash Mittal",
+    },
+    {
+      title: "Sponsorship Head",
+      name: "Yash Mittal",
+    },
+  ];
   return (
     <div
       className=" w-[84vw] text-white mx-auto mb-16"
@@ -63,10 +108,16 @@ export function About4() {
       <div className="flex  justify-between items-center flex-wrap-reverse  gap-x-4">
         <Slider
           {...settings}
-          className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[20rem] flex-grow"
+          className="rounded-xl translate-x-[-1rem] w-[50%] space-x-4 overflow-hidden min-w-[12rem]  max-h-[16rem] flex-grow"
         >
           {images.map((img, i) => {
-            return <Image width={300} height={400} src={img} key={i} alt="" />;
+            return <div key={i}>
+              <Image width={300} height={400} src={img} key={i} alt="" />
+              <div className="absolute opacity-0 group-hover:opacity-100 duration-700 z-20 flex flex-col  justify-center items-center bottom-0 left-0 w-full h-[5rem] bg-[#0000008f] text-white">
+                <p className="text-[0.9rem] ">{heads[i].name}</p>
+                <p className="font-semibold">{heads[i].title}</p>
+              </div>
+            </div>
           })}
         </Slider>
         <div className="flex h-auto rounded-lg items-center my-8 w-[17rem]">
