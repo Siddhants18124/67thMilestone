@@ -1091,14 +1091,15 @@ const technicalEvents: IEvent[] = [
       {
         name: "Aditya Rastogi",
         contact: "+91 8826427240",
-        mailId: "aditiya.rastogi.22cse@bmu.edu.in",
+        mailId: "aditya.rastogi.22cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
     ],
 
     image: dummyImages[28],
-    registerLink: "/",
+    registerLink: "https://unstop.com/p/hacked-20-bml-munjal-university-bmu-gurgaon-901802",
+    customLink: true,
     desc: "Welcome to Hacked2.0! This premier technical hackathon at the 67th Milestone invites engineers, developers, and tech enthusiasts nationwide. Join us for 24 hours of innovation, collaboration, and networking. Unleash your ingenuity and push boundaries in the ever-evolving tech industry. Don't miss out on this opportunity to hack your way to greatness!",
   },
   {
