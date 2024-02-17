@@ -208,7 +208,7 @@ const mgmtEvents: IEvent[] = [
       {
         name: "Rohan Dhingra",
         contact: "+91 9711555996",
-        mailId: "roan.dhingra.22cse@bmu.edu.in",
+        mailId: "rohan.dhingra.22cse@bmu.edu.in",
         position: "",
         image: Poc1,
       },
@@ -244,7 +244,7 @@ const mgmtEvents: IEvent[] = [
     ],
     image: dummyImages[15],
     registerLink: "/",
-    desc: "Join the quiz adventure with five challenging levels for teams of three! Easy trivia kicks off the journey, followed by tougher questions, a Wheel of Fortune twist, and an auction showdown. ",
+    desc: "A turncoat debate where the debater gets 45 minutes to prepare for 2 minutes in affirmative and 2 minutes in negation of the motion. Registration Fees: INR 150",
   },
   {
     eventId: "Management-5",
