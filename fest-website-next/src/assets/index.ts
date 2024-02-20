@@ -94,7 +94,7 @@ export { default as a9 } from "./heads/Operations Head.jpg";
 export { default as a10 } from "./heads/Shashank Goswami Core Team.jpeg";
 export { default as a11 } from "./heads/Siddhant Sharma.jpg";
 export { default as a12 } from "./heads/Sponsorship Head.jpg";
-export {default as a13} from "./core/Club Affairs Secretary.jpg";
+export {default as a13} from "./core/Club.jpg";
 
 
 export { default as MilestoneMgmtBg } from "./67thmilestone/mgmt.avif";
