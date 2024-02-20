@@ -24,7 +24,20 @@ function EventDetails({
             />
             <div className="flex flex-col gap-4 w-[30rem] flex-grow">
               <p className="text-[2rem] br">{currEvent.name}</p>
-              <p className="text-[1.15rem] leading-relaxed">{currEvent.desc}</p>
+              {currEvent.name === "Catch Me If You Can" && (
+                <p className="text-[1.15rem] leading-relaxed">
+                  {currEvent.desc}{" "}
+                  <Link
+                    href="https://m.youtube.com/watch?v=C46oyQvyRlk&pp=ygUQV29ybGQgY2hhc2UgdGFnIA%3D%3D"
+                    className="text-red-500"
+                  >
+                    Check this Video
+                  </Link>
+                </p>
+              )}
+              {currEvent.name !== "Catch Me If You Can" && (
+                <p className="text-[1.15rem] leading-relaxed">{currEvent.desc}</p>
+              )}
               <p className="text-[2rem]">Rules</p>
               <ol className="list-decimal list-inside flex flex-col gap-2">
                 {currEvent.rules.map((rule, i) => {

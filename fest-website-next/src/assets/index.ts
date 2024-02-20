@@ -55,7 +55,7 @@ export { default as robsoc } from "./robosoc.jpg";
 export { default as gm1 } from "./gam1.jpg";
 export { default as gm2 } from "./valorant.png";
 export { default as gm3 } from "./gm3.jpg";
-export { default as gm4 } from "./gm4.jpg";
+export { default as gm4 } from "./Catch .jpg";
 export { default as gm5 } from "./gm5.jpg";
 export { default as dlft } from "./deadlift.jpg";
 
@@ -94,6 +94,8 @@ export { default as a9 } from "./heads/Operations Head.jpg";
 export { default as a10 } from "./heads/Shashank Goswami Core Team.jpeg";
 export { default as a11 } from "./heads/Siddhant Sharma.jpg";
 export { default as a12 } from "./heads/Sponsorship Head.jpg";
+export {default as a13} from "./core/Club Affairs Secretary.jpg";
+
 
 export { default as MilestoneMgmtBg } from "./67thmilestone/mgmt.avif";
 export { default as MilestoneGamingBg } from "./67thmilestone/gaming.avif";

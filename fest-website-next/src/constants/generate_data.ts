@@ -94,7 +94,7 @@ const dummyImages = [
   gm1,
   gm2,
   gm3,
-  gm4,
+  gm4, // Catch me if u can 
   dlft,
   gm5,
 ];
@@ -515,6 +515,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
+      "https://docs.google.com/document/d/1e6ZqZ_9XAirLUcdY70IO6Q-zO_PsCIOF/edit"
     ],
     pocs: [
       {
@@ -572,7 +573,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-      "https://docs.google.com/document/d/1deEH_BfRntRvtfPDixcjqAi8zjFN3i8H/edit?usp=drive_link",
+      "https://docs.google.com/document/d/1YkuTyqAo3W9SsseQ6y3BdXWHMUbosh1K/edit",
     ],
     pocs: [
       {
@@ -601,7 +602,7 @@ const culturalEvents: IEvent[] = [
     rules: [
       "Treat performers, guests, speakers and fellow participants with respect and professionalism. Abusing, using foul language of any form or physical abuse is strictly prohibited.",
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
-      "https://docs.google.com/document/d/1uofOLUrcyEllX54c2P2ldHob2YU4DMAh/edit?usp=drive_link",
+      "https://docs.google.com/document/d/1uofOLUrcyEllX54c2P2ldHob2YU4DMAh/edit",
     ],
     pocs: [
       {
@@ -987,28 +988,27 @@ const gamingEvent: IEvent[] = [
     name: "Catch Me If You Can",
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
-      "Ensure that all gaming requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all gaming setups to address any issues beforehand. Do not download from malicious sources.",
       "https://docs.google.com/document/d/1wKCsp25KdKekbIc9Uh-HCjh7CEBYGwiD/edit?usp=drive_link",
     ],
     pocs: [
       {
-        name: "Anushka Pandey",
-        contact: "7219257203",
-        mailId: "anushka.pandey.21cse@bmu.edu.in",
+        name: "Jesselynn mazel ",
+        contact: "7995268885",
+        mailId: "madhujesselynn.mazel.22bbl@bmu.edu.in",
         position: "",
         image: Poc1,
       },
       {
-        name: "Jesselynn Mazel",
-        contact: "7995268885",
-        mailId: "",
+        name: "Manasa GV",
+        contact: "7674048645",
+        mailId: "manasag.v.22bbl@bmu.edu.in",
         position: "",
         image: Poc1,
       },
     ],
     image: dummyImages[37],
     registerLink: "/",
-    desc: "As you play the nostalgic game of Tag (Pakdum Pakdai) and let go of your childhood memories, dust off your shoes. Put on your sneakers and get ready to run, regardless of whether you're an experienced tag player or just seeking some thrill!",
+    desc: "Recreation of the international championship WORLD CHASE TAG. An event for competitive parkour athletes showcasing an extravaganza of speed, agility and cunning tactics amidst an intricate obstacle course.",
   },
   {
     eventId: "Gaming-5",
@@ -1196,6 +1196,7 @@ const technicalEvents: IEvent[] = [
     rules: [
       "Address intellectual property rights and ownership of any work created during the event. Clearly communicate ownership rights and any licensing agreements associated with participant(your) submissions. No form of plagiarism is allowed.",
       "Ensure that all technical requirements for the event, such as equipment, software, and applications are arranged well in advance. Test all technical setups to address any issues beforehand. Do not download from malicious sources.",
+      "https://docs.google.com/document/d/1bIKHTM1zQ415gkiTyj0b4gcs4Vm3bVjM/edit"
     ],
     pocs: [
       {

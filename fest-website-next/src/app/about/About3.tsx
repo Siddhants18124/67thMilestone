@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 // import { Social } from "../../assets";
-import { Core1, Core2, Core3, Core4, Core5, Core6, a10, a2 } from "@/assets";
+import { Core1, Core2, Core3, Core4, Core5, Core6, a10, a13, a2 } from "@/assets";
 import Image, { StaticImageData } from "next/image";
 import "./About4.css";
 
@@ -16,6 +16,7 @@ const About3 = () => {
   const images: StaticImageData[] = [
     Core1,
     Core6,
+    a13,
     Core5,
     Core2,
     Core3,
@@ -32,6 +33,10 @@ const About3 = () => {
     {
       title: "Events Secretary",
       name: "Lakshit Wasan",
+    },
+    {
+      title: "Club Affairs Secretary",
+      name: "Yogesh Soni",
     },
     {
       title: "Sports Secretary",

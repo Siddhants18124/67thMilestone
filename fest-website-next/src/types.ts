@@ -1,4 +1,5 @@
 import { StaticImageData } from "next/image";
+import { Url } from "url";
 
 export type PersonOfContact = {
   name: string;
