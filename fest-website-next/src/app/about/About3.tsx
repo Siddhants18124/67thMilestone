@@ -177,6 +177,7 @@ const About3 = () => {
               return (
                 <div key={i} className="relative group">
                   <Image width={300} height={300} src={image} key={i} alt="" />
+                  
                 </div>
               );
             })}
