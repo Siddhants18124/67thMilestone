@@ -185,7 +185,8 @@ const mgmtEvents: IEvent[] = [
       },
     ],
     image: dummyImages[13],
-    registerLink: "/",
+    customLink:true,
+    registerLink: "https://unstop.com/events/bizzybash-bash-for-business-brilliance-bml-munjal-university-bmu-gurgaon-908947",
     desc: "Join us at the highly anticipated BizzyBash - Bash for Business Brilliance event on March 1st 2024, from 10:00 AM to 12:30 PM, at the prestigious auditorium venue. This dynamic gathering will feature three distinguished speakers sharing their insights on entrepreneurship, providing attendees with valuable perspectives on navigating the business landscape. What sets BizzyBash apart is its interactive element, as we invite audience members to actively participate by sharing their views and ideas on entrepreneurship. A unique aspect of this engagement is the opportunity for attendees to contribute their thoughts through write up and speaking, which will be assessed for their innovative and impactful nature. To add an exciting incentive, we have allocated prize money for the best contributions, with the first-place winner receiving Rs.5000, the second-place winner earning Rs. 3000, and the third-place recipient receiving Rs. 2000. Don't miss this chance to immerse yourself in a wealth of entrepreneurial knowledge and potentially take home a substantial prize for your innovative ideas.",
   },
   {
