@@ -15,7 +15,7 @@ const ExploreCard = ({
 }) => {
   return (
     <div className="h-[20rem] group overflow-hidden transition-all duration-300 ease-in-out relative rounded-lg bg-gray-200">
-      <div className="overlay transition-all  duration-500 bg-[#00000064] absolute w-full h-full z-10 left-0 top-0"></div>
+      <div className=""></div>
       <Image
         src={image}
         alt="Image 1"
