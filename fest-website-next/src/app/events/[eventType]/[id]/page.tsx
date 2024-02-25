@@ -70,10 +70,14 @@ function EventDetails({
                       here.
                     </Link>
                   </li>
+                  
                 ) : (
                   ""
                 )}
               </ol>
+              <div className="flex flex-row gap-x-3 mt-3">
+              <h1 className="font-semibold text-xl">Event Date:</h1><p className="mb-0 text-lg">{currEvent.date}</p>
+              </div>
               <div className="flex flex-wrap gap-8 md:gap-16 my-8">
                 {currEvent.pocs.map((poc, i) => {
                   return (

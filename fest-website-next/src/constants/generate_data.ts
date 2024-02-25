@@ -129,6 +129,7 @@ const dummyPocs: PersonOfContact[] = [
     image: Poc2,
   },
 ];
+
 const mgmtEvents: IEvent[] = [
   {
     eventId: "Management-1",
@@ -139,6 +140,7 @@ const mgmtEvents: IEvent[] = [
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
       "https://docs.google.com/document/d/1Sa-MalX5Rr4FpY9oXc7-jsczY_03By_X/edit?usp=drive_link",
     ],
+    date: "2nd March",
     pocs: [
       {
         name: "Kadumbari Mohan",
@@ -168,6 +170,7 @@ const mgmtEvents: IEvent[] = [
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
       "https://docs.google.com/document/d/116Ww78Ls-uB2I7AilsGEkLV9KxTpqz4Z/edit?usp=drive_link",
     ],
+    date: "3rd March",
     pocs: [
       {
         name: "Yash Mittal",
@@ -198,6 +201,7 @@ const mgmtEvents: IEvent[] = [
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
       "https://docs.google.com/document/d/1tUR7Jex_MGJfyYFdhKwQbqaxKbDLf-A1/edit?usp=drive_link",
     ],
+    date: "2nd March",
     pocs: [
       {
         name: "Aaditya Vikram Agrawal",
@@ -227,6 +231,7 @@ const mgmtEvents: IEvent[] = [
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
       "https://docs.google.com/document/d/1azcW3AnOMtr_YZm9jLGSfwOXium1WMbn/edit?usp=drive_link",
     ],
+    date: "3rd March",
     pocs: [
       {
         name: "Ananya Nair",
@@ -256,6 +261,7 @@ const mgmtEvents: IEvent[] = [
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
       "https://docs.google.com/document/d/1foUrSn1p7mG23CJFaF7XU8izOcI0-NaZ/edit?usp=drive_link",
     ],
+    date: "1st March",
     pocs: [
       {
         name: "Aaditya Vikram Agrawal",
@@ -304,6 +310,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "1st March",
     image: dummyImages[17],
     registerLink: "/",
     desc: `Attend the "Fashion Crave," the hippest collegiate fashion event, and join in on the fun! The event this year is expected to surpass the previous one in awesomeness. Prepare for spectacular attires, incredible dances, and a theme that will set your team apart. Embrace your imagination, as uniqueness is crucial! `,
@@ -318,6 +325,7 @@ const culturalEvents: IEvent[] = [
       "Use of flammable substances such as candles, matches or cigarettes or any alcoholic product during any event or performance on stage,outside or in general is not allowed and will result in disqualification.",
       "https://docs.google.com/document/d/1kCS5-fHd7RtJup7uSchGnZ6XXdFEURKe/edit?usp=drive_link&ouid=113133812686016347322&rtpof=true&sd=true",
     ],
+    date: "1st March",
     pocs: [
       {
         name: "Rishit Abhilash",
@@ -363,6 +371,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "1st March",
     image: dummyImages[19],
     registerLink: "/",
     desc: `Unleash your creativity! Pour vibrant colors, inks, and pigments to create mesmerizing, unique masterpieces. Each swirl is a dance of color and chance, exploring the beauty of art and gravity. Immerse yourself in this captivating journey of boundless artistic expression.`,
@@ -392,6 +401,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: dummyImages[20],
     registerLink: "https://forms.gle/Nk6AZyDtHzpHYqKM8",
     customLink: true,
@@ -426,6 +436,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: dummyImages[21],
     registerLink: "/",
     desc: `The War of Bands is a vibrant musical battleground where
@@ -462,6 +473,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "3rd March",
     image: dummyImages[22],
     registerLink: "https://forms.gle/5BZdTHZSvAA2ajis8",
     customLink: true,
@@ -498,6 +510,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "3rd March",
     image: dummyImages[23],
     registerLink: "https://forms.gle/KDTETXLv4kHSrpJc7",
     customLink: true,
@@ -534,6 +547,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: dummyImages[24],
     registerLink: "/",
     desc: `A theatrical competition in which teams from several colleges portray and narrate a tale on the topic of "Happiness" through an act developed by each university. A stage for students to use their acting abilities to express their opinions, feelings, and problems concerning the LGBTQ+ community.`,
@@ -563,6 +577,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "3rd March",
     image: dummyImages[25],
     registerLink: "/",
     desc: `Get ready to ignite your passion for storytelling and spread ‘Enthusiasmo’ because it's time for the Monologue Competition on Happiness! Dive into the world of laughter, tears, and everything in between as we celebrate the quest for joy through the power of monologues. Join us for an exhilarating journey. Let's make memories and spread positivity together!`,
@@ -592,6 +607,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "1st March",
     image: dummyImages[26],
     registerLink: "/",
     desc: `"Capture the Fest: Cinematic Chronicles" is a video contest capturing our college's vibe. Show off the fun, unforgettable moments, and unique experiences. Don't miss this chance to join an exciting competition celebrating creativity and seizing the moment at 67th Milestone and Hero’s Challenge!`,
@@ -621,6 +637,7 @@ const culturalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: dummyImages[27],
     registerLink: "/",
     desc: `Join 'SnapQuest: Frame Frenzy' at 67th Milestone and Hero’s Challenge! Show your quick thinking and creativity. Capture the essence of topics and tell visual stories. Don't miss the chance to shine and capture the magic!But it's not just about snapping pictures—it's about immersing yourself in the moment, uncovering hidden gems, and breathing life into your photographs with your creative flair.
@@ -650,7 +667,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-
+    date: "2nd March",
     image: heroes[0],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -674,6 +691,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[1],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -702,6 +720,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[2],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -725,6 +744,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[3],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -749,6 +769,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[4],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -772,6 +793,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[5],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -795,6 +817,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[10],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -818,6 +841,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[6],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -841,6 +865,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[7],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -864,6 +889,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[8],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -887,6 +913,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: heroes[9],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -920,6 +947,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "3rd March",
     image: dummyImages[34],
     registerLink: "/",
     desc: `Get pumped for Buzz 4.0 if you're into team fun and competition! This event will get you hyped with games like Tug of War and Squid Game-inspired challenges. It's all about excitement, strategy, and a bit of friendly competition. Don't miss it's going to be a blast!
@@ -950,6 +978,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "3rd March",
     image: dummyImages[35],
     registerLink: "/",
     desc: "Teams of 5 will be going head to head in a fierce game. A captivating soundtrack, introduced a mysterious storyline that leaves players on the edge of their seats.The game will be streamed live on youtube. The map pool will be decided on the basis of a coin flip.",
@@ -979,6 +1008,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd & 3rd March",
     image: dummyImages[36],
     registerLink: "/",
     desc: "Prepare for the ultimate thrill as BattleGrounds Mobile India (BGMI) hosts an enormous event - a gaming spectacle unlike any other! We're excited to encourage you to participate in the forthcoming BGMI event, which offers nonstop action and the opportunity to exhibit your abilities on the battlefield.",
@@ -1007,6 +1037,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "1st March",
     image: dummyImages[37],
     registerLink: "/",
     desc: "Recreation of the international championship WORLD CHASE TAG. An event for competitive parkour athletes showcasing an extravaganza of speed, agility and cunning tactics amidst an intricate obstacle course.",
@@ -1036,6 +1067,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "1st March",
     image: dummyImages[38],
     registerLink: "/",
     desc: `The allure of surrendering or taking it easy on yourself during training can be strong. The journey may be lengthy and demanding, tiring and protracted. The term "deadlift" evokes intense sensations of lifting heavy weights and feeling the lightness afterward: The more you stack the more you gain!`,
@@ -1064,6 +1096,7 @@ const gamingEvent: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: dummyImages[39],
     registerLink: "/",
     desc: "An event of will, power and determination. An inter college boxing competition where students go against each other to crown a final champion of the ring.",
@@ -1097,7 +1130,7 @@ const technicalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
-
+    date: "1st & 2nd March",
     image: dummyImages[28],
     registerLink: "https://unstop.com/p/hacked-20-bml-munjal-university-bmu-gurgaon-901802",
     customLink: true,
@@ -1128,6 +1161,7 @@ const technicalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "1st March",
     image: dummyImages[29],
     registerLink: "/",
     desc: "Teams clash, robots race through an obstacle course. Speed and agility are key, as bots dodge penalties and defy gravity. The fastest, most balanced bot, built by the cleverest team, claims victory! ",
@@ -1157,6 +1191,7 @@ const technicalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "3rd March",
     image: dummyImages[30],
     registerLink: "/",
     desc: "Aerial acrobatics meet engineering marvel! Drones zip through an obstacle course, pushing the limits of design and pilot reflexes. Witness the adrenaline-fueled essence of technology in action. ",
@@ -1186,6 +1221,7 @@ const technicalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "1st March",
     image: dummyImages[31],
     registerLink: "/",
     desc: "Black line, high stakes! This event isn't just about speed, but robotic precision. Line Follower robots rely on lightning-fast calculations to navigate, showing the awe-inspiring complexity hidden within their simple task. ",
@@ -1215,6 +1251,7 @@ const technicalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd & 3rd March",
     image: dummyImages[32],
     registerLink: "/",
     desc: "This flagship event by the Robotics Club tests robots' mettle, pushing them to their limits. It showcases the power of collaboration between the Robotics and Automobile Clubs, merging their expertise in agility, strength, and design to create mighty contenders.",
@@ -1244,6 +1281,7 @@ const technicalEvents: IEvent[] = [
         image: Poc1,
       },
     ],
+    date: "2nd March",
     image: dummyImages[33],
     registerLink: "/",
     desc: "One bot, two passions: Football gets futuristic with teams battling for 5 goals. It's offense AND defense, with every move crucial. Robotics and Automobile Club expertise collide, showcasing tech harmony in action. This event showcases the seamless harmony between cutting-edge technology and athletic competition.",
@@ -1266,6 +1304,7 @@ export const generateFakeData = (eventType: EventType) => {
         "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
         "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
       ],
+      date: "2nd March",
       registerLink: "https://google.com",
       image: dummyImages[idx],
       desc: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.",

@@ -32,4 +32,5 @@ export type IEvent = {
   pocs: PersonOfContact[];
   image: StaticImageData;
   desc: string;
+  date: string;
 };
