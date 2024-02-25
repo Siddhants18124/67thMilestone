@@ -36,7 +36,9 @@ function EventDetails({
                 </p>
               )}
               {currEvent.name !== "Catch Me If You Can" && (
-                <p className="text-[1.15rem] leading-relaxed">{currEvent.desc}</p>
+                <p className="text-[1.15rem] leading-relaxed">
+                  {currEvent.desc}
+                </p>
               )}
               <p className="text-[2rem]">Rules</p>
               <ol className="list-decimal list-inside flex flex-col gap-2">
@@ -70,13 +72,13 @@ function EventDetails({
                       here.
                     </Link>
                   </li>
-                  
                 ) : (
                   ""
                 )}
               </ol>
-              <div className="flex flex-row gap-x-3 mt-3">
-              <h1 className="font-semibold text-xl">Event Date:</h1><p className="mb-0 text-lg">{currEvent.date}</p>
+              <div className="flex flex-row gap-x-2 mt-3">
+                <h1 className="font-semibold text-xl">Event Date:</h1>
+                <p className="mb-0 text-xl">{currEvent.date}</p>
               </div>
               <div className="flex flex-wrap gap-8 md:gap-16 my-8">
                 {currEvent.pocs.map((poc, i) => {
