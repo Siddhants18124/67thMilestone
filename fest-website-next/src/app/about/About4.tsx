@@ -56,7 +56,7 @@ export function About4() {
   const heads = [
     {
       title: "Coverage Head",
-      name: "Akshay Satyapal",
+      name: "Akshay Sathyapal",
     },
     {
       title: "Content Head",
@@ -88,7 +88,7 @@ export function About4() {
     },
     {
       title: "Operations head",
-      name: "Anubhav Lala",
+      name: "Anubhav",
     },
 
     {

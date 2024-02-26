@@ -667,7 +667,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[0],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -691,7 +691,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[1],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -720,7 +720,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[2],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -744,7 +744,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[3],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -769,7 +769,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[4],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -793,7 +793,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[5],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -817,7 +817,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[10],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -841,7 +841,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[6],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -865,7 +865,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[7],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -889,7 +889,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[8],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -913,7 +913,7 @@ const heroevent: IEvent[] = [
         image: Poc1,
       },
     ],
-    date: "2nd March",
+    date: "1st March",
     image: heroes[9],
     registerLink:
       "https://docs.google.com/forms/d/e/1FAIpQLSfzgSFwChTbo7mmqQ0QyQOqWG4znznsjc_bUGDwH7R2kmcgcw/viewform?usp=sf_link",
@@ -1304,7 +1304,7 @@ export const generateFakeData = (eventType: EventType) => {
         "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
         "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
       ],
-      date: "2nd March",
+      date: "1st March",
       registerLink: "https://google.com",
       image: dummyImages[idx],
       desc: "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.",
