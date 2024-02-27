@@ -114,6 +114,7 @@ function EventDetails({
                     Register
                   </Link>
                 )}
+                
                 {params.eventType === "hero" ? (
                   <Link
                     href="https://drive.google.com/file/d/11AgQY1lYO_D0qwFZ4TZo_hb4KCZgYkJF/view"
@@ -125,9 +126,13 @@ function EventDetails({
                   ""
                 )}
               </div>
+              <a className=" abcde  flex justify-end left-0">*Registration fees are non-refundable unless the event is cancelled.</a>
             </div>
+            
           </div>
+          
         </div>
+        
       </div>
     </div>
   );
