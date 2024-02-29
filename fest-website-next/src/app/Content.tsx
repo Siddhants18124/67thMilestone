@@ -9,6 +9,9 @@ import {
   day3,
   HomeCard1,
   HomeCard2,
+  dj,
+  sukhe,
+  aseem
 } from "../assets";
 import EventsPageGrid from "./EventsPageGrid";
 import ExploreCard from "./ExploreCard";
@@ -42,9 +45,9 @@ function Content() {
             />
           </div>
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 mt-3 lg:gap-3">
-            <ExploreCard image={day1} text="Star Night" />
-            <ExploreCard image={day2} text="Star Night" />
-            <ExploreCard image={day3} text="Star Night" />
+            <ExploreCard image={sukhe} text="Star Night" />
+            <ExploreCard image={aseem} text="Star Night" />
+            <ExploreCard image={dj} text="Star Night" />
           </div>
         </div>
       </div>
