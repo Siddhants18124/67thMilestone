@@ -99,3 +99,5 @@ export {default as a13} from "./core/Club.jpg";
 
 export { default as MilestoneMgmtBg } from "./67thmilestone/mgmt.avif";
 export { default as MilestoneGamingBg } from "./67thmilestone/gaming.avif";
+
+export { default as hero1 } from "./sponcers/hero.png";

@@ -1,3 +1,6 @@
+import Image from "next/image";
+import hero from "../../assets/sponcers/hero.png";
+
 function Sponsors() {
  
   return (
@@ -21,9 +24,9 @@ function Sponsors() {
                   <p>Presents</p>
                   <p>In association with</p>
                 </div>
-                <img
+                <Image
                   className="absolute lg:top-[7rem] md:top-[6rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[100%]"
-                  src={"../../assets/technical.jpeg"}
+                  src={hero}
                   alt=""
                 />
               </div>
