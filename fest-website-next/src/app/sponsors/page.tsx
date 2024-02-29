@@ -111,29 +111,29 @@ function Sponsors() {
   );
 }
 
-const Sponsor = () => {
-  return (
-    <li className="m-2">
-      <a href="#" className="group block overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-          alt=""
-          className="object-cover w-full h-56"
-        />
+// const Sponsor = () => {
+//   return (
+//     <li className="m-2">
+//       <a href="#" className="group block overflow-hidden">
+//         <img
+//           src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+//           alt=""
+//           className="object-cover w-full h-56"
+//         />
 
-        <div className="relative bg-transparent text-white pt-3 text-center">
-          <h3 className="text-3xl text-white-700 font-bold">Sponsor Name</h3>
+//         <div className="relative bg-transparent text-white pt-3 text-center">
+//           <h3 className="text-3xl text-white-700 font-bold">Sponsor Name</h3>
 
-          <p className="mt-2">
-            <span className="tracking-wider text-l text-white-900">
-              {" "}
-              Sponsor Level{" "}
-            </span>
-          </p>
-        </div>
-      </a>
-    </li>
-  );
-};
+//           <p className="mt-2">
+//             <span className="tracking-wider text-l text-white-900">
+//               {" "}
+//               Sponsor Level{" "}
+//             </span>
+//           </p>
+//         </div>
+//       </a>
+//     </li>
+//   );
+// };
 
 export default Sponsors;
