@@ -63,6 +63,7 @@ function Navbar() {
               <NavbarLink link="/" name="Home"></NavbarLink>
               <NavbarLink link="/about" name="About"></NavbarLink>
               <NavbarLink link="/events" name="Events"></NavbarLink>
+              <NavbarLink link="/sponsors" name="Sponsors"></NavbarLink>
               <Link
                 href="https://drive.google.com/file/d/1DvWKw2UYGOArsBhXi2onB_c9Ew73e0U1/view?usp=sharing"
                 target="_blank"
