@@ -1,8 +1,9 @@
 import Image from "next/image";
 import hero from "../../assets/sponcers/hero.png";
+import Link from "next/link";
+import { hero2,hero3, hero4, hero5, hero6 } from "@/assets";
 
 function Sponsors() {
- 
   return (
     <div className="main-bg">
       <div>
@@ -18,85 +19,97 @@ function Sponsors() {
                 challenge are unparalleled.
               </p>
             </div>
-            <div className="flex flex-wrap w-[80vw] mx-auto justify-between gap-4 items-center max-w-[100%] overflow-hidden">
-              <div className="min-w-[15rem] relative flex-grow flex flex-col items-center gap-3 h-[17rem]">
-                <div className="flex flex-row justify-between gap-8 text-white">
-                  <p>Presents</p>
-                  <p>In association with</p>
+            <div>
+              <h1 className="justify-center text-center text-white font-bold text-3xl mb-6">
+                Presented By
+              </h1>
+              <div className="flex flex-wrap w-[80vw] mx-auto justify-between gap-12 items-center max-w-[80%] overflow-hidden">
+                <div className="min-w-[15rem] relative flex-grow flex flex-col items-center gap-3 h-[17rem] ">
+                  <Link
+                    href="https://www.heromotocorp.com/en-in.html"
+                    target="_blank"
+                  >
+                    <Image
+                      className="absolute lg:top-[7rem] md:top-[6rem] sm:top-[5rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[100%]"
+                      src={hero}
+                      alt=""
+                    />
+                  </Link>
                 </div>
-                <Image
-                  className="absolute lg:top-[7rem] md:top-[6rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[100%]"
-                  src={hero}
-                  alt=""
-                />
-              </div>
-              <div className="min-w-[15rem] relative flex-grow flex flex-col items-center gap-3 h-[17rem]">
-                <div className="flex flex-row gap-8 justify-between text-white">
-                  <p>Sponsored by</p>
-                  <p>In association with</p>
+                <div className="min-w-[15rem] relative flex-grow flex flex-col items-center gap-3 h-[10rem]">
+                  <Link
+                    href="https://www.heromotocorp.com/en-in.html"
+                    target="_blank"
+                  >
+                    <Image
+                      className="absolute lg:top-[7rem] md:top-[6rem] sm:top-[5rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[70%]"
+                      src={hero2}
+                      alt=""
+                    />
+                  </Link>
                 </div>
-                <img
-                  className="absolute lg:top-[7rem] md:top-[6rem] sm:top-[5rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[100%]"
-                  src={"../../assets/management.png"}
-                  alt=""
-                />
               </div>
             </div>
           </div>
         </section>
 
-        <div className="w-full max-w-xs m-auto mt-14 overflow-hidden">
-          <img
-            className="object-cover w-full h-56"
-            src="https://images.unsplash.com/photo-1542156822-6924d1a71ace?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-            alt="avatar"
-          />
-
-          <div className="py-5 text-center text-white">
-            <a href="#" className="block text-3xl  font-bold text-white-700">
-              Sponsor Name
-            </a>
-            <span className="tracking-wider text-l text-white-900">
-              Sponsor Level
-            </span>
+        <div>
+          <h1 className="justify-center text-center text-white font-bold text-3xl mb-6">
+            Powered By
+          </h1>
+          <div className="w-full max-w-xs m-auto mt-14 overflow-hidden">
+            <Link href="https://www.herofutureenergies.com/" target="_blank">
+              <Image
+                className="object-cover w-full h-56"
+                src={hero3}
+                alt="avatar"
+              />
+            </Link>
           </div>
         </div>
 
         <section>
           <div className="mx-auto m-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
-            <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-            </ul>
-          </div>
-        </section>
-
-        <section className="mt-8">
-          <div className="mx-auto m-auto max-w-screen-xl px-4  sm:px-6  lg:px-8">
-            <h1 className="text-center text-3xl font-bold text-white">
-              Partners
-            </h1>
-            <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-              <Sponsor />
-            </ul>
+            <div className="max-w-screen-xl mx-auto">
+              <h1 className="justify-center text-center text-white font-bold text-3xl mt-10 mb-6">
+                Associate Sponsor
+              </h1>
+              <div className="flex flex-wrap w-[80vw] mx-auto justify-between gap-4 items-center max-w-[100%] overflow-hidden">
+                <div className="min-w-[15rem] relative flex-grow flex flex-col items-center gap-3 h-[17rem]">
+                  <Link href="https://www.easemytrip.com/" target="_blank">
+                    <Image
+                      className="absolute lg:top-[9rem] lg:mr-8 md:top-[6rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[80%]"
+                      src={hero6}
+                      alt=""
+                    />
+                  </Link>
+                </div>
+                <div className="min-w-[15rem] relative flex-grow flex flex-col items-center gap-3 h-[17rem]">
+                  <Link href="https://www.icicibank.com/" target="_blank">
+                    <Image
+                      className="absolute lg:top-[7rem] md:top-[6rem] sm:top-[5rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[80%]"
+                      src={hero4}
+                      alt=""
+                    />
+                  </Link>
+                </div>
+                <div className="min-w-[15rem] relative flex-grow flex flex-col items-center gap-3 h-[17rem]">
+                  <Link href="https://www.rockman.in/" target="_blank">
+                    <Image
+                      className="absolute lg:top-[7rem] md:top-[6rem] sm:top-[5rem] top-[5rem] translate-y-[-50%] left-[50%] translate-x-[-50%] w-[70%]"
+                      src={hero5}
+                      alt=""
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
     </div>
   );
-};
+}
 
 const Sponsor = () => {
   return (

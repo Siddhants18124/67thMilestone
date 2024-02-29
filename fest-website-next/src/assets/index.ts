@@ -101,3 +101,8 @@ export { default as MilestoneMgmtBg } from "./67thmilestone/mgmt.avif";
 export { default as MilestoneGamingBg } from "./67thmilestone/gaming.avif";
 
 export { default as hero1 } from "./sponcers/hero.png";
+export { default as hero3 } from "./sponcers/Hero-Future.png";
+export { default as hero4 } from "./sponcers/ICIC.png";
+export { default as hero5 } from "./sponcers/Rockman.png";
+export { default as hero6 } from "./sponcers/EaseMyTrip.png";
+export { default as hero2 } from "./sponcers/100yrs.png";
