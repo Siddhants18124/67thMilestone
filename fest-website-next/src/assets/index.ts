@@ -109,6 +109,6 @@ export { default as hero6 } from "./sponcers/EaseMyTrip.png";
 export { default as hero2 } from "./sponcers/100yrs.png";
 
 export {default as dj} from "./dj.jpg";
-export {default as sukhe} from "./sukhe.jpg";
+export {default as sukhe} from "./sukhe.png";
 export {default as aseem} from "./aseem.jpg"
 
